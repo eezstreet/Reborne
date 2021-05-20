@@ -1,0 +1,157 @@
+{
+    // Base (parent) profile.
+    "basedOn": "HD",
+
+    // Anchor points.
+    "LeftPanelAnchor": { "x": 0.5, "y": 0.397 },
+    "RightPanelAnchor": { "x": 0.5, "y": 0.397 },
+    // In-game panel rects.
+    "LeftPanelRect": { "x": 200, "y": -707, "width": 1093, "height": 1611 },
+    "RightPanelRect": { "x": -1293, "y": -707, "width": 1093, "height": 1611 },
+    "PanelClickCatcherRect": { "x": 0, "y": 45, "width": 1093, "height": 1495 },
+    "ButtonLegendRect": { "x": 0, "y": 1659, "width": 1164, "height": 106 },
+    "PanelTabsRect": { "x": 84, "y": 301, "width": 252, "height": 85 },
+    "PanelTabSize": { "x": 102, "y": 50 },
+    "SinglePanelTabRect": { "x": 108, "y": 4, "width": 1616, "height": 121},
+    "PanelTabPadding": { "x": 0, "y": 0 },
+    "ScrollSpeechWidth": 900,
+    "ScrollSpeechBorderWidth": 990,
+    "ScrollSpeechOffset": -500, // This is negative and half of the width; Used as the horizontal offset.
+
+    // Speech scroll speed
+    "ScrollSpeechSpeed": -0.675,
+
+    // temporary until all panels on console are converted
+    "ConsoleLeftPanelRect": { "x": -1366, "y": -582, "width": 1305, "height": 1421 },
+    "ConsoleRightPanelRect": { "x": -8, "y": -608, "width": 1408, "height": 1486 },
+    "ConsoleCenterPanelRect": { "x": -896, "y": -585, "width": 1793, "height": 1416 },
+    "PanelTitleRect": { "x": 115, "y": 168, "width": 943, "height": 97 },
+    "HalfPanelLeftTabButtonPromptPosition": { "x": -42, "y": -2 },
+    "HalfPanelRightTabButtonPromptPosition": { "x": 1125, "y": -2 },
+
+    // Standard Styles.
+    "StylePartyPanelSmallHeading": {
+        "fontColor": "$FontColorGoldYellow",
+        "pointSize": "$MediumFontSize",
+        "alignment": { "h": "center", "v": "center" },
+        "options": { "newlineHandling": "standard", "pipeCharacterBehavior" : "handle" },
+        "spacing": { "leading": 1.0 },
+        "dropShadow": "$DefaultDropShadow"
+    },
+    "StylePartyPanelGameInfo": {
+        "fontColor": "$FontColorWhite",
+        "pointSize": "$MediumFontSize",
+        "alignment": { "h": "center", "v": "center" },
+        "options": { "newlineHandling": "standard", "pipeCharacterBehavior" : "handle" },
+        "spacing": { "leading": 1.0 },
+    },
+    "StyleTitleBlock": {
+        "fontColor": "$FontColorWhite",
+        "pointSize": "$LargeFontSize",
+        "alignment": { "h": "center", "v": "center" },
+        "spacing": "$ReducedSpacing",
+    },
+    "StyleWeaponSwapTabs": {
+        "fontColor": "$FontColorWhite",
+        "pointSize": "$MediumLargeFontSize",
+        "alignment": { "h": "center" },
+    },
+    "StyleSkillTreeTabs" :
+    {
+        "options": { "lineWrap": true },
+        "pointSize": "$MediumFontSize",
+        "alignment": { "h": "center", "v": "center" },
+        "fontColor": "$FontColorWhite",
+        "spacing": {"leading":0.9, "kerning":0.95}
+    },
+    "TooltipStyle": {
+        "fontStyle": {
+            "fontColor": "$FontColorWhite",
+            "pointSize": 36,
+            "alignment": { "h": "center", "v": "center" },
+            "options": { "pipeCharacterBehavior": "handle", "newlineHandling": "reversed" },
+        },
+        "padding": [ 20, 12, 20, 12 ],
+        "inGameTargetPadding": [ 7, 1, 7, 1 ],
+        "drawBorder": false,
+        "centeredOnAnchor": true,
+        "hp": 0,
+        "backgroundColor": [ 0, 0, 0, 0.75 ],
+        // This color is used for in-game tooltip label backgrounds
+        "inGameBackgroundColor": [ 0, 0, 0, 0.6 ],
+        // This color is used for the show items selected label background
+        "inGameShowItemsSelectedBackgroundColor": [ 0, 0.25, 0.5, 1.0 ],
+        "substringColor": [ 150, 128, 77, 255 ],
+        "healthColor": [ 0.31, 0, 0, 1.0 ],
+        "borderColor": "$TooltipBorderColor",
+        "DefaultColor": "$FontColorWhite",
+        "QuestColor": "$FontColorGoldYellow",
+        "RareColor": "$FontColorYellow",
+        "CraftedColor": "$FontColorOrange",
+        "TemperedColor": "$FontColorDarkGreen",
+        "MagicColor": "$FontColorBlue",
+        "SetColor": "$FontColorGreen",
+        "UniqueColor": "$FontColorGoldYellow",
+        "SocketedColor": "$FontColorGrey",
+        "EtherealColor": "$FontColorGrey",
+        "HealthPotionColor": "$FontColorWhite",
+        "ManaPotionColor": "$FontColorWhite",
+        "RejuvPotionColor": "$FontColorWhite",
+        "GoldColor": "$FontColorWhite",
+        "RuneColor": "$FontColorOrange",
+        "EventItemsColor": "$FontColorOrange",
+    },
+
+    "TooltipStylePC": {
+        "fontStyle": {
+            "fontColor": "$FontColorWhite",
+            "pointSize": 28,
+            "alignment": { "h": "center", "v": "center" },
+            "options": { "pipeCharacterBehavior": "handle", "newlineHandling": "reversed" },
+        },
+        "padding": [ 20, 12, 20, 12 ],
+        "inGameTargetPadding": [ 7, 1, 7, 1 ],
+        "drawBorder": false,
+        "centeredOnAnchor": true,
+        "hp": 0,
+        "backgroundColor": [ 0, 0, 0, 0.75 ],
+        // This color is used for in-game tooltip label backgrounds
+        "inGameBackgroundColor": [ 0, 0, 0, 0.6 ],
+        // This color is used for the show items selected label background
+        "inGameShowItemsSelectedBackgroundColor": [ 0, 0.25, 0.5, 1.0 ],
+        "substringColor": [ 150, 128, 77, 255 ],
+        "healthColor": [ 0.31, 0, 0, 1.0 ],
+        "borderColor": "$TooltipBorderColor",
+        "DefaultColor": "$FontColorWhite",
+        "QuestColor": "$FontColorGoldYellow",
+        "RareColor": "$FontColorYellow",
+        "CraftedColor": "$FontColorOrange",
+        "TemperedColor": "$FontColorDarkGreen",
+        "MagicColor": "$FontColorBlue",
+        "SetColor": "$FontColorGreen",
+        "UniqueColor": "$FontColorGoldYellow",
+        "SocketedColor": "$FontColorGrey",
+        "EtherealColor": "$FontColorGrey",
+        "HealthPotionColor": "$FontColorWhite",
+        "ManaPotionColor": "$FontColorWhite",
+        "RejuvPotionColor": "$FontColorWhite",
+        "GoldColor": "$FontColorWhite",
+        "RuneColor": "$FontColorOrange",
+        "EventItemsColor": "$FontColorOrange",
+    },
+
+    // SidePanel
+    "LeftHingeSprite": "",
+    "RightHingeSprite": "",
+    "LeftSideSprite": "",
+    "RightSideSprite": "",
+
+    // Skills
+    "SkillHotkeyTextStyle": {
+        "fontColor": "$FontColorWhite",
+        "pointSize": "$LargeFontSize",
+        "alignment": { "h": "center" },
+        "options": { "hideOverflow": true },
+    },
+    "SkillHotkeyTextRect": { "x": 66, "y": 116 },
+}

@@ -1,0 +1,747 @@
+description	enabled	ladder	min diff	version	op	param	value	class	numinputs	input 1	input 2	input 3	input 4	input 5	input 6	input 7	output	lvl	plvl	ilvl	mod 1	mod 1 chance	mod 1 param	mod 1 min	mod 1 max	mod 2	mod 2 chance	mod 2 param	mod 2 min	mod 2 max	mod 3	mod 3 chance	mod 3 param	mod 3 min	mod 3 max	mod 4	mod 4 chance	mod 4 param	mod 4 min	mod 4 max	mod 5	mod 5 chance	mod 5 param	mod 5 min	mod 5 max	output b	b lvl	b plvl	b ilvl	b mod 1	b mod 1 chance	b mod 1 param	b mod 1 min	b mod 1 max	b mod 2	b mod 2 chance	b mod 2 param	b mod 2 min	b mod 2 max	b mod 3	b mod 3 chance	b mod 3 param	b mod 3 min	b mod 3 max	b mod 4	b mod 4 chance	b mod 4 param	b mod 4 min	b mod 4 max	b mod 5	b mod 5 chance	b mod 5 param	b mod 5 min	b mod 5 max	output c	c lvl	c plvl	c ilvl	c mod 1	c mod 1 chance	c mod 1 param	c mod 1 min	c mod 1 max	c mod 2	c mod 2 chance	c mod 2 param	c mod 2 min	c mod 2 max	c mod 3	c mod 3 chance	c mod 3 param	c mod 3 min	c mod 3 max	c mod 4	c mod 4 chance	c mod 4 param	c mod 4 min	c mod 4 max	c mod 5	c mod 5 chance	c mod 5 param	c mod 5 min	c mod 5 max	*eol
+Staff of Kings + Amulet of the Viper -> Horadric Staff	1			0	28				2	msf	vip						hst																																																																																							0
+Khalim's Flail + Khalim's Heart + Khalim's Eye + Khalim's Brain -> Khalim's Will	1			0	28				4	qf1	qhr	qey	qbr				qf2																																																																																							0
+Wirt's Leg + Tome of Town Portal -> Portal to The Secret Cow Level	1			0	28				2	leg	tbk						Cow Portal																																																																																							0
+3 Healing Potions (Any) + 3 Mana Potions (Any) + 1 Standard Gem (Any) -> Full Rejuvenation Potion	1			0					7	"hpot,qty=3"	"mpot,qty=3"	gem2					rvl																																																																																							0
+3 Healing Potions (Any) + 3 Mana Potions (Any)  + 1 Chipped Gem (Any) -> Rejuvenation Potion	1			0					7	"hpot,qty=3"	"mpot,qty=3"	gem0					rvs																																																																																							0
+3 Rejuvenation Potions -> Full Rejuvenation Potion	1			0					3	"rvs,qty=3"							rvl																																																																																							0
+6 Perfect Gems (1 of each type) + 1 Magic Amulet -> Prismatic Amulet	1			0					7	"amu,mag"	gpv	gpy	gpb	gpg	gpr	gpw	"amu,mag,pre=331"	50																																																																																						0
+1 Magic Ring + 1 Perfect Ruby + 1 Exploding Potion -> Garnet Ring	1			0					3	"rin,mag"	gpr	opm					"rin,mag,pre=372"	30																																																																																						0
+1 Magic Ring + 1 Perfect Sapphire + 1 Thawing Potion -> Cobalt Ring	1			0					3	"rin,mag"	gpb	wms					"rin,mag,pre=353"	30																																																																																						0
+1 Magic Ring + 1 Perfect Topaz + 1 Rejuvenation Potion -> Coral Ring	1			0					3	"rin,mag"	gpy	rvs					"rin,mag,pre=392"	30																																																																																						0
+1 Magic Ring + 1 Standard Emerald + 1 Antidote Potion -> Jade Ring	1			0					3	"rin,mag"	gpg	yps					"rin,mag,pre=412"	30																																																																																						0
+1 Axe (Any) + 1 Dagger (Any) -> Throwing Axe	1			0					2	axe	knif						"tax,nor"																																																																																							0
+1 Spear (Any) + 1 Arrows -> Javelins	1			0					2	spea	aqv						"jav,nor"																																																																																							0
+3 Magic Rings -> Magic Amulet	1			0					3	"rin,mag,qty=3"							"amu,mag"		100																																																																																					0
+3 Magic Amulets -> Magic Ring	1			0					3	"amu,mag,qty=3"							"rin,mag"		100																																																																																					0
+3 Standard Gems + 1 Socketed Weapon ->  Socketed Magic Weapon	1			0					4	"weap,sock"	"gem2,qty=3"						"usetype,mag"	30		60	sock			1	2																																																																															0
+3 Flawless Gems + 1 Magic Weapon -> Socketed Magic Weapon	1			0					4	"weap,mag"	"gem3,qty=3"						"usetype,mag"	30		60	sock			1	2																																																																															0
+1 Magic Shield + 1 Spiked Club + 2 Skulls (Any) -> Magic Shield of Spikes	1			0					4	"shld,mag"	"gemz,qty=2"	spc					"usetype,mag,suf=162"	30		60																																																																																				0
+4 Healing Potions (Any) + 1 Standard Ruby + 1 Magic Sword -> Sword of the Leech	1			0					6	"swor,mag"	gemr	"hpot,qty=4"					"usetype,mag,suf=352"	30		60																																																																																				0
+1 Diamond (Any) + 1 Kris + 1 Staff + 1 Belt -> Savage Polearm	1			0					4	kri	gemd	staf	belt				"pole,mag,pre=191"	50		60																																																																																				0
+1 Strangling Gas Potion + 1 Healing Potion (Any) -> Antidote Potion	1			0					2	gpl	hpot						yps																																																																																							0
+2 Arrows -> Bolts	1			0					2	"aqv,qty=2"							cqv																																																																																							0
+2 Bolts -> Arrows	1			0					2	"cqv,qty=2"							aqv																																																																																							0
+3 Chipped Amethysts -> Flawed Amethyst	1			0					3	"gcv,qty=3"							gfv																																																																																							0
+3 Flawed Amethysts -> Standard Amethyst	1			0					3	"gfv,qty=3"							gsv																																																																																							0
+3 Standard Amethysts -> Flawless Amethyst	1			0					3	"gsv,qty=3"							gzv																																																																																							0
+3 Flawless Amethysts -> Perfect Amethyst	1			0					3	"gzv,qty=3"							gpv																																																																																							0
+3 Chipped Rubies -> Flawed Ruby	1			0					3	"gcr,qty=3"							gfr																																																																																							0
+3 Flawed Rubies -> Standard Ruby	1			0					3	"gfr,qty=3"							gsr																																																																																							0
+3 Standard Rubies -> Flawless Ruby	1			0					3	"gsr,qty=3"							glr																																																																																							0
+3 Flawless Rubies -> Perfect Ruby	1			0					3	"glr,qty=3"							gpr																																																																																							0
+3 Chipped Sapphires -> Flawed Sapphire	1			0					3	"gcb,qty=3"							gfb																																																																																							0
+3 Flawed Sapphires -> Standard Sapphire	1			0					3	"gfb,qty=3"							gsb																																																																																							0
+3 Standard Sapphires -> Flawless Sapphire	1			0					3	"gsb,qty=3"							glb																																																																																							0
+3 Flawless Sapphires -> Perfect Sapphire	1			0					3	"glb,qty=3"							gpb																																																																																							0
+3 Chipped Topazes -> Flawed Topaz	1			0					3	"gcy,qty=3"							gfy																																																																																							0
+3 Flawed Topazes -> Standard Topaz	1			0					3	"gfy,qty=3"							gsy																																																																																							0
+3 Standard Topazes -> Flawless Topaz	1			0					3	"gsy,qty=3"							gly																																																																																							0
+3 Flawless Topazes -> Perfect Topaz	1			0					3	"gly,qty=3"							gpy																																																																																							0
+3 Chipped Emeralds -> Flawed Emerald	1			0					3	"gcg,qty=3"							gfg																																																																																							0
+3 Flawed Emeralds -> Standard Emerald	1			0					3	"gfg,qty=3"							gsg																																																																																							0
+3 Standard Emeralds -> Flawless Emerald	1			0					3	"gsg,qty=3"							glg																																																																																							0
+3 Flawless Emeralds -> Perfect Emerald	1			0					3	"glg,qty=3"							gpg																																																																																							0
+3 Chipped Diamonds -> Flawed Diamond	1			0					3	"gcw,qty=3"							gfw																																																																																							0
+3 Flawed Diamonds -> Standard Diamond	1			0					3	"gfw,qty=3"							gsw																																																																																							0
+3 Standard Diamonds -> Flawless Diamond	1			0					3	"gsw,qty=3"							glw																																																																																							0
+3 Flawless Diamonds -> Perfect Diamond	1			0					3	"glw,qty=3"							gpw																																																																																							0
+3 Chipped Skulls -> Flawed Skull	1			0					3	"skc,qty=3"							skf																																																																																							0
+3 Flawed Skulls -> Standard Skull	1			0					3	"skf,qty=3"							sku																																																																																							0
+3 Standard Skulls -> Flawless Skull	1			0					3	"sku,qty=3"							skl																																																																																							0
+3 Flawless Skulls -> Perfect Skull	1			0					3	"skl,qty=3"							skz																																																																																							0
+3 El Runes -> Eld Rune	1			100					3	"r01,qty=3"							r02																																																																																							0
+3 Eld Runes -> Tir Rune	1			100					3	"r02,qty=3"							r03																																																																																							0
+3 Tir Runes -> Nef Rune	1			100					3	"r03,qty=3"							r04																																																																																							0
+3 Nef Runes -> Eth Rune	1			100					3	"r04,qty=3"							r05																																																																																							0
+3 Eth Runes -> Ith Rune	1			100					3	"r05,qty=3"							r06																																																																																							0
+3 Ith Runes -> Tal Rune	1			100					3	"r06,qty=3"							r07																																																																																							0
+3 Tal Runes -> Ral Rune	1			100					3	"r07,qty=3"							r08																																																																																							0
+3 Ral Runes -> Ort Rune	1			100					3	"r08,qty=3"							r09																																																																																							0
+3 Ort Runes -> Thul Rune	1			100					3	"r09,qty=3"							r10																																																																																							0
+3 Perfect Gems (Any) + 1 Magic Item -> Re-rolled Magic Item	1			100					4	"any,mag"	"gem4,qty=3"						"usetype,mag"			100																																																																																				0
+6 Perfect Skulls + 1 Rare Item -> 1 Low Quality Rare Item	1			0					7	"any,rar"	"skz,qty=6"						"usetype,rar"		40	40																																																																																				0
+1 Perfect Skull + 1 Rare Item + 1 Stone of Jordan -> 1 High Quality Rare Item	1			0					3	"any,rar"	skz	The Stone of Jordan					"usetype,rar"		66	66																																																																																				0
+3 Perfect Skull + 1 Rare Item + 1 Stone of Jordan -> Add 1 Socket to Rare Item	1			0					5	"any,rar,nos"	"skz,qty=3"	The Stone of Jordan					"useitem,sock=1"																																																																																							0
+1 Magic Full Helm + 1 Jewel + 1 Ith Rune + 1 Perfect Sapphire -> Hit Power Helm	1			100					4	"fhl,mag,upg"	jew	r06	gpb				"usetype,crf"		50	50	gethit-skill		44	5	4	thorns			3	7	ac-miss			25	50																																																																					0
+1 Magic Chain Boots + 1 Jewel + 1 Ral Rune + 1 Perfect Sapphire -> Hit Power Boots	1			100					4	"mbt,mag,upg"	jew	r08	gpb				"usetype,crf"		50	50	gethit-skill		44	5	4	thorns			3	7	ac-hth			25	60																																																																					0
+1 Magic Chain Gloves + 1 Jewel + 1 Ort Rune + 1 Perfect Sapphire -> Hit Power Gloves	1			100					4	"mgl,mag,upg"	jew	r09	gpb				"usetype,crf"		50	50	gethit-skill		44	5	4	thorns			3	7	knock			1	1																																																																					0
+1 Magic Heavy Belt + 1 Jewel + 1 Tal Rune + 1 Perfect Sapphire -> Hit Power Belt	1			100					4	"tbl,mag,upg"	jew	r07	gpb				"usetype,crf"		50	50	gethit-skill		44	5	4	thorns			3	7	dmg-to-mana			5	10																																																																					0
+1 Magic Gothic Shield + 1 Jewel + 1 Eth Rune + 1 Perfect Sapphire -> Hit Power Shield	1			100					4	"gts,mag,upg"	jew	r05	gpb				"usetype,crf"		50	50	gethit-skill		44	5	4	thorns			3	10	block			5	10																																																																					0
+1 Magic Field Plate + 1 Jewel + 1 Nef Rune + 1 Perfect Sapphire -> Hit Power Body	1			100					4	"fld,mag,upg"	jew	r04	gpb				"usetype,crf"		50	50	gethit-skill		44	5	4	thorns			3	10	balance1			10	20																																																																					0
+1 Magic Amulet + 1 Jewel + Thul Rune + 1 Perfect Sapphire -> Hit Power Amulet	1			100					4	"amul,mag"	jew	r10	gpb				"usetype,crf"		50	50	gethit-skill		44	5	4	thorns			3	10	howl			5	15																																																																					0
+1 Magic Ring + 1 Jewel + 1 Amn Rune + 1 Perfect Sapphire -> Hit Power Ring	1			100					4	"ring,mag"	jew	r11	gpb				"usetype,crf"		50	50	gethit-skill		44	5	4	thorns			3	6	dex			1	5																																																																					0
+1 Magic Blunt Weapon + 1 Jewel + 1 Tir Rune + 1 Perfect Sapphire -> Hit Power Weapon	1			100					4	"blun,mag"	jew	r03	gpb				"usetype,crf"		50	50	gethit-skill		44	5	4	thorns			3	7	dmg%			35	60																																																																					0
+1 Magic Helm + 1 Jewel + 1 Ral Rune + 1 Perfect Ruby -> Blood Helm	1			100					4	"hlm,mag,upg"	jew	r08	gpr				"usetype,crf"		50	50	lifesteal			1	3	hp			10	20	deadly			5	10																																																																					0
+1 Magic Light Plated Boots + 1 Jewel + 1 Eth Rune + 1 Perfect Ruby -> Blood Boots	1			100					4	"tbt,mag,upg"	jew	r05	gpr				"usetype,crf"		50	50	lifesteal			1	3	hp			10	20	regen			5	10																																																																					0
+1 Magic Heavy Gloves + 1 Jewel + 1 Nef Rune + 1 Perfect Ruby -> Blood Gloves	1			100					4	"vgl,mag,upg"	jew	r04	gpr				"usetype,crf"		50	50	lifesteal			1	3	hp			10	20	crush			5	10																																																																					0
+1 Magic Belt + 1 Jewel + 1 Tal Rune + 1 Perfect Ruby -> Blood Belt	1			100					4	"mbl,mag,upg"	jew	r07	gpr				"usetype,crf"		50	50	lifesteal			1	3	hp			10	20	openwounds			5	10																																																																					0
+1 Magic Spiked Shield + 1 Jewel + 1 Ith Rune + 1 Perfect Ruby -> Blood Shield	1			100					4	"spk,mag,upg"	jew	r06	gpr				"usetype,crf"		50	50	lifesteal			1	3	hp			10	20	thorns			4	7																																																																					0
+1 Magic Plate Mail + 1 Jewel + 1 Thul Rune + 1 Perfect Ruby -> Blood Body	1			100					4	"plt,mag,upg"	jew	r10	gpr				"usetype,crf"		50	50	lifesteal			1	3	hp			10	20	demon-heal			1	3																																																																					0
+1 Magic Amulet + 1 Jewel + 1 Amn Rune + 1 Perfect Ruby -> Blood Amulet	1			100					4	"amul,mag"	jew	r11	gpr				"usetype,crf"		50	50	lifesteal			1	4	hp			10	20	move1			5	10																																																																					0
+1 Magic Ring + 1 Jewel + 1 Sol Rune + 1 Perfect Ruby -> Blood Ring	1			100					4	"ring,mag"	jew	r12	gpr				"usetype,crf"		50	50	lifesteal			1	3	hp			10	20	str			1	5																																																																					0
+1 Magic Axe + 1 Jewel + Ort Rune + 1 Perfect Ruby -> Blood Weapon	1			100					4	"axe,mag"	jew	r09	gpr				"usetype,crf"		50	50	lifesteal			1	4	hp			10	20	dmg%			35	60																																																																					0
+1 Magic Mask + 1 Jewel + Nef Rune + 1 Perfect Amethyst -> Caster Helm	1			100					4	"msk,mag,upg"	jew	r04	gpv				"usetype,crf"		50	50	regen-mana			4	10	mana			10	20	manasteal			1	4																																																																					0
+1 Magic Boots + 1 Jewel + Thul Rune + 1 Perfect Amethyst -> Caster Boots	1			100					4	"lbt,mag,upg"	jew	r10	gpv				"usetype,crf"		50	50	regen-mana			4	10	mana			10	20	mana%			2	5																																																																					0
+1 Magic Leather Gloves + 1 Jewel + Ort Rune + 1 Perfect Amethyst -> Caster Gloves	1			100					4	"lgl,mag,upg"	jew	r09	gpv				"usetype,crf"		50	50	regen-mana			4	10	mana			10	20	mana-kill			1	3																																																																					0
+1 Magic Light Belt + 1 Jewel + Ith Rune + 1 Perfect Amethyst -> Caster Belt	1			100					4	"vbl,mag,upg"	jew	r06	gpv				"usetype,crf"		50	50	regen-mana			4	10	mana			10	20	cast1			5	10																																																																					0
+1 Magic Small Shield + 1 Jewel + 1 Eth Rune + 1 Perfect Amethyst -> Caster Shield	1			100					4	"sml,mag,upg"	jew	r05	gpv				"usetype,crf"		50	50	regen-mana			4	10	mana			10	20	block			5	10																																																																					0
+1 Magic Light Plate + 1 Jewel + 1 Tal Rune + 1 Perfect Amethyst -> Caster Body	1			100					4	"ltp,mag,upg"	jew	r07	gpv				"usetype,crf"		50	50	regen-mana			4	10	mana			10	20	mana-kill			1	3																																																																					0
+1 Magic Amulet + 1 Jewel + 1 Ral Rune + 1 Perfect Amethyst -> Caster Amulet	1			100					4	"amul,mag"	jew	r08	gpv				"usetype,crf"		50	50	regen-mana			4	10	mana			10	20	cast1			5	10																																																																					0
+1 Magic Ring + 1 Jewel + 1 Amn Rune + 1 Perfect Amethyst -> Caster Ring	1			100					4	"ring,mag"	jew	r11	gpv				"usetype,crf"		50	50	regen-mana			4	10	mana			10	20	enr			1	5																																																																					0
+1 Magic Rod + 1 Jewel + 1 Tir Rune + 1 Perfect Amethyst -> Caster Weapon	1			100					4	"rod,mag"	jew	r03	gpv				"usetype,crf"		50	50	regen-mana			4	10	mana			10	20	mana%			1	5																																																																					0
+1 Magic Crown + 1 Jewel + 1 Ith Rune + 1 Perfect Emerald -> Safety Helm	1			100					4	"crn,mag,upg"	jew	r06	gpg				"usetype,crf"		50	50	red-dmg			1	4	red-mag			1	2	res-ltng			5	10	ac%			10	30																																																																0
+1 Magic Plated Boots + 1 Jewel + 1 Ort Rune + 1 Perfect Emerald -> Safety Boots	1			100					4	"hbt,mag,upg"	jew	r09	gpg				"usetype,crf"		50	50	red-dmg			1	4	red-mag			1	2	res-fire			5	10	ac%			10	30																																																																0
+1 Magic Gauntlets + 1 Jewel + 1 Ral Rune + 1 Perfect Emerald -> Safety Gloves	1			100					4	"hgl,mag,upg"	jew	r08	gpg				"usetype,crf"		50	50	red-dmg			1	4	red-mag			1	2	res-cold			5	10	ac%			10	30																																																																0
+1 Magic Sash + 1 Jewel + 1 Tal Rune + 1 Perfect Emerald -> Safety Belt	1			100					4	"lbl,mag,upg"	jew	r07	gpg				"usetype,crf"		50	50	red-dmg			1	4	red-mag			1	2	res-pois			5	10	ac%			10	30																																																																0
+1 Magic Kite Shield + 1 Jewel + 1 Nef Rune + 1 Perfect Emerald -> Safety Shield	1			100					4	"kit,mag,upg"	jew	r04	gpg				"usetype,crf"		50	50	red-dmg			1	4	red-mag			1	2	res-mag			5	10	ac%			10	30																																																																0
+1 Magic Breast Plate + 1 Jewel + 1 Eth Rune + 1 Perfect Emerald -> Safety Body	1			100					4	"brs,mag,upg"	jew	r05	gpg				"usetype,crf"		50	50	red-dmg			1	4	red-mag			1	2	half-freeze			1	1	ac%			10	30																																																																0
+1 Magic Amulet + 1 Jewel + 1 Thul Rune + 1 Perfect Emerald -> Safety Amulet	1			100					4	"amul,mag"	jew	r10	gpg				"usetype,crf"		50	50	red-dmg			1	4	red-mag			1	2	block			1	10																																																																					0
+1 Magic Ring + 1 Jewel + 1 Amn Rune + 1 Perfect Emerald -> Safety Ring	1			100					4	"ring,mag"	jew	r11	gpg				"usetype,crf"		50	50	red-dmg			1	4	red-mag			1	2	vit			1	5																																																																					0
+1 Magic Spear + 1 Jewel + 1 Sol Rune + 1 Perfect Emerald -> Safety Weapon	1			100					4	"spea,mag"	jew	r12	gpg				"usetype,crf"		50	50	red-dmg			1	4	red-mag			1	2	ac%			5	10																																																																					0
+3 Thul Runes -> Amn Rune	1			100					3	"r10,qty=3"							r11																																																																																							0
+3 Amn Runes -> Sol Rune	1			100					3	"r11,qty=3"							r12																																																																																							0
+3 Sol Runes -> Shael Rune	1			100					3	"r12,qty=3"							r13																																																																																							0
+3 Shael Runes -> Dol Rune	1			100					3	"r13,qty=3"							r14																																																																																							0
+3 Dol Runes -> Hel Rune	1	1		100					3	"r14,qty=3"							r15																																																																																							0
+3 Hel Runes -> Io Rune	1	1		100					3	"r15,qty=3"							r16																																																																																							0
+3 Io Runes -> Lum Rune	1	1		100					3	"r16,qty=3"							r17																																																																																							0
+3 Lum Runes -> Ko Rune	1	1		100					3	"r17,qty=3"							r18																																																																																							0
+3 Ko Runes -> Fal Rune	1	1		100					3	"r18,qty=3"							r19																																																																																							0
+3 Fal Runes -> Lem Rune	1	1		100					3	"r19,qty=3"							r20																																																																																							0
+3 Lem Runes -> Pul Rune	1	1		100					3	"r20,qty=3"							r21																																																																																							0
+3 Pul Runes -> Um Rune	1	1		100					3	"r21,qty=3"							r22																																																																																							0
+3 Um Runes -> Mal Rune	1	1		100					3	"r22,qty=3"							r23																																																																																							0
+3 Mal Runes -> Ist Rune	1	1		100					3	"r23,qty=3"							r24																																																																																							0
+3 Ist Runes -> Gul Rune	1	1		100					3	"r24,qty=3"							r25																																																																																							0
+3 Gul Runes -> Vex Rune	1	1		100					3	"r25,qty=3"							r26																																																																																							0
+3 Vex Runes -> Ohm Rune	1	1		100					3	"r26,qty=3"							r27																																																																																							0
+3 Ohm Runes -> Lo Rune	1	1		100					3	"r27,qty=3"							r28																																																																																							0
+3 Lo Runes -> Sur Rune	1	1		100					3	"r28,qty=3"							r29																																																																																							0
+3 Sur Runes -> Ber Rune	1	1		100					3	"r29,qty=3"							r30																																																																																							0
+3 Ber Runes -> Jah Rune	1	1		100					3	"r30,qty=3"							r31																																																																																							0
+3 Jah Runes -> Cham Rune	1	1		100					3	"r31,qty=3"							r32																																																																																							0
+3 Cham Runes -> Zod Rune	1	1		100					3	"r32,qty=3"							r33																																																																																							0
+1 Tal Rune + 1 Thul Rune + 1 Perfect Topaz + 1 Normal Torso Armor -> Socketed Torso Armor	1			100					4	"tors,nor,nos"	r07	r10	gpy				useitem				sock			1	6																																																																															0
+1 Ral Rune + 1 Amn Rune + 1 Perfect Amethyst + 1 Normal Weapon -> Socketed Weapon	1			100					4	"weap,nor,nos"	r08	r11	gpv				useitem				sock			1	6																																																																															0
+1 Ral Rune + 1 Thul Rune + 1 Perfect Sapphire + 1 Normal Helm -> Socketed Helm	1			100					4	"helm,nor,nos"	r08	r10	gpb				useitem				sock			1	6																																																																															0
+1 Tal Rune + 1 Amn Rune + 1 Perfect Ruby + 1 Normal Shield -> Socketed Shield	1			100					4	"shld,nor,nos"	r07	r11	gpr				useitem				sock			1	6																																																																															0
+1 Eld Rune + 1 Chipped Gem (Any) + 1 Low Quality Weapon -> Normal Weapon	1			100					3	"weap,low"	r02	gem0					"usetype,nor"																																																																																							0
+1 El Rune + 1 Chipped Gem (Any) + 1 Low Quality Armor -> Normal Armor	1			100					3	"armo,low"	r01	gem0					"usetype,nor"																																																																																							0
+1 Ral Rune + 1 Sol Rune + 1 Perfect Emerald + 1 Basic Unique Weapon -> Exceptional Unique Weapon	1			100					4	"weap,bas,uni"	r08	r12	gpg				"useitem,mod,exc"				levelreq			5	5																																																																															0
+1 Tal Rune + 1 Shael Rune + 1 Perfect Diamond + 1 Basic Unique Armor -> Exceptional Unique Armor	1			100					4	"armo,bas,uni"	r07	r13	gpw				"useitem,mod,exc"				levelreq			5	5																																																																															0
+1 Lum Rune + 1 Pul Rune + 1 Perfect Emerald + 1 Exceptional Unique Weapon -> Elite Unique Weapon	1	1		100					4	"weap,exc,uni"	r17	r21	gpg				"useitem,mod,eli"				levelreq			7	7																																																																															0
+1 Ko Rune + 1 Lem Rune + 1 Perfect Diamond + 1 Exceptional Unique Armor -> Elite Unique Armor	1	1		100					4	"armo,exc,uni"	r18	r20	gpw				"useitem,mod,eli"				levelreq			7	7																																																																															0
+1 Ort Rune + 1 Amn Rune + 1 Perfect Sapphire + 1 Basic Rare Weapon -> Exceptional Rare Weapon	1			100					4	"weap,bas,rar"	r09	r11	gpb				"useitem,mod,exc"				levelreq			5	5																																																																															0
+1 Ral Rune + 1 Thul Rune + 1 Perfect Amethyst + 1 Basic Rare Armor -> Exceptional Rare Armor	1			100					4	"armo,bas,rar"	r08	r10	gpv				"useitem,mod,exc"				levelreq			5	5																																																																															0
+1 Fal Rune + 1 Um Rune + 1 Perfect Sapphire + 1 Exceptional Rare Weapon -> Elite Rare Weapon	1			100					4	"weap,exc,rar"	r19	r22	gpb				"useitem,mod,eli"				levelreq			7	7																																																																															0
+1 Ko Rune + 1 Pul Rune + 1 Perfect Amethyst + 1 Exceptional Rare Armor -> Elite Rare Armor	1			100					4	"armo,exc,rar"	r18	r21	gpv				"useitem,mod,eli"				levelreq			7	7																																																																															0
+1 Ort Rune + 1 Weapon -> Fully Repaired Weapon	1			100					2	"weap,noe"	r09						"useitem,rep,qty=255"																																																																																							0
+1 Ral Rune + 1 Armor -> Fully Repaired Armor	1			100					2	"armo,noe"	r08						"useitem,rep,qty=255"																																																																																							0
+1 Ort Rune + 1 Chipped Gem (Any) + 1 Weapon -> Fully Repaired and Recharged Weapon	1			100					3	"weap,noe"	r09	gem0					"useitem,rep,rch,qty=255"																																																																																							0
+1 Ral Rune + 1 Flawed Gem (Any) + 1 Armor -> Fully Repaired and Recharged Armor	1			100					3	"armo,noe"	r08	gem1					"useitem,rep,rch,qty=255"																																																																																							0
+1 Hel Rune + Scroll of Town Portal + 1 Socketed Item -> Clear Sockets on Item	1			100					3	"any,sock"	r15	tsc					"useitem,uns"																																																																																							0
+1 Ral Rune + 1 Jewel + 1 Superior Armor -> Tempered Armor				100					3	"armo,hiq,nos"	jew	r08					"useitem,tmp"																																																																																							0
+1 Ral Rune + 1 Jewel + 1 Superior Weapon -> Tempered Weapon				100					3	"weap,hiq,nos"	jew	r08					"useitem,tmp"																																																																																							0
+1 Ral Rune + 1 Jewel + Magic Ring -> Tempered Ring				100					3	"ring,mag"	jew	r08					"usetype,tmp"				levelreq			3	3																																																																															0
+1 Ral Rune + 1 Jewel + 1 Magic Amulet -> Tempered Amulet				100					3	"amu,mag"	jew	r08					"usetype,tmp"				levelreq			5	5																																																																															0
+1 El Rune + 1 Chipped Gem (Any) + 1 Tempered Weapon -> Weapon With Extra Attack Rating				100					3	"weap,tmp"	r01	gcv					useitem				levelreq			2	2	att			30	50																																																																										0
+3 Chipped Gems (Any) + 1 Magic Weapon -> Socketed Magic Weapon	1			0					4	"weap,mag"	"gem0,qty=3"						"usetype,mag"	25		50	sock			1	2																																																																															0
+1 Key of Terror + 1 Key of Hate + 1 Key of Destruction -> Portal to Matron's Den/Forgotten Sands/Furnace of Pain (Random)	1			100	28				3	pk1	pk2	pk3					Pandemonium Portal																																																																																							0
+1 Diablo's Horn + 1 Baal's Eye + 1 Mephisto's Brain -> Portal to Tristram (Pandemonium Finale)	1			100	28				3	dhn	bey	mbr					Pandemonium Finale Portal																																																																																							0
+1 Twisted Essence of Suffering + 1 Charged Essence of Hatred + 1 Burning Essence of Terror + 1 Festering Essence of Destruction -> Token of Absolution	1			100					4	tes	ceh	bet	fed				toa																																																																																							0
+Key + Socketed Weapon = Empty Sockets + Socket Contents	1			100					2	weap	key						"useitem,rem"																													key																																																										0
+Key + Socketed Armor = Empty Sockets + Socket Contents	1			100					2	armo	key						"useitem,rem"																													key																																																										0
+3 Magic Jewels = Magic Jewel (reroll)	1			100					3	"jew,mag,qty=3"							"jew,mag"		100																																																																																					0
+3 Rare Jewels = Rare Jewel (reroll)	1			100					3	"jew,rar,qty=3"							"jew,rar"		100																																																																																					0
+3 Rare Rings = Rare Ring (reroll)	1			100					3	"rin,rar,qty=3"							"rin,rar"		100																																																																																					0
+3 Rare Amulets = Rare Amulet (reroll)	1			100					3	"amu,rar,qty=3"							"amu,rar"		100																																																																																					0
+3 Magic SCs = Magic SC (reroll)	1			100					3	"cm1,mag,qty=3"							"cm1,mag"		100																																																																																					0
+3 Magic LCs = Magic LC (reroll)	1			100					3	"cm2,mag,qty=3"							"cm2,mag"		100																																																																																					0
+3 Magic GCs = Magic GC (reroll)	1			100					3	"cm3,mag,qty=3"							"cm3,mag"		100																																																																																					0
+3 Rare SCs = Rare SC (reroll)	1			100					3	"cm1,rar,qty=3"							"cm1,rar"		100																																																																																					0
+3 Rare LCs = Rare LC (reroll)	1			100					3	"cm2,rar,qty=3"							"cm2,rar"		100																																																																																					0
+3 Rare GCs = Rare GC (reroll)	1			100					3	"cm3,rar,qty=3"							"cm3,rar"		100																																																																																					0
+2 Minor HPs = 1 Light HP	1			100					2	"hp1,qty=2"							hp2																																																																																							0
+2 Light HPs = 1 HP	1			100					2	"hp2,qty=2"							hp3																																																																																							0
+2 HPs = 1 Greater HP	1			100					2	"hp3,qty=2"							hp4																																																																																							0
+2 Greater HPs = 1 Super HP	1			100					2	"hp4,qty=2"							hp5																																																																																							0
+2 Minor MPs = 1 Light MP	1			100					2	"mp1,qty=2"							mp2																																																																																							0
+2 Light MPs = 1 MP	1			100					2	"mp2,qty=2"							mp3																																																																																							0
+2 MPs = 1 Greater MP	1			100					2	"mp3,qty=2"							mp4																																																																																							0
+2 Greater MPs = 1 Super HP	1			100					2	"mp4,qty=2"							mp5																																																																																							0
+Wacky Tester Item	1			100					2	isc	tsc						Wacky Tester Item																																																																																							0
+GC Amethyst -> GC Diamond	1			100					1	"gc1,noe"							"gc2,mod"	99																																																																																						0
+GC Diamond -> GC Emerald	1			100					1	"gc2,noe"							"gc3,mod"	99																																																																																						0
+GC Emerald -> GC Ruby	1			100					1	"gc3,noe"							"gc4,mod"	99																																																																																						0
+GC Ruby -> GC Sapphire	1			100					1	"gc4,noe"							"gc5,mod"	99																																																																																						0
+GC Sapphire -> GC Skull	1			100					1	"gc5,noe"							"gc6,mod"	99																																																																																						0
+GC Skull -> GC Topaz	1			100					1	"gc6,noe"							"gc7,mod"	99																																																																																						0
+GC Topaz -> GC Amethyst	1			100					1	"gc7,noe"							"gc1,mod"	99																																																																																						0
+Extract Chipped Amethyst	1			100	15	205	1		2	gc1	z01						gcv																													z01																																																										0
+Extract Flawed Amethyst	1			100	15	205	1		2	gc1	z08						gfv																													z02																																																										0
+Extract Standard Amethyst	1			100	15	205	1		2	gc1	z15						gsv																													z03																																																										0
+Extract Flawless Amethyst	1			100	15	205	1		2	gc1	z22						gzv																													z04																																																										0
+Extract Perfect Amethyst	1			100	15	205	1		2	gc1	z29						gpv																													z05																																																										0
+Extract Chipped Diamond	1			100	15	206	1		2	gc2	z02						gcw																													z01																																																										0
+Extract Flawed Diamond	1			100	15	206	1		2	gc2	z09						gfw																													z02																																																										0
+Extract Standard Diamond	1			100	15	206	1		2	gc2	z16						gsw																													z03																																																										0
+Extract Flawless Diamond	1			100	15	206	1		2	gc2	z23						glw																													z04																																																										0
+Extract Perfect Diamond	1			100	15	206	1		2	gc2	z30						gpw																													z05																																																										0
+Extract Chipped Emerald	1			100	15	207	1		2	gc3	z03						gcg																													z01																																																										0
+Extract Flawed Emerald	1			100	15	207	1		2	gc3	z10						gfg																													z02																																																										0
+Extract Standard Emerald	1			100	15	207	1		2	gc3	z17						gsg																													z03																																																										0
+Extract Flawless Emerald	1			100	15	207	1		2	gc3	z24						glg																													z04																																																										0
+Extract Perfect Emerald	1			100	15	207	1		2	gc3	z31						gpg																													z05																																																										0
+Extract Chipped Ruby	1			100	15	208	1		2	gc4	z04						gcr																													z01																																																										0
+Extract Flawed Ruby	1			100	15	208	1		2	gc4	z11						gfr																													z02																																																										0
+Extract Standard Ruby	1			100	15	208	1		2	gc4	z18						gsr																													z03																																																										0
+Extract Flawless Ruby	1			100	15	208	1		2	gc4	z25						glr																													z04																																																										0
+Extract Perfect Ruby	1			100	15	208	1		2	gc4	z32						gpr																													z05																																																										0
+Extract Chipped Sapphire	1			100	15	209	1		2	gc5	z05						gcb																													z01																																																										0
+Extract Flawed Sapphire	1			100	15	209	1		2	gc5	z12						gfb																													z02																																																										0
+Extract Standard Sapphire	1			100	15	209	1		2	gc5	z19						gsb																													z03																																																										0
+Extract Flawless Sapphire	1			100	15	209	1		2	gc5	z26						glb																													z04																																																										0
+Extract Perfect Sapphire	1			100	15	209	1		2	gc5	z33						gpb																													z05																																																										0
+Extract Chipped Skull	1			100	15	210	1		2	gc6	z06						skc																													z01																																																										0
+Extract Flawed Skull	1			100	15	210	1		2	gc6	z13						skf																													z02																																																										0
+Extract Standard Skull	1			100	15	210	1		2	gc6	z20						sku																													z03																																																										0
+Extract Flawless Skull	1			100	15	210	1		2	gc6	z27						skl																													z04																																																										0
+Extract Perfect Skull	1			100	15	210	1		2	gc6	z34						skz																													z05																																																										0
+Extract Chipped Topaz	1			100	15	211	1		2	gc7	z07						gcy																													z01																																																										0
+Extract Flawed Topaz	1			100	15	211	1		2	gc7	z14						gfy																													z02																																																										0
+Extract Standard Topaz	1			100	15	211	1		2	gc7	z21						gsy																													z03																																																										0
+Extract Flawless Topaz	1			100	15	211	1		2	gc7	z28						gly																													z04																																																										0
+Extract Perfect Topaz	1			100	15	211	1		2	gc7	z35						gpy																													z05																																																										0
+Insert Chipped Amethyst	1			100					2	gemc	gcv						useitem				pts_amethyst			1	1																																																																															0
+Insert Flawed Amethyst	1			100					2	gemc	gfv						useitem				pts_amethyst			3	3																																																																															0
+Insert Standard Amethyst	1			100					2	gemc	gsv						useitem				pts_amethyst			9	9																																																																															0
+Insert Flawless Amethyst	1			100					2	gemc	gzv						useitem				pts_amethyst			27	27																																																																															0
+Insert Perfect Amethyst	1			100					2	gemc	gpv						useitem				pts_amethyst			81	81																																																																															0
+Insert Chipped Diamond	1			100					2	gemc	gcw						useitem				pts_diamond			1	1																																																																															0
+Insert Flawed Diamond	1			100					2	gemc	gfw						useitem				pts_diamond			3	3																																																																															0
+Insert Standard Diamond	1			100					2	gemc	gsw						useitem				pts_diamond			9	9																																																																															0
+Insert Flawless Diamond	1			100					2	gemc	glw						useitem				pts_diamond			27	27																																																																															0
+Insert Perfect Diamond	1			100					2	gemc	gpw						useitem				pts_diamond			81	81																																																																															0
+Insert Chipped Emerald	1			100					2	gemc	gcg						useitem				pts_emerald			1	1																																																																															0
+Insert Flawed Emerald	1			100					2	gemc	gfg						useitem				pts_emerald			3	3																																																																															0
+Insert Standard Emerald	1			100					2	gemc	gsg						useitem				pts_emerald			9	9																																																																															0
+Insert Flawless Emerald	1			100					2	gemc	glg						useitem				pts_emerald			27	27																																																																															0
+Insert Perfect Emerald	1			100					2	gemc	gpg						useitem				pts_emerald			81	81																																																																															0
+Insert Chipped Ruby	1			100					2	gemc	gcr						useitem				pts_ruby			1	1																																																																															0
+Insert Flawed Ruby	1			100					2	gemc	gfr						useitem				pts_ruby			3	3																																																																															0
+Insert Standard Ruby	1			100					2	gemc	gsr						useitem				pts_ruby			9	9																																																																															0
+Insert Flawless Ruby	1			100					2	gemc	glr						useitem				pts_ruby			27	27																																																																															0
+Insert Perfect Ruby	1			100					2	gemc	gpr						useitem				pts_ruby			81	81																																																																															0
+Insert Chipped Sapphire	1			100					2	gemc	gcb						useitem				pts_sapphire			1	1																																																																															0
+Insert Flawed Sapphire	1			100					2	gemc	gfb						useitem				pts_sapphire			3	3																																																																															0
+Insert Standard Sapphire	1			100					2	gemc	gsb						useitem				pts_sapphire			9	9																																																																															0
+Insert Flawless Sapphire	1			100					2	gemc	glb						useitem				pts_sapphire			27	27																																																																															0
+Insert Perfect Sapphire	1			100					2	gemc	gpb						useitem				pts_sapphire			81	81																																																																															0
+Insert Chipped Skull	1			100					2	gemc	skc						useitem				pts_skull			1	1																																																																															0
+Insert Flawed Skull	1			100					2	gemc	skf						useitem				pts_skull			3	3																																																																															0
+Insert Standard Skull	1			100					2	gemc	sku						useitem				pts_skull			9	9																																																																															0
+Insert Flawless Skull	1			100					2	gemc	skl						useitem				pts_skull			27	27																																																																															0
+Insert Perfect Skull	1			100					2	gemc	skz						useitem				pts_skull			81	81																																																																															0
+Insert Chipped Topaz	1			100					2	gemc	gcy						useitem				pts_topaz			1	1																																																																															0
+Insert Flawed Topaz	1			100					2	gemc	gfy						useitem				pts_topaz			3	3																																																																															0
+Insert Standard Topaz	1			100					2	gemc	gsy						useitem				pts_topaz			9	9																																																																															0
+Insert Flawless Topaz	1			100					2	gemc	gly						useitem				pts_topaz			27	27																																																																															0
+Insert Perfect Topaz	1			100					2	gemc	gpy						useitem				pts_topaz			81	81																																																																															0
+Identify Herb	1			100					2	uh1	isc						h01																													isc																																																										0
+Identify Herb	1			100					2	uh2	isc						h02																													isc																																																										0
+Identify Herb	1			100					2	uh3	isc						h03																													isc																																																										0
+Identify Herb	1			100					2	uh4	isc						h04																													isc																																																										0
+Identify Herb	1			100					2	uh5	isc						h05																													isc																																																										0
+Identify Herb	1			100					2	uh6	isc						h06																													isc																																																										0
+Identify Herb	1			100					2	uh7	isc						h07																													isc																																																										0
+Identify Herb	1			100					2	uh8	isc						h08																													isc																																																										0
+Identify Herb	1			100					2	uh9	isc						h09																													isc																																																										0
+Identify Herb	1			100					2	uhA	isc						h10																													isc																																																										0
+Identify Herb	1			100					2	uhB	isc						h11																													isc																																																										0
+Identify Herb	1			100					2	uhC	isc						h12																													isc																																																										0
+Identify Herb	1			100					2	uhD	isc						h13																													isc																																																										0
+Identify Herb	1			100					2	uhE	isc						h14																													isc																																																										0
+Identify Herb	1			100					2	uhF	isc						h15																													isc																																																										0
+Identify Herb	1			100					2	uhG	isc						h16																													isc																																																										0
+Identify Recipe	1			100					2	up1	isc						01p																																																																																							0
+Identify Recipe	1			100					2	up2	isc						02p																																																																																							0
+Identify Recipe	1			100					2	up3	isc						03p																																																																																							0
+Identify Recipe	1			100					2	up4	isc						04p																																																																																							0
+Identify Recipe	1			100					2	up5	isc						05p																																																																																							0
+Identify Recipe	1			100					2	up6	isc						06p																																																																																							0
+Identify Recipe	1			100					2	up7	isc						07p																																																																																							0
+Identify Recipe	1			100					2	up8	isc						08p																																																																																							0
+Identify Recipe	1			100					2	up9	isc						09p																																																																																							0
+Identify Recipe	1			100					2	upA	isc						10p																																																																																							0
+Identify Recipe	1			100					2	upB	isc						11p																																																																																							0
+Identify Recipe	1			100					2	upC	isc						12p																																																																																							0
+Identify Recipe	1			100					2	upD	isc						13p																																																																																							0
+Identify Recipe	1			100					2	upE	isc						14p																																																																																							0
+Identify Recipe	1			100					2	upF	isc						15p																																																																																							0
+Identify Recipe	1			100					2	upG	isc						16p																																																																																							0
+Identify Recipe	1			100					2	upH	isc						17p																																																																																							0
+Identify Recipe	1			100					2	upI	isc						18p																																																																																							0
+Identify Recipe	1			100					2	upJ	isc						19p																																																																																							0
+Identify Recipe	1			100					2	upK	isc						20p																																																																																							0
+Identify Recipe	1			100					2	upL	isc						21p																																																																																							0
+Identify Recipe	1			100					2	upM	isc						22p																																																																																							0
+Identify Recipe	1			100					2	upN	isc						23p																																																																																							0
+Identify Recipe	1			100					2	upO	isc						24p																																																																																							0
+Identify Recipe	1			100					2	upP	isc						25p																																																																																							0
+Identify Recipe	1			100					2	upQ	isc						26p																																																																																							0
+Identify Recipe	1			100					2	upR	isc						27p																																																																																							0
+Identify Recipe	1			100					2	upS	isc						28p																																																																																							0
+Identify Recipe	1			100					2	upT	isc						29p																																																																																							0
+Identify Recipe	1			100					2	upU	isc						30p																																																																																							0
+Identify Recipe	1			100					2	upV	isc						31p																																																																																							0
+Identify Recipe	1			100					2	upW	isc						32p																																																																																							0
+Identify Recipe	1			100					2	upY	isc						33p																																																																																							0
+Identify Recipe	1			100					2	upZ	isc						34p																																																																																							0
+Identify Recipe	1			100					2	1up	isc						35p																																																																																							0
+Identify Recipe	1			100					2	2up	isc						36p																																																																																							0
+Identify Recipe	1			100					2	3up	isc						37p																																																																																							0
+Identify Recipe	1			100					2	4up	isc						38p																																																																																							0
+Identify Recipe	1			100					2	5up	isc						39p																																																																																							0
+Identify Recipe	1			100					2	6up	isc						40p																																																																																							0
+Make Recipe: Experience Booster	1			100					4	01p	sr2	h01	brz				p01																													01p																																																										0
+Make Recipe: Attack Booster	1			100					5	02p	sr1	h01	eyz	gcv			p02																													02p																																																										0
+Make Recipe: Fire Water	0			100					5	03p	sr2	h01	hrt	gcr			p03																													03p																																																										0
+Make Recipe: Sparkling Water	0			100					3	04p	sr1	h02					p04																													04p																																																										0
+Make Recipe: Fire Resistance Potion	1			100					5	05p	sr1	"h02,qty=2"	spe				p05																													05p																																																										0
+Make Recipe: Strength Booster	1			100					6	06p	sr2	h02	"fng,qty=3"				p06																													06p																																																										0
+Make Recipe: Defense Booster	1			100					5	07p	sr2	h02	h03	hrz			p07																													07p																																																										0
+Make Recipe: Cold Resistance Potion	1			100					5	08p	sr1	"h03,qty=2"	spe				p08																													08p																																																										0
+Make Recipe: Lightning Resistance Potion	1			100					5	09p	sr1	"h03,qty=2"	scz				p09																													09p																																																										0
+Make Recipe: Lifeforce Serum	1			100					6	10p	sr3	"h04,qty=2"	flg	skf			p10																													10p																																																										0
+Make Recipe: Manaforce Serum	1			100					6	11p	sr3	h03	h04	skf	flg		p11																													11p																																																										0
+Make Recipe: Greater Attack Booster	1			100					4	12p	sr1	h05	jaw				p12																													12p																																																										0
+Make Recipe: Speed Booster	1			100					6	13p	sr2	h05	"qll,qty=3"				p13																													13p																																																										0
+Make Recipe: Spiny Serum	0			100					3	14p	sr3	h05					p14																													14p																																																										0
+Make Recipe: Coldsnap	0			100					3	15p	sr1	h06					p15																													15p																																																										0
+Make Recipe: Greater Fire Resistance Potion	1			100					6	16p	sr2	"h06,qty=2"	hrt	gcr			p16																													16p																																																										0
+Make Recipe: Greater Cold Resistance Potion	1			100					6	17p	sr2	"h06,qty=2"	brz	gcb			p17																													17p																																																										0
+Make Recipe: Greater Lightning Resistance Potion	1			100					6	18p	sr2	"h06,qty=2"	hrn	gcy			p18																													18p																																																										0
+Make Recipe: Greater Strength Booster	1			100					5	19p	sr2	h07	scz	hrt			p19																													19p																																																										0
+Make Recipe: Greater Defense Booster	1			100					6	20p	sr2	h07	"fng,qty=2"	gfw			p20																													20p																																																										0
+Make Recipe: Antifreeze Serum	1			100					4	21p	sr3	h08	spe				p21																													21p																																																										0
+Make Recipe: Frozen Heart	1			100					8	22p	sr1	"h08,qty=3"	"fng,qty=3"				p22																													22p																																																										0
+Make Recipe: Holy Water	1			100					6	23p	sr1	h08	"sol,qty=3"				p23																													23p																																																										0
+Make Recipe: Phase Phial	1			100					4	24p	sr2	h09	wms				p24																													24p																																																										0
+Make Recipe: Ultimate Antivenom	1			100					4	25p	sr2	h09	yps				p25																													25p																																																										0
+Make Recipe: Damage Booster	1			100					5	26p	sr2	h09	h10	sku			p26																													26p																																																										0
+Make Recipe: Energy Booster	1			100					5	27p	sr3	h10	"sol,qty=2"				p27																													27p																																																										0
+Make Recipe: Vitality Booster	1			100					5	28p	sr3	h10	sol	hrt			p28																													28p																																																										0
+Make Recipe: Health Booster	1			100					7	29p	sr3	"h11,qty=3"	"hrt,qty=2"				p29																													29p																																																										0
+Make Recipe: Mana Booster	1			100					7	30p	sr3	"h11,qty=3"	"sol,qty=2"				p30																													30p																																																										0
+Make Recipe: Potion of Wealth	1			100					6	31p	sr3	"h12,qty=2"	h14	hrn			p31																													31p																																																										0
+Make Recipe: Lucky Potion	1			100					6	32p	sr3	"h12,qty=2"	h14	flg			p32																													32p																																																										0
+Make Recipe: Greater Speed Booster	1			100					7	33p	sr3	h13	h14	"qll,qty=3"			p33																													33p																																																										0
+Make Recipe: Greater Spiny Serum	0			100					3	34p	sr3	h13					p34																													34p																																																										0
+Make Recipe: Greater Damage Booster	1			100					6	35p	sr3	h13	"eyz,qty=2"	skl			p35																													35p																																																										0
+Make Recipe: Greater Lifeforce Serum	1			100					6	36p	sr3	"h15,qty=2"	flg	hrt			p36																													36p																																																										0
+Make Recipe: Greater Manaforce Serum	1			100					6	37p	sr3	"h15,qty=2"	flg	brz			p37																													37p																																																										0
+Make Recipe: Greater Mana Booster	1			100					6	38p	sr3	"h15,qty=2"	h16	brz			p38																													38p																																																										0
+Make Recipe: Greater Health Booster	1			100					6	39p	sr3	"h15,qty=2"	h16	hrt			p39																													39p																																																										0
+Make Recipe: Status Symbol	1			100					8	40p	sr3	"h16,qty=5"	gem4				p40																													40p																																																										0
+Make Magic Eraser	1			100					2	gcv	key						ct1																																																																																							0
+Make Magic Eraser	1			100					2	gcr	key						ct1																																																																																							0
+Make Magic Eraser	1			100					2	gcb	key						ct1																																																																																							0
+Make Magic Eraser	1			100					2	gcw	key						ct1																																																																																							0
+Make Magic Eraser	1			100					2	gcy	key						ct1																																																																																							0
+Make Magic Eraser	1			100					2	gcg	key						ct1																																																																																							0
+Erase 1 Heart	1			100	16	7	1		3	"anye,noe"	hrt	ct1					useitem				pts_tinker			1	1	maxhp			-1	-1																																																																										0
+Erase 2 Hearts	1			100	16	7	2		4	"anye,noe"	"hrt,qty=2"	ct1					useitem				pts_tinker			2	2	maxhp			-2	-2																																																																										0
+Erase 3 Hearts	1			100	16	7	3		5	"anye,noe"	"hrt,qty=3"	ct1					useitem				pts_tinker			3	3	maxhp			-3	-3																																																																										0
+Erase 1 Brain	1			100	16	9	1		3	"anye,noe"	brz	ct1					useitem				pts_tinker			1	1	maxmana			-1	-1																																																																										0
+Erase 2 Brains	1			100	16	9	2		4	"anye,noe"	"brz,qty=2"	ct1					useitem				pts_tinker			2	2	maxmana			-2	-2																																																																										0
+Erase 3 Brains	1			100	16	9	3		5	"anye,noe"	"brz,qty=3"	ct1					useitem				pts_tinker			3	3	maxmana			-3	-3																																																																										0
+Erase 1 Jaw	1			100	16	112	1		3	"anye,noe"	jaw	ct1					useitem				pts_tinker			1	1	howl			-1	-1																																																																										0
+Erase 2 Jaw	1			100	16	112	2		4	"anye,noe"	"jaw,qty=2"	ct1					useitem				pts_tinker			2	2	howl			-2	-2																																																																										0
+Erase 3 Jaw	1			100	16	112	3		5	"anye,noe"	"jaw,qty=3"	ct1					useitem				pts_tinker			3	3	howl			-3	-3																																																																										0
+Erase 1 Eye	1			100	16	19	3		3	"anye,noe"	eyz	ct1					useitem				pts_tinker			1	1	att			-3	-3																																																																										0
+Erase 2 Eyes	1			100	16	19	6		4	"anye,noe"	"eyz,qty=2"	ct1					useitem				pts_tinker			2	2	att			-6	-6																																																																										0
+Erase 3 Eye	1			100	16	19	9		5	"anye,noe"	"eyz,qty=3"	ct1					useitem				pts_tinker			3	3	att			-9	-9																																																																										0
+Erase 1 Horn	1			100	16	17	3		3	"anye,noe"	hrn	ct1					useitem				pts_tinker			1	1	dmg%			-3	-3																																																																										0
+Erase 2 Horns	1			100	16	17	6		4	"anye,noe"	"hrn,qty=2"	ct1					useitem				pts_tinker			2	2	dmg%			-6	-6																																																																										0
+Erase 3 Horns	1			100	16	17	9		5	"anye,noe"	"hrn,qty=3"	ct1					useitem				pts_tinker			3	3	dmg%			-9	-9																																																																										0
+Erase 1 Tail	1			100	16	74	1		3	"anye,noe"	tal	ct1					useitem				pts_tinker			1	1	regen			-1	-1																																																																										0
+Erase 2 Tails	1			100	16	74	2		4	"anye,noe"	"tal,qty=2"	ct1					useitem				pts_tinker			2	2	regen			-2	-2																																																																										0
+Erase 3 Tails	1			100	16	74	3		5	"anye,noe"	"tal,qty=3"	ct1					useitem				pts_tinker			3	3	regen			-3	-3																																																																										0
+Erase 1 Flag	1			100	16	80	1		3	"anye,noe"	flg	ct1					useitem				pts_tinker			1	1	mag%			-1	-1																																																																										0
+Erase 2 Flags	1			100	16	80	2		4	"anye,noe"	"flg,qty=2"	ct1					useitem				pts_tinker			2	2	mag%			-2	-2																																																																										0
+Erase 3 Flags	1			100	16	80	3		5	"anye,noe"	"flg,qty=3"	ct1					useitem				pts_tinker			3	3	mag%			-3	-3																																																																										0
+Erase 1 Fang	1			100	16	156	1		3	"anye,noe"	fng	ct1					useitem				pts_tinker			1	1	pierce			-1	-1																																																																										0
+Erase 2 Fangs	1			100	16	156	2		4	"anye,noe"	"fng,qty=2"	ct1					useitem				pts_tinker			2	2	pierce			-2	-2																																																																										0
+Erase 3 Fangs	1			100	16	156	3		5	"anye,noe"	"fng,qty=3"	ct1					useitem				pts_tinker			3	3	pierce			-3	-3																																																																										0
+Erase 1 Quill	1			100	16	78	3		3	"anye,noe"	qll	ct1					useitem				pts_tinker			1	1	thorns			-3	-3																																																																										0
+Erase 2 Quills	1			100	16	78	6		4	"anye,noe"	"qll,qty=2"	ct1					useitem				pts_tinker			2	2	thorns			-6	-6																																																																										0
+Erase 3 Quills	1			100	16	78	9		5	"anye,noe"	"qll,qty=3"	ct1					useitem				pts_tinker			3	3	thorns			-9	-9																																																																										0
+Erase 1 Soul	1			100	16	27	1		3	"anye,noe"	sol	ct1					useitem				pts_tinker			1	1	regen-mana			-1	-1																																																																										0
+Erase 2 Souls	1			100	16	27	2		4	"anye,noe"	"sol,qty=2"	ct1					useitem				pts_tinker			2	2	regen-mana			-2	-2																																																																										0
+Erase 3 Souls	1			100	16	27	3		5	"anye,noe"	"sol,qty=3"	ct1					useitem				pts_tinker			3	3	regen-mana			-3	-3																																																																										0
+Erase 1 Scalp	1			100	16	138	1		3	"anye,noe"	scz	ct1					useitem				pts_tinker			1	1	mana-kill			-1	-1																																																																										0
+Erase 2 Scalps	1			100	16	138	2		4	"anye,noe"	"scz,qty=2"	ct1					useitem				pts_tinker			2	2	mana-kill			-2	-2																																																																										0
+Erase 3 Scalps	1			100	16	138	3		5	"anye,noe"	"scz,qty=3"	ct1					useitem				pts_tinker			3	3	mana-kill			-3	-3																																																																										0
+Erase 1 Spleen	1			100	16	16	3		3	"anye,noe"	spe	ct1					useitem				pts_tinker			1	1	ac%			-3	-3																																																																										0
+Erase 2 Spleens	1			100	16	16	6		4	"anye,noe"	"spe,qty=2"	ct1					useitem				pts_tinker			2	2	ac%			-6	-6																																																																										0
+Erase 3 Spleens	1			100	16	16	9		5	"anye,noe"	"spe,qty=3"	ct1					useitem				pts_tinker			3	3	ac%			-9	-9																																																																										0
+Apply 1 Heart	1			100	16	200	1		2	"anye,noe"	hrt						useitem				pts_tinker			-1	-1	maxhp			1	1																																																																										0
+Apply 2 Hearts	1			100	16	200	2		3	"anye,noe"	"hrt,qty=2"						useitem				pts_tinker			-2	-2	maxhp			2	2																																																																										0
+Apply 3 Hearts	1			100	16	200	3		4	"anye,noe"	"hrt,qty=3"						useitem				pts_tinker			-3	-3	maxhp			3	3																																																																										0
+Apply 1 Brain	1			100	16	200	1		2	"anye,noe"	brz						useitem				pts_tinker			-1	-1	maxmana			1	1																																																																										0
+Apply 2 Brains	1			100	16	200	2		3	"anye,noe"	"brz,qty=2"						useitem				pts_tinker			-2	-2	maxmana			2	2																																																																										0
+Apply 3 Brains	1			100	16	200	3		4	"anye,noe"	"brz,qty=3"						useitem				pts_tinker			-3	-3	maxmana			3	3																																																																										0
+Apply 1 Jaw	1			100	16	200	1		2	"anye,noe"	jaw						useitem				pts_tinker			-1	-1	howl			1	1																																																																										0
+Apply 2 Jaw	1			100	16	200	2		3	"anye,noe"	"jaw,qty=2"						useitem				pts_tinker			-2	-2	howl			2	2																																																																										0
+Apply 3 Jaw	1			100	16	200	3		4	"anye,noe"	"jaw,qty=3"						useitem				pts_tinker			-3	-3	howl			3	3																																																																										0
+Apply 1 Eye	1			100	16	200	1		2	"anye,noe"	eyz						useitem				pts_tinker			-1	-1	att			3	3																																																																										0
+Apply 2 Eyes	1			100	16	200	2		3	"anye,noe"	"eyz,qty=2"						useitem				pts_tinker			-2	-2	att			6	6																																																																										0
+Apply 3 Eye	1			100	16	200	3		4	"anye,noe"	"eyz,qty=3"						useitem				pts_tinker			-3	-3	att			9	9																																																																										0
+Apply 1 Horn	1			100	16	200	1		2	"anye,noe"	hrn						useitem				pts_tinker			-1	-1	dmg%			3	3																																																																										0
+Apply 2 Horns	1			100	16	200	2		3	"anye,noe"	"hrn,qty=2"						useitem				pts_tinker			-2	-2	dmg%			6	6																																																																										0
+Apply 3 Horns	1			100	16	200	3		4	"anye,noe"	"hrn,qty=3"						useitem				pts_tinker			-3	-3	dmg%			9	9																																																																										0
+Apply 1 Tail	1			100	16	200	1		2	"anye,noe"	tal						useitem				pts_tinker			-1	-1	regen			1	1																																																																										0
+Apply 2 Tails	1			100	16	200	2		3	"anye,noe"	"tal,qty=2"						useitem				pts_tinker			-2	-2	regen			2	2																																																																										0
+Apply 3 Tails	1			100	16	200	3		4	"anye,noe"	"tal,qty=3"						useitem				pts_tinker			-3	-3	regen			3	3																																																																										0
+Apply 1 Fang	1			100	16	200	1		2	"anye,noe"	fng						useitem				pts_tinker			-1	-1	pierce			1	1																																																																										0
+Apply 2 Fangs	1			100	16	200	2		3	"anye,noe"	"fng,qty=2"						useitem				pts_tinker			-2	-2	pierce			2	2																																																																										0
+Apply 3 Fangs	1			100	16	200	3		4	"anye,noe"	"fng,qty=3"						useitem				pts_tinker			-3	-3	pierce			3	3																																																																										0
+Apply 1 Quill	1			100	16	200	1		2	"anye,noe"	qll						useitem				pts_tinker			-1	-1	thorns			3	3																																																																										0
+Apply 2 Quills	1			100	16	200	2		3	"anye,noe"	"qll,qty=2"						useitem				pts_tinker			-2	-2	thorns			6	6																																																																										0
+Apply 3 Quills	1			100	16	200	3		4	"anye,noe"	"qll,qty=3"						useitem				pts_tinker			-3	-3	thorns			9	9																																																																										0
+Apply 1 Soul	1			100	16	200	1		2	"anye,noe"	sol						useitem				pts_tinker			-1	-1	regen-mana			1	1																																																																										0
+Apply 2 Souls	1			100	16	200	2		3	"anye,noe"	"sol,qty=2"						useitem				pts_tinker			-2	-2	regen-mana			2	2																																																																										0
+Apply 3 Souls	1			100	16	200	3		4	"anye,noe"	"sol,qty=3"						useitem				pts_tinker			-3	-3	regen-mana			3	3																																																																										0
+Apply 1 Scalp	1			100	16	200	1		2	"anye,noe"	scz						useitem				pts_tinker			-1	-1	mana-kill			1	1																																																																										0
+Apply 2 Scalps	1			100	16	200	2		3	"anye,noe"	"scz,qty=2"						useitem				pts_tinker			-2	-2	mana-kill			2	2																																																																										0
+Apply 3 Scalps	1			100	16	200	3		4	"anye,noe"	"scz,qty=3"						useitem				pts_tinker			-3	-3	mana-kill			3	3																																																																										0
+Apply 1 Spleen	1			100	16	200	1		2	"anye,noe"	spe						useitem				pts_tinker			-1	-1	ac%			3	3																																																																										0
+Apply 2 Spleens	1			100	16	200	2		3	"anye,noe"	"spe,qty=2"						useitem				pts_tinker			-2	-2	ac%			6	6																																																																										0
+Apply 3 Spleens	1			100	16	200	3		4	"anye,noe"	"spe,qty=3"						useitem				pts_tinker			-3	-3	ac%			9	9																																																																										0
+Apply 1 Flag	1			100	16	200	1		3	"anye,noe"	flg	gcb					useitem				pts_tinker			-1	-1	mag%			1	1																																																																										0
+Apply 2 Flags	1			100	16	200	2		4	"anye,noe"	"flg,qty=2"	gcb					useitem				pts_tinker			-2	-2	mag%			2	2																																																																										0
+Apply 3 Flags	1			100	16	200	3		5	"anye,noe"	"flg,qty=3"	gcb					useitem				pts_tinker			-3	-3	mag%			3	3																																																																										0
+Apply 1 Flag	1			100	16	200	1		3	"anye,noe"	flg	gcg					useitem				pts_tinker			-1	-1	mag%			1	1																																																																										0
+Apply 2 Flags	1			100	16	200	2		4	"anye,noe"	"flg,qty=2"	gcg					useitem				pts_tinker			-2	-2	mag%			2	2																																																																										0
+Apply 3 Flags	1			100	16	200	3		5	"anye,noe"	"flg,qty=3"	gcg					useitem				pts_tinker			-3	-3	mag%			3	3																																																																										0
+Apply 1 Flag	1			100	16	200	1		3	"anye,noe"	flg	gcy					useitem				pts_tinker			-1	-1	mag%			1	1																																																																										0
+Apply 2 Flags	1			100	16	200	2		4	"anye,noe"	"flg,qty=2"	gcy					useitem				pts_tinker			-2	-2	mag%			2	2																																																																										0
+Apply 3 Flags	1			100	16	200	3		5	"anye,noe"	"flg,qty=3"	gcy					useitem				pts_tinker			-3	-3	mag%			3	3																																																																										0
+Apply 1 Flag	1			100	16	200	1		3	"anye,noe"	flg	gcr					useitem				pts_tinker			-1	-1	mag%			1	1																																																																										0
+Apply 2 Flags	1			100	16	200	2		4	"anye,noe"	"flg,qty=2"	gcr					useitem				pts_tinker			-2	-2	mag%			2	2																																																																										0
+Apply 3 Flags	1			100	16	200	3		5	"anye,noe"	"flg,qty=3"	gcr					useitem				pts_tinker			-3	-3	mag%			3	3																																																																										0
+Apply 1 Flag	1			100	16	200	1		3	"anye,noe"	flg	gcw					useitem				pts_tinker			-1	-1	mag%			1	1																																																																										0
+Apply 2 Flags	1			100	16	200	2		4	"anye,noe"	"flg,qty=2"	gcw					useitem				pts_tinker			-2	-2	mag%			2	2																																																																										0
+Apply 3 Flags	1			100	16	200	3		5	"anye,noe"	"flg,qty=3"	gcw					useitem				pts_tinker			-3	-3	mag%			3	3																																																																										0
+Apply 1 Flag	1			100	16	200	1		3	"anye,noe"	flg	gcv					useitem				pts_tinker			-1	-1	mag%			1	1																																																																										0
+Apply 2 Flags	1			100	16	200	2		4	"anye,noe"	"flg,qty=2"	gcv					useitem				pts_tinker			-2	-2	mag%			2	2																																																																										0
+Apply 3 Flags	1			100	16	200	3		5	"anye,noe"	"flg,qty=3"	gcv					useitem				pts_tinker			-3	-3	mag%			3	3																																																																										0
+Item + Dragon Stone = Add +5 to mana, level requirement up by 2	1			100					2	"anye,noe"	ds1						"useitem,tmp"				levelreq			2	2	mana			5	5																																																																										0
+Item + Dragon Stone + Stamina Potion = Add +1% to max mana, level requirement up by 2	1			100					3	"anye,noe"	ds1	vps					"useitem,tmp"				levelreq			2	2	mana%			1	1																																																																										0
+Item + Dragon Stone + Thawing Potion = Add +2 to Mana after each kill, level requirement up by 2	1			100					3	"anye,noe"	ds1	wms					"useitem,tmp"				levelreq			2	2	mana-kill			2	2																																																																										0
+Item + Dragon Stone + Antidote = Add 5% to mana recovery, level requirement up by 2	1			100					3	"anye,noe"	ds1	yps					"useitem,tmp"				levelreq			2	2	regen-mana			5	5																																																																										0
+Item + Blood Stone = Add +5 to life, level requirement up by 2	1			100					2	"anye,noe"	ds2						"useitem,tmp"				levelreq			2	2	hp			5	5																																																																										0
+Item + Blood Stone + Stamina Potion = Add +1% to max life, level requirement up by 2	1			100					3	"anye,noe"	ds2	vps					"useitem,tmp"				levelreq			2	2	hp%			1	1																																																																										0
+Item + Blood Stone + Thawing Potion = Add +2 to Life after each kill, level requirement up by 2	1			100					3	"anye,noe"	ds2	wms					"useitem,tmp"				levelreq			2	2	life-kill			2	2																																																																										0
+Item + Blood Stone + Antidote = Regen Life +2, level requirement up by 2	1			100					3	"anye,noe"	ds2	yps					"useitem,tmp"				levelreq			2	2	regen			2	2																																																																										0
+Item + Deathly Stone = Add 1% life steal, level requirement up by 2	1			100					2	"anye,noe"	ds3						"useitem,tmp"				levelreq			2	2	lifesteal			1	1																																																																										0
+Item + Deathly Stone + Stamina Potion = Add 1% mana steal, level requirement up by 2	1			100					3	"anye,noe"	ds3	vps					"useitem,tmp"				levelreq			2	2	manasteal			1	1																																																																										0
+Item + Deathly Stone + Thawing Potion = Add 10% to damage dealt, level requirement up by 2	1			100					3	"anye,noe"	ds3	wms					"useitem,tmp"				levelreq			2	2	dmg%			10	10																																																																										0
+Item + Deathly Stone + Antidote = Add 5% attack rating bonus, level requirement up by 2	1			100					3	"anye,noe"	ds3	yps					"useitem,tmp"				levelreq			2	2	att%			5	5																																																																										0
+Item + Ice Stone = Add +10% cold resistance, level requirement up by 2	1			100					2	"anye,noe"	ds4						"useitem,tmp"				levelreq			2	2	res-cold			10	10																																																																										0
+Item + Ice Stone + Stamina Potion = Absorb Cold +1, level requirement up by 2	1			100					3	"anye,noe"	ds4	vps					"useitem,tmp"				levelreq			2	2	abs-cold			1	1																																																																										0
+Item + Ice Stone + Thawing Potion = Add +30 defense, level requirement up by 2	1			100					3	"anye,noe"	ds4	wms					"useitem,tmp"				levelreq			2	2	ac			30	30																																																																										0
+Item + Ice Stone + Antidote = Increase cast speed by 4%, level requirement up by 2	1			100					3	"anye,noe"	ds4	yps					"useitem,tmp"				levelreq			2	2	cast2			4	4																																																																										0
+Item + Fire Stone = Add +10% fire resistance, level requirement up by 2	1			100					2	"anye,noe"	ds5						"useitem,tmp"				levelreq			2	2	res-fire			10	10																																																																										0
+Item + Fire Stone + Stamina Potion = Absorb Fire +1, level requirement up by 2	1			100					3	"anye,noe"	ds5	vps					"useitem,tmp"				levelreq			2	2	abs-fire			1	1																																																																										0
+Item + Fire Stone + Thawing Potion = Add +5% extra gold find, level requirement up by 2	1			100					3	"anye,noe"	ds5	wms					"useitem,tmp"				levelreq			2	2	gold%			5	5																																																																										0
+Item + Fire Stone + Antidote = Increase attack speed by 4%, level requirement up by 2	1			100					3	"anye,noe"	ds5	yps					"useitem,tmp"				levelreq			2	2	swing2			4	4																																																																										0
+Item + Pale Peridot = Add +10% poison resistance, level requirement up by 2	1			100					2	"anye,noe"	ds6						"useitem,tmp"				levelreq			2	2	res-pois			10	10																																																																										0
+Item + Pale Peridot + Stamina Potion = Reduce Poison Length by 5%, level requirement up by 2	1			100					3	"anye,noe"	ds6	vps					"useitem,tmp"				levelreq			2	2	res-pois-len			5	5																																																																										0
+Item + Pale Peridot + Thawing Potion = Add +1% chance for melee splash damage, level requirement up by 2	1			100					3	"anye,noe"	ds6	wms					"useitem,tmp"				levelreq			2	2	splash		Melee Splash	1	1																																																																										0
+Item + Pale Peridot + Antidote = Attacker takes 10% damage, level requirement up by 2	1			100					3	"anye,noe"	ds6	yps					"useitem,tmp"				levelreq			2	2	thorns%			10	10																																																																										0
+Item + Vibrant Jade = Add +10% lightning resistance, level requirement up by 2	1			100					2	"anye,noe"	ds7						"useitem,tmp"				levelreq			2	2	res-ltng			10	10																																																																										0
+Item + Vibrant Jade + Stamina Potion = Absorb Lightning +1, level requirement up by 2	1			100					3	"anye,noe"	ds7	vps					"useitem,tmp"				levelreq			2	2	abs-ltng			1	1																																																																										0
+Item + Vibrant Jade + Thawing Potion = Add +5% extra magic find, level requirement up by 2	1			100					3	"anye,noe"	ds7	wms					"useitem,tmp"				levelreq			2	2	mag%			5	5																																																																										0
+Item + Vibrant Jade + Antidote = Increase movement speed by 5%, level requirement up by 2	1			100					3	"anye,noe"	ds7	yps					"useitem,tmp"				levelreq			2	2	move2			5	5																																																																										0
+Breakdown Chipped Amethyst	1			100					1	gcv							gxv																													gxv																													gxv																													0
+Breakdown Flawed Amethyst	1			100					1	gfv							gcv																													gcv																													gcv																													0
+Breakdown Amethyst	1			100					1	gsv							gfv																													gfv																													gfv																													0
+Breakdown Flawless Amethyst	1			100					1	gzv							gsv																													gsv																													gsv																													0
+Breakdown Perfect Amethyst	1			100					1	gpv							gzv																													gzv																													gzv																													0
+Breakdown Chipped Topaz	1			100					1	gcy							gxy																													gxy																													gxy																													0
+Breakdown Flawed Topaz	1			100					1	gfy							gcy																													gcy																													gcy																													0
+Breakdown Topaz	1			100					1	gsy							gfy																													gfy																													gfy																													0
+Breakdown Flawless Topaz	1			100					1	gly							gsy																													gsy																													gsy																													0
+Breakdown Perfect Topaz	1			100					1	gpy							gly																													gly																													gly																													0
+Breakdown Chipped Saphire	1			100					1	gcb							gxb																													gxb																													gxb																													0
+Breakdown Flawed Saphire	1			100					1	gfb							gcb																													gcb																													gcb																													0
+Breakdown Saphire	1			100					1	gsb							gfb																													gfb																													gfb																													0
+Breakdown Flawless Saphire	1			100					1	glb							gsb																													gsb																													gsb																													0
+Breakdown Perfect Saphire	1			100					1	gpb							glb																													glb																													glb																													0
+Breakdown Chipped Emerald	1			100					1	gcg							gxg																													gxg																													gxg																													0
+Breakdown Flawed Emerald	1			100					1	gfg							gcg																													gcg																													gcg																													0
+Breakdown Emerald	1			100					1	gsg							gfg																													gfg																													gfg																													0
+Breakdown Flawless Emerald	1			100					1	glg							gsg																													gsg																													gsg																													0
+Breakdown Perfect Emerald	1			100					1	gpg							glg																													glg																													glg																													0
+Breakdown Chipped Ruby	1			100					1	gcr							gxr																													gxr																													gxr																													0
+Breakdown Flawed Ruby	1			100					1	gfr							gcr																													gcr																													gcr																													0
+Breakdown Ruby	1			100					1	gsr							gfr																													gfr																													gfr																													0
+Breakdown Flawless Ruby	1			100					1	glr							gsr																													gsr																													gsr																													0
+Breakdown Perfect Ruby	1			100					1	gpr							glr																													glr																													glr																													0
+Breakdown Chipped Diamond	1			100					1	gcw							gxw																													gxw																													gxw																													0
+Breakdown Flawed Diamond	1			100					1	gfw							gcw																													gcw																													gcw																													0
+Breakdown Diamond	1			100					1	gsw							gfw																													gfw																													gfw																													0
+Breakdown Flawless Diamond	1			100					1	glw							gsw																													gsw																													gsw																													0
+Breakdown Perfect Diamond	1			100					1	gpw							glw																													glw																													glw																													0
+Crushed Amethyst (x3) = Chipped Amethyst	1			100					3	"gxv,qty=3"							gcv																																																																																							0
+Crushed Diamond (x3) = Chipped Diamond	1			100					3	"gxw,qty=3"							gcw																																																																																							0
+Crushed Emerald (x3) = Chipped Emerald	1			100					3	"gxg,qty=3"							gcg																																																																																							0
+Crushed Ruby (x3) = Chipped Ruby	1			100					3	"gxr,qty=3"							gcr																																																																																							0
+Crushed Sapphire (x3) = Chipped Sapphire	1			100					3	"gxb,qty=3"							gcb																																																																																							0
+Crushed Topaz (x3) = Chipped Topaz	1			100					3	"gxy,qty=3"							gcy																																																																																							0
+Make Minor Healing Potion	1			100					3	sr1	h01	br0					hp1																													br0																																																										0
+Make Light Healing Potion	1			100					3	sr1	h02	br1					hp2																													br1																																																										0
+Make Light Healing Potion	1			100					3	sr1	h03	br1					hp2																													br1																																																										0
+Make Healing Potion	1			100					3	sr1	h04	br2					hp3																													br2																																																										0
+Make Greater Healing Potion	1			100					3	sr1	h05	br3					hp4																													br3																																																										0
+Make Super Healing Potion	1			100					3	sr1	h06	br4					hp5																													br4																																																										0
+Make Super Healing Potion	1			100					3	sr1	h07	br4					hp5																													br4																																																										0
+Make Super Healing Potion	1			100					3	sr1	h08	br4					hp5																													br4																																																										0
+Make Super Healing Potion	1			100					3	sr1	h09	br4					hp5																													br4																																																										0
+Make Super Healing Potion	1			100					3	sr1	h10	br4					hp5																													br4																																																										0
+Make Super Healing Potion	1			100					3	sr1	h11	br4					hp5																													br4																																																										0
+Make Super Healing Potion	1			100					3	sr1	h12	br4					hp5																													br4																																																										0
+Make Super Healing Potion	1			100					3	sr1	h13	br4					hp5																													br4																																																										0
+Make Super Healing Potion	1			100					3	sr1	h14	br4					hp5																													br4																																																										0
+Make Super Healing Potion	1			100					3	sr1	h15	br4					hp5																													br4																																																										0
+Make Super Healing Potion	1			100					3	sr1	h16	br4					hp5																													br4																																																										0
+Make Minor Mana Potion	1			100					3	sr2	h01	br5					mp1																													br5																																																										0
+Make Minor Mana Potion	1			100					3	sr2	h02	br5					mp1																													br5																																																										0
+Make Light Mana Potion	1			100					3	sr2	h03	br6					mp2																													br6																																																										0
+Make Light Mana Potion	1			100					3	sr2	h04	br6					mp2																													br6																																																										0
+Make Mana Potion	1			100					3	sr2	h05	br7					mp3																													br7																																																										0
+Make Greater Mana Potion	1			100					3	sr2	h06	br8					mp4																													br8																																																										0
+Make Greater Mana Potion	1			100					3	sr2	h07	br8					mp4																													br8																																																										0
+Make Super Mana Potion	1			100					3	sr2	h08	br9					mp5																													br9																																																										0
+Make Super Mana Potion	1			100					3	sr2	h09	br9					mp5																													br9																																																										0
+Make Super Mana Potion	1			100					3	sr2	h10	br9					mp5																													br9																																																										0
+Make Super Mana Potion	1			100					3	sr2	h11	br9					mp5																													br9																																																										0
+Make Super Mana Potion	1			100					3	sr2	h12	br9					mp5																													br9																																																										0
+Make Super Mana Potion	1			100					3	sr2	h13	br9					mp5																													br9																																																										0
+Make Super Mana Potion	1			100					3	sr2	h14	br9					mp5																													br9																																																										0
+Make Super Mana Potion	1			100					3	sr2	h15	br9					mp5																													br9																																																										0
+Make Super Mana Potion	1			100					3	sr2	h16	br9					mp5																													br9																																																										0
+Make Rejuvenation Potion	1			100					3	hpot	h01	bR0					rvs																													bR0																																																										0
+Make Rejuvenation Potion	1			100					3	hpot	h02	bR0					rvs																													bR0																																																										0
+Make Rejuvenation Potion	1			100					3	hpot	h03	bR0					rvs																													bR0																																																										0
+Make Rejuvenation Potion	1			100					3	hpot	h04	bR0					rvs																													bR0																																																										0
+Make Rejuvenation Potion	1			100					3	hpot	h05	bR0					rvs																													bR0																																																										0
+Make Rejuvenation Potion	1			100					3	hpot	h06	bR0					rvs																													bR0																																																										0
+Make Rejuvenation Potion	1			100					3	hpot	h07	bR0					rvs																													bR0																																																										0
+Make Rejuvenation Potion	1			100					3	hpot	h08	bR0					rvs																													bR0																																																										0
+Make Rejuvenation Potion	1			100					3	hpot	h09	bR0					rvs																													bR0																																																										0
+Make Rejuvenation Potion	1			100					3	hpot	h10	bR0					rvs																													bR0																																																										0
+Make Rejuvenation Potion	1			100					3	hpot	h11	bR0					rvs																													bR0																																																										0
+Make Rejuvenation Potion	1			100					3	hpot	h12	bR0					rvs																													bR0																																																										0
+Make Full Rejuventation Potion	1			100					3	hpot	h13	bR1					rvl																													bR1																																																										0
+Make Full Rejuventation Potion	1			100					3	hpot	h14	bR1					rvl																													bR1																																																										0
+Make Full Rejuventation Potion	1			100					3	hpot	h15	bR1					rvl																													bR1																																																										0
+Make Full Rejuventation Potion	1			100					3	hpot	h16	bR1					rvl																													bR1																																																										0
+Make Rejuvenation Potion	1			100					3	mpot	h01	bR0					rvs																													bR0																																																										0
+Make Rejuvenation Potion	1			100					3	mpot	h02	bR0					rvs																													bR0																																																										0
+Make Rejuvenation Potion	1			100					3	mpot	h03	bR0					rvs																													bR0																																																										0
+Make Rejuvenation Potion	1			100					3	mpot	h04	bR0					rvs																													bR0																																																										0
+Make Rejuvenation Potion	1			100					3	mpot	h05	bR0					rvs																													bR0																																																										0
+Make Rejuvenation Potion	1			100					3	mpot	h06	bR0					rvs																													bR0																																																										0
+Make Rejuvenation Potion	1			100					3	mpot	h07	bR0					rvs																													bR0																																																										0
+Make Rejuvenation Potion	1			100					3	mpot	h08	bR0					rvs																													bR0																																																										0
+Make Rejuvenation Potion	1			100					3	mpot	h09	bR0					rvs																													bR0																																																										0
+Make Rejuvenation Potion	1			100					3	mpot	h10	bR0					rvs																													bR0																																																										0
+Make Rejuvenation Potion	1			100					3	mpot	h11	bR0					rvs																													bR0																																																										0
+Make Rejuvenation Potion	1			100					3	mpot	h12	bR0					rvs																													bR0																																																										0
+Make Full Rejuventation Potion	1			100					3	mpot	h13	bR1					rvl																													bR1																																																										0
+Make Full Rejuventation Potion	1			100					3	mpot	h14	bR1					rvl																													bR1																																																										0
+Make Full Rejuventation Potion	1			100					3	mpot	h15	bR1					rvl																													bR1																																																										0
+Make Full Rejuventation Potion	1			100					3	mpot	h16	bR1					rvl																													bR1																																																										0
+Unpack Lesser Healing Potion Twin-Pack	1			100					1	hp1x							hp1																													hp1																																																										0
+Unpack Light Healing Potion Twin-Pack	1			100					1	hp2x							hp2																													hp2																																																										0
+Unpack Healing Potion Twin-Pack	1			100					1	hp3x							hp3																													hp3																																																										0
+Unpack Strong Healing Potion Twin-Pack	1			100					1	hp4x							hp4																													hp4																																																										0
+Unpack Greater Healing Potion Twin-Pack	1			100					1	hp5x							hp5																													hp5																																																										0
+Unpack Lesser Mana Potion Twin-Pack	1			100					1	mp1x							mp1																													mp1																																																										0
+Unpack Light Mana Potion Twin-Pack	1			100					1	mp2x							mp2																													mp2																																																										0
+Unpack Mana Potion Twin-Pack	1			100					1	mp3x							mp3																													mp3																																																										0
+Unpack Strong Mana Potion Twin-Pack	1			100					1	mp4x							mp4																													mp4																																																										0
+Unpack Greater Mana Potion Twin-Pack	1			100					1	mp5x							mp5																													mp5																																																										0
+Unpack Lesser Healing Potion Triple-Pack	1			100					1	hp1y							hp1																													hp1																													hp1																													0
+Unpack Light Healing Potion Triple-Pack	1			100					1	hp2y							hp2																													hp2																													hp2																													0
+Unpack Healing Potion Twin-Pack	1			100					1	hp3y							hp3																													hp3																													hp3																													0
+Unpack Strong Healing Potion Twin-Pack	1			100					1	hp4y							hp4																													hp4																													hp4																													0
+Unpack Greater Healing Potion Twin-Pack	1			100					1	hp5y							hp5																													hp5																													hp5																													0
+Unpack Lesser Mana Potion Twin-Pack	1			100					1	mp1y							mp1																													mp1																													mp1																													0
+Unpack Light Mana Potion Twin-Pack	1			100					1	mp2y							mp2																													mp2																													mp2																													0
+Unpack Mana Potion Twin-Pack	1			100					1	mp3y							mp3																													mp3																													mp3																													0
+Unpack Strong Mana Potion Twin-Pack	1			100					1	mp4y							mp4																													mp4																													mp4																													0
+Unpack Greater Mana Potion Twin-Pack	1			100					1	mp5y							mp5																													mp5																													mp5																													0
+Make Minor Healing Potion Twin-Pack	1			100					4	sr1	"h01,qty=2"	br0					br0																													hx1																																																										0
+Make Light Healing Potion Twin-Pack	1			100					4	sr1	"h02,qty=2"	br1					br1																													hx2																																																										0
+Make Light Healing Potion Twin-Pack	1			100					4	sr1	"h03,qty=2"	br1					br1																													hx2																																																										0
+Make Healing Potion Twin-Pack	1			100					4	sr1	"h04,qty=2"	br2					br2																													hx3																																																										0
+Make Greater Healing Potion Twin-Pack	1			100					4	sr1	"h05,qty=2"	br3					br3																													hx4																																																										0
+Make Super Healing Potion Twin-Pack	1			100					4	sr1	"h06,qty=2"	br4					br4																													hx5																																																										0
+Make Super Healing Potion Twin-Pack	1			100					4	sr1	"h07,qty=2"	br4					br4																													hx5																																																										0
+Make Super Healing Potion Twin-Pack	1			100					4	sr1	"h08,qty=2"	br4					br4																													hx5																																																										0
+Make Super Healing Potion Twin-Pack	1			100					4	sr1	"h09,qty=2"	br4					br4																													hx5																																																										0
+Make Super Healing Potion Twin-Pack	1			100					4	sr1	"h10,qty=2"	br4					br4																													hx5																																																										0
+Make Super Healing Potion Twin-Pack	1			100					4	sr1	"h11,qty=2"	br4					br4																													hx5																																																										0
+Make Super Healing Potion Twin-Pack	1			100					4	sr1	"h12,qty=2"	br4					br4																													hx5																																																										0
+Make Super Healing Potion Twin-Pack	1			100					4	sr1	"h13,qty=2"	br4					br4																													hx5																																																										0
+Make Super Healing Potion Twin-Pack	1			100					4	sr1	"h14,qty=2"	br4					br4																													hx5																																																										0
+Make Super Healing Potion Twin-Pack	1			100					4	sr1	"h15,qty=2"	br4					br4																													hx5																																																										0
+Make Super Healing Potion Twin-Pack	1			100					4	sr1	"h16,qty=2"	br4					br4																													hx5																																																										0
+Make Minor Mana Potion Twin-Pack	1			100					4	sr2	"h01,qty=2"	br5					br5																													mx1																																																										0
+Make Minor Mana Potion Twin-Pack	1			100					4	sr2	"h02,qty=2"	br5					br5																													mx1																																																										0
+Make Light Mana Potion Twin-Pack	1			100					4	sr2	"h03,qty=2"	br6					br6																													mx2																																																										0
+Make Light Mana Potion Twin-Pack	1			100					4	sr2	"h04,qty=2"	br6					br6																													mx2																																																										0
+Make Mana Potion Twin-Pack	1			100					4	sr2	"h05,qty=2"	br7					br7																													mx3																																																										0
+Make Greater Mana Potion Twin-Pack	1			100					4	sr2	"h06,qty=2"	br8					br8																													mx4																																																										0
+Make Greater Mana Potion Twin-Pack	1			100					4	sr2	"h07,qty=2"	br8					br8																													mx4																																																										0
+Make Super Mana Potion Twin-Pack	1			100					4	sr2	"h08,qty=2"	br9					br9																													mx5																																																										0
+Make Super Mana Potion Twin-Pack	1			100					4	sr2	"h09,qty=2"	br9					br9																													mx5																																																										0
+Make Super Mana Potion Twin-Pack	1			100					4	sr2	"h10,qty=2"	br9					br9																													mx5																																																										0
+Make Super Mana Potion Twin-Pack	1			100					4	sr2	"h11,qty=2"	br9					br9																													mx5																																																										0
+Make Super Mana Potion Twin-Pack	1			100					4	sr2	"h12,qty=2"	br9					br9																													mx5																																																										0
+Make Super Mana Potion Twin-Pack	1			100					4	sr2	"h13,qty=2"	br9					br9																													mx5																																																										0
+Make Super Mana Potion Twin-Pack	1			100					4	sr2	"h14,qty=2"	br9					br9																													mx5																																																										0
+Make Super Mana Potion Twin-Pack	1			100					4	sr2	"h15,qty=2"	br9					br9																													mx5																																																										0
+Make Super Mana Potion Twin-Pack	1			100					4	sr2	"h16,qty=2"	br9					br9																													mx5																																																										0
+Make Minor Healing Potion Triple-Pack	1			100					5	sr1	"h01,qty=3"	br0					br0																													hy1																																																										0
+Make Light Healing Potion Triple-Pack	1			100					5	sr1	"h02,qty=3"	br1					br1																													hy2																																																										0
+Make Light Healing Potion Triple-Pack	1			100					5	sr1	"h03,qty=3"	br1					br1																													hy2																																																										0
+Make Healing Potion Triple-Pack	1			100					5	sr1	"h04,qty=3"	br2					br2																													hy3																																																										0
+Make Greater Healing Potion Triple-Pack	1			100					5	sr1	"h05,qty=3"	br3					br3																													hy4																																																										0
+Make Super Healing Potion Triple-Pack	1			100					5	sr1	"h06,qty=3"	br4					br4																													hy5																																																										0
+Make Super Healing Potion Triple-Pack	1			100					5	sr1	"h07,qty=3"	br4					br4																													hy5																																																										0
+Make Super Healing Potion Triple-Pack	1			100					5	sr1	"h08,qty=3"	br4					br4																													hy5																																																										0
+Make Super Healing Potion Triple-Pack	1			100					5	sr1	"h09,qty=3"	br4					br4																													hy5																																																										0
+Make Super Healing Potion Triple-Pack	1			100					5	sr1	"h10,qty=3"	br4					br4																													hy5																																																										0
+Make Super Healing Potion Triple-Pack	1			100					5	sr1	"h11,qty=3"	br4					br4																													hy5																																																										0
+Make Super Healing Potion Triple-Pack	1			100					5	sr1	"h12,qty=3"	br4					br4																													hy5																																																										0
+Make Super Healing Potion Triple-Pack	1			100					5	sr1	"h13,qty=3"	br4					br4																													hy5																																																										0
+Make Super Healing Potion Triple-Pack	1			100					5	sr1	"h14,qty=3"	br4					br4																													hy5																																																										0
+Make Super Healing Potion Triple-Pack	1			100					5	sr1	"h15,qty=3"	br4					br4																													hy5																																																										0
+Make Super Healing Potion Triple-Pack	1			100					5	sr1	"h16,qty=3"	br4					br4																													hy5																																																										0
+Make Minor Mana Potion Triple-Pack	1			100					5	sr2	"h01,qty=3"	br5					br5																													my1																																																										0
+Make Minor Mana Potion Triple-Pack	1			100					5	sr2	"h02,qty=3"	br5					br5																													my1																																																										0
+Make Light Mana Potion Triple-Pack	1			100					5	sr2	"h03,qty=3"	br6					br6																													my2																																																										0
+Make Light Mana Potion Triple-Pack	1			100					5	sr2	"h04,qty=3"	br6					br6																													my2																																																										0
+Make Mana Potion Triple-Pack	1			100					5	sr2	"h05,qty=3"	br7					br7																													my3																																																										0
+Make Greater Mana Potion Triple-Pack	1			100					5	sr2	"h06,qty=3"	br8					br8																													my4																																																										0
+Make Greater Mana Potion Triple-Pack	1			100					5	sr2	"h07,qty=3"	br8					br8																													my4																																																										0
+Make Super Mana Potion Triple-Pack	1			100					5	sr2	"h08,qty=3"	br9					br9																													my5																																																										0
+Make Super Mana Potion Triple-Pack	1			100					5	sr2	"h09,qty=3"	br9					br9																													my5																																																										0
+Make Super Mana Potion Triple-Pack	1			100					5	sr2	"h10,qty=3"	br9					br9																													my5																																																										0
+Make Super Mana Potion Triple-Pack	1			100					5	sr2	"h11,qty=3"	br9					br9																													my5																																																										0
+Make Super Mana Potion Triple-Pack	1			100					5	sr2	"h12,qty=3"	br9					br9																													my5																																																										0
+Make Super Mana Potion Triple-Pack	1			100					5	sr2	"h13,qty=3"	br9					br9																													my5																																																										0
+Make Super Mana Potion Triple-Pack	1			100					5	sr2	"h14,qty=3"	br9					br9																													my5																																																										0
+Make Super Mana Potion Triple-Pack	1			100					5	sr2	"h15,qty=3"	br9					br9																													my5																																																										0
+Make Super Mana Potion Triple-Pack	1			100					5	sr2	"h16,qty=3"	br9					br9																													my5																																																										0
+Make Minor Healing Potion Quad-Pack	1			100					6	sr1	"h01,qty=4"	br0					br0																													hx1																													hp1x																													0
+Make Light Healing Potion Quad-Pack	1			100					6	sr1	"h02,qty=4"	br1					br1																													hx2																													hp2x																													0
+Make Light Healing Potion Quad-Pack	1			100					6	sr1	"h03,qty=4"	br1					br1																													hx2																													hp2x																													0
+Make Healing Potion Quad-Pack	1			100					6	sr1	"h04,qty=4"	br2					br2																													hx3																													hp3x																													0
+Make Greater Healing Potion Quad-Pack	1			100					6	sr1	"h05,qty=4"	br3					br3																													hx4																													hp4x																													0
+Make Super Healing Potion Quad-Pack	1			100					6	sr1	"h06,qty=4"	br4					br4																													hx5																													hp5x																													0
+Make Super Healing Potion Quad-Pack	1			100					6	sr1	"h07,qty=4"	br4					br4																													hx5																													hp5x																													0
+Make Super Healing Potion Quad-Pack	1			100					6	sr1	"h08,qty=4"	br4					br4																													hx5																													hp5x																													0
+Make Super Healing Potion Quad-Pack	1			100					6	sr1	"h09,qty=4"	br4					br4																													hx5																													hp5x																													0
+Make Super Healing Potion Quad-Pack	1			100					6	sr1	"h10,qty=4"	br4					br4																													hx5																													hp5x																													0
+Make Super Healing Potion Quad-Pack	1			100					6	sr1	"h11,qty=4"	br4					br4																													hx5																													hp5x																													0
+Make Super Healing Potion Quad-Pack	1			100					6	sr1	"h12,qty=4"	br4					br4																													hx5																													hp5x																													0
+Make Super Healing Potion Quad-Pack	1			100					6	sr1	"h13,qty=4"	br4					br4																													hx5																													hp5x																													0
+Make Super Healing Potion Quad-Pack	1			100					6	sr1	"h14,qty=4"	br4					br4																													hx5																													hp5x																													0
+Make Super Healing Potion Quad-Pack	1			100					6	sr1	"h15,qty=4"	br4					br4																													hx5																													hp5x																													0
+Make Super Healing Potion Quad-Pack	1			100					6	sr1	"h16,qty=4"	br4					br4																													hx5																													hp5x																													0
+Make Minor Mana Potion Quad-Pack	1			100					6	sr2	"h01,qty=4"	br5					br5																													mx1																													mp1x																													0
+Make Minor Mana Potion Quad-Pack	1			100					6	sr2	"h02,qty=4"	br5					br5																													mx1																													mp1x																													0
+Make Light Mana Potion Quad-Pack	1			100					6	sr2	"h03,qty=4"	br6					br6																													mx2																													mp2x																													0
+Make Light Mana Potion Quad-Pack	1			100					6	sr2	"h04,qty=4"	br6					br6																													mx2																													mp2x																													0
+Make Mana Potion Quad-Pack	1			100					6	sr2	"h05,qty=4"	br7					br7																													mx3																													mp3x																													0
+Make Greater Mana Potion Quad-Pack	1			100					6	sr2	"h06,qty=4"	br8					br8																													mx4																													mp4x																													0
+Make Greater Mana Potion Quad-Pack	1			100					6	sr2	"h07,qty=4"	br8					br8																													mx4																													mp4x																													0
+Make Super Mana Potion Quad-Pack	1			100					6	sr2	"h08,qty=4"	br9					br9																													mx5																													mp5x																													0
+Make Super Mana Potion Quad-Pack	1			100					6	sr2	"h09,qty=4"	br9					br9																													mx5																													mp5x																													0
+Make Super Mana Potion Quad-Pack	1			100					6	sr2	"h10,qty=4"	br9					br9																													mx5																													mp5x																													0
+Make Super Mana Potion Quad-Pack	1			100					6	sr2	"h11,qty=4"	br9					br9																													mx5																													mp5x																													0
+Make Super Mana Potion Quad-Pack	1			100					6	sr2	"h12,qty=4"	br9					br9																													mx5																													mp5x																													0
+Make Super Mana Potion Quad-Pack	1			100					6	sr2	"h13,qty=4"	br9					br9																													mx5																													mp5x																													0
+Make Super Mana Potion Quad-Pack	1			100					6	sr2	"h14,qty=4"	br9					br9																													mx5																													mp5x																													0
+Make Super Mana Potion Quad-Pack	1			100					6	sr2	"h15,qty=4"	br9					br9																													mx5																													mp5x																													0
+Make Super Mana Potion Quad-Pack	1			100					6	sr2	"h16,qty=4"	br9					br9																													mx5																													mp5x																													0
+Make Minor Healing Potion Pent-Pack	1			100					7	sr1	"h01,qty=5"	br0					br0																													hy1																													hp1x																													0
+Make Light Healing Potion Pent-Pack	1			100					7	sr1	"h02,qty=5"	br1					br1																													hy2																													hp2x																													0
+Make Light Healing Potion Pent-Pack	1			100					7	sr1	"h03,qty=5"	br1					br1																													hy2																													hp2x																													0
+Make Healing Potion Pent-Pack	1			100					7	sr1	"h04,qty=5"	br2					br2																													hy3																													hp3x																													0
+Make Greater Healing Potion Pent-Pack	1			100					7	sr1	"h05,qty=5"	br3					br3																													hy4																													hp4x																													0
+Make Super Healing Potion Pent-Pack	1			100					7	sr1	"h06,qty=5"	br4					br4																													hy5																													hp5x																													0
+Make Super Healing Potion Pent-Pack	1			100					7	sr1	"h07,qty=5"	br4					br4																													hy5																													hp5x																													0
+Make Super Healing Potion Pent-Pack	1			100					7	sr1	"h08,qty=5"	br4					br4																													hy5																													hp5x																													0
+Make Super Healing Potion Pent-Pack	1			100					7	sr1	"h09,qty=5"	br4					br4																													hy5																													hp5x																													0
+Make Super Healing Potion Pent-Pack	1			100					7	sr1	"h10,qty=5"	br4					br4																													hy5																													hp5x																													0
+Make Super Healing Potion Pent-Pack	1			100					7	sr1	"h11,qty=5"	br4					br4																													hy5																													hp5x																													0
+Make Super Healing Potion Pent-Pack	1			100					7	sr1	"h12,qty=5"	br4					br4																													hy5																													hp5x																													0
+Make Super Healing Potion Pent-Pack	1			100					7	sr1	"h13,qty=5"	br4					br4																													hy5																													hp5x																													0
+Make Super Healing Potion Pent-Pack	1			100					7	sr1	"h14,qty=5"	br4					br4																													hy5																													hp5x																													0
+Make Super Healing Potion Pent-Pack	1			100					7	sr1	"h15,qty=5"	br4					br4																													hy5																													hp5x																													0
+Make Super Healing Potion Pent-Pack	1			100					7	sr1	"h16,qty=5"	br4					br4																													hy5																													hp5x																													0
+Make Minor Mana Potion Pent-Pack	1			100					7	sr2	"h01,qty=5"	br5					br5																													my1																													mp1x																													0
+Make Minor Mana Potion Pent-Pack	1			100					7	sr2	"h02,qty=5"	br5					br5																													my1																													mp1x																													0
+Make Light Mana Potion Pent-Pack	1			100					7	sr2	"h03,qty=5"	br6					br6																													my2																													mp2x																													0
+Make Light Mana Potion Pent-Pack	1			100					7	sr2	"h04,qty=5"	br6					br6																													my2																													mp2x																													0
+Make Mana Potion Pent-Pack	1			100					7	sr2	"h05,qty=5"	br7					br7																													my3																													mp3x																													0
+Make Greater Mana Potion Pent-Pack	1			100					7	sr2	"h06,qty=5"	br8					br8																													my4																													mp4x																													0
+Make Greater Mana Potion Pent-Pack	1			100					7	sr2	"h07,qty=5"	br8					br8																													my4																													mp4x																													0
+Make Super Mana Potion Pent-Pack	1			100					7	sr2	"h08,qty=5"	br9					br9																													my5																													mp5x																													0
+Make Super Mana Potion Pent-Pack	1			100					7	sr2	"h09,qty=5"	br9					br9																													my5																													mp5x																													0
+Make Super Mana Potion Pent-Pack	1			100					7	sr2	"h10,qty=5"	br9					br9																													my5																													mp5x																													0
+Make Super Mana Potion Pent-Pack	1			100					7	sr2	"h11,qty=5"	br9					br9																													my5																													mp5x																													0
+Make Super Mana Potion Pent-Pack	1			100					7	sr2	"h12,qty=5"	br9					br9																													my5																													mp5x																													0
+Make Super Mana Potion Pent-Pack	1			100					7	sr2	"h13,qty=5"	br9					br9																													my5																													mp5x																													0
+Make Super Mana Potion Pent-Pack	1			100					7	sr2	"h14,qty=5"	br9					br9																													my5																													mp5x																													0
+Make Super Mana Potion Pent-Pack	1			100					7	sr2	"h15,qty=5"	br9					br9																													my5																													mp5x																													0
+Make Super Mana Potion Pent-Pack	1			100					7	sr2	"h16,qty=5"	br9					br9																													my5																													mp5x																													0
+Make Minor Healing Potion Sect-Pack	1			100					8	sr1	"h01,qty=6"	br0					br0																													hy1																													hp1y																													0
+Make Light Healing Potion Sect-Pack	1			100					8	sr1	"h02,qty=6"	br1					br1																													hy2																													hp2y																													0
+Make Light Healing Potion Sect-Pack	1			100					8	sr1	"h03,qty=6"	br1					br1																													hy2																													hp2y																													0
+Make Healing Potion Sect-Pack	1			100					8	sr1	"h04,qty=6"	br2					br2																													hy3																													hp3y																													0
+Make Greater Healing Potion Sect-Pack	1			100					8	sr1	"h05,qty=6"	br3					br3																													hy4																													hp4y																													0
+Make Super Healing Potion Sect-Pack	1			100					8	sr1	"h06,qty=6"	br4					br4																													hy5																													hp5y																													0
+Make Super Healing Potion Sect-Pack	1			100					8	sr1	"h07,qty=6"	br4					br4																													hy5																													hp5y																													0
+Make Super Healing Potion Sect-Pack	1			100					8	sr1	"h08,qty=6"	br4					br4																													hy5																													hp5y																													0
+Make Super Healing Potion Sect-Pack	1			100					8	sr1	"h09,qty=6"	br4					br4																													hy5																													hp5y																													0
+Make Super Healing Potion Sect-Pack	1			100					8	sr1	"h10,qty=6"	br4					br4																													hy5																													hp5y																													0
+Make Super Healing Potion Sect-Pack	1			100					8	sr1	"h11,qty=6"	br4					br4																													hy5																													hp5y																													0
+Make Super Healing Potion Sect-Pack	1			100					8	sr1	"h12,qty=6"	br4					br4																													hy5																													hp5y																													0
+Make Super Healing Potion Sect-Pack	1			100					8	sr1	"h13,qty=6"	br4					br4																													hy5																													hp5y																													0
+Make Super Healing Potion Sect-Pack	1			100					8	sr1	"h14,qty=6"	br4					br4																													hy5																													hp5y																													0
+Make Super Healing Potion Sect-Pack	1			100					8	sr1	"h15,qty=6"	br4					br4																													hy5																													hp5y																													0
+Make Super Healing Potion Sect-Pack	1			100					8	sr1	"h16,qty=6"	br4					br4																													hy5																													hp5y																													0
+Make Minor Mana Potion Sect-Pack	1			100					8	sr2	"h01,qty=6"	br5					br5																													my1																													mp1y																													0
+Make Minor Mana Potion Sect-Pack	1			100					8	sr2	"h02,qty=6"	br5					br5																													my1																													mp1y																													0
+Make Light Mana Potion Sect-Pack	1			100					8	sr2	"h03,qty=6"	br6					br6																													my2																													mp2y																													0
+Make Light Mana Potion Sect-Pack	1			100					8	sr2	"h04,qty=6"	br6					br6																													my2																													mp2y																													0
+Make Mana Potion Sect-Pack	1			100					8	sr2	"h05,qty=6"	br7					br7																													my3																													mp3y																													0
+Make Greater Mana Potion Sect-Pack	1			100					8	sr2	"h06,qty=6"	br8					br8																													my4																													mp4y																													0
+Make Greater Mana Potion Sect-Pack	1			100					8	sr2	"h07,qty=6"	br8					br8																													my4																													mp4y																													0
+Make Super Mana Potion Sect-Pack	1			100					8	sr2	"h08,qty=6"	br9					br9																													my5																													mp5y																													0
+Make Super Mana Potion Sect-Pack	1			100					8	sr2	"h09,qty=6"	br9					br9																													my5																													mp5y																													0
+Make Super Mana Potion Sect-Pack	1			100					8	sr2	"h10,qty=6"	br9					br9																													my5																													mp5y																													0
+Make Super Mana Potion Sect-Pack	1			100					8	sr2	"h11,qty=6"	br9					br9																													my5																													mp5y																													0
+Make Super Mana Potion Sect-Pack	1			100					8	sr2	"h12,qty=6"	br9					br9																													my5																													mp5y																													0
+Make Super Mana Potion Sect-Pack	1			100					8	sr2	"h13,qty=6"	br9					br9																													my5																													mp5y																													0
+Make Super Mana Potion Sect-Pack	1			100					8	sr2	"h14,qty=6"	br9					br9																													my5																													mp5y																													0
+Make Super Mana Potion Sect-Pack	1			100					8	sr2	"h15,qty=6"	br9					br9																													my5																													mp5y																													0
+Make Super Mana Potion Sect-Pack	1			100					8	sr2	"h16,qty=6"	br9					br9																													my5																													mp5y																													0

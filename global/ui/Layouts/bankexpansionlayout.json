@@ -1,0 +1,71 @@
+{
+    "basedOn": "BankOriginalLayout.json",
+    "type": "BankPanel", "name": "BankExpansionLayout",
+    "children": [
+        {
+            "type": "ClickCatcherWidget", "name": "click_catcher",
+        },
+        {
+            "type": "GridImageWidget", "name": "background",
+            "fields": {
+                "filename": "PANEL\\expandedstash",
+            },
+        },
+        {
+            "type": "TextBoxWidget", "name": "gold_max",
+            "fields": {
+                "rect": { "x": 78, "y": 35 },
+            },
+        },
+        {
+            "type": "TextBoxWidget", "name": "gold_amount",
+            "fields": {
+                "rect": { "x": 40, "y": 358 },
+            },
+        },
+        {
+            "type": "ButtonWidget", "name": "gold_withdraw",
+            "fields": {
+                "rect": { "x": 15, "y": 357 },
+            },
+        },
+        {
+            "type": "ButtonWidget", "name": "close",
+            "fields": {
+                "rect": { "x": 272, "y": 384 },
+            },
+        },
+        {
+            "type": "InventoryGridWidget", "name": "grid",
+            "fields": {
+                "rect": { "x": 15, "y": 63 },
+                "cellCount": { "x": 10, "y": 10 },
+                "cellSize": "$ItemCellSize",
+            },
+        },
+        {
+            "type": "TabBarWidget", "name": "BankTabs",
+            "fields": {
+                "tabCount": 3,
+                "filename": "PANEL\\buyselltabs",
+                "inactiveFrames": [ 4, 5, ],
+                "activeFrames": [ 0, 1, 1, ],
+                "textStrings": [ "@personal", "@shared", "@shared2", ],
+                "tabSize": { "x": 79, "y": 24 },
+                "tabPadding": { "x": 1, "y": 0 },
+                "onSwitchTabMessage": "BankPanelMessage:SelectTab",
+            }
+        },
+        {
+            "type": "TextBoxWidget", "name": "DisabledInfo",
+            "fields": {
+                "rect": {"x": 15, "y": 75, "width": 290, "height": 50},
+                "text": "Awaiting implementation",
+                "style": {
+                   "fontColor": "$FontColorRed",
+                   "alignment": { "h": "center", "v": "center" },
+                }
+            }
+        }
+    ]
+}

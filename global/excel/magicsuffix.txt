@@ -1,0 +1,648 @@
+Name	version	spawnable	rare	level	maxlevel	levelreq	classspecific	class	classlevelreq	frequency	group	mod1code	mod1param	mod1min	mod1max	mod2code	mod2param	mod2min	mod2max	mod3code	mod3param	mod3min	mod3max	transformcolor	itype1	itype2	itype3	itype4	itype5	itype6	itype7	etype1	etype2	etype3	etype4	etype5	multiply	add
+of Health	1	1	1	7		5				4	1	red-dmg		1	1										tors	shld	ring	amul	circ								0	0
+of Protection	1	1	1	18		13				4	1	red-dmg		2	2										ring	amul	circ										0	0
+of Absorption	1	1	1	26		19				4	1	red-dmg		3	3										amul	circ											0	0
+of Life	1	1	1	35		26				4	1	red-dmg		4	4									dblu	amul	circ											0	0
+of Life Everlasting	100	1		45		37				4	1	red-dmg		10	25										amul	circ											0	0
+of Protection	1	1	1	24		18				4	1	red-dmg		2	2										tors	shld	circ										0	0
+of Absorption	1	1	1	32		24				4	1	red-dmg		3	3										tors	shld	circ										0	0
+of Life	1	1	1	41		33				4	1	red-dmg		4	7										tors	shld	circ										0	0
+of Anima	100	1		51		43				4	1	red-dmg		8	15										tors	shld	circ										0	0
+of Protection	100	1		18		13				8	1	red-dmg		4	4										amul	circ											0	0
+of Shielding	100	1		26		19				8	1	red-dmg		6	6										amul	circ											0	0
+of Warding	100	1		35		26				8	1	red-dmg		8	8										amul	circ											0	0
+of Safe Harbor	100	1		45		37				8	1	red-dmg		20	50										amul	circ											0	0
+of Protection	100	1		24		18				8	1	red-dmg		4	4										tors	shld											0	0
+of Warding	100	1		32		24				8	1	red-dmg		6	6										tors	shld											0	0
+of Invulnerability	100	1		41		33				8	1	red-dmg		8	14										tors	shld											0	0
+of Invincibility	100	1		51		43				8	1	red-dmg		16	30										tors	shld											0	0
+																																						
+of Warding	1	1	1	7		5				4	2	red-mag		2	2										tors	shld	ring	amul	orb	circ							0	0
+of the Sentinel	1	1	1	18		12				4	2	red-mag		4	4										ring	amul	orb	circ									0	0
+of Guarding	1	1	1	26		19				4	2	red-mag		6	6										amul	orb	circ										0	0
+of Negation	100	1		42		35				8	2	red-mag		8	12										amul	orb	circ										0	0
+of the Sentinel	1	1	1	24		18				8	2	red-mag		4	4										tors	shld	circ										0	0
+of Guarding	1	1	1	32		24				8	2	red-mag		6	6										tors	shld	circ										0	0
+of Negation	100	1		41		33				8	2	red-mag		8	12										tors	shld	circ										0	0
+of Antimagic	100	1		7		5				8	2	red-mag		4	4										amul	orb	circ	staf									0	0
+of the Abyss	100	1		18		12				8	2	red-mag		8	8										amul	orb	circ	staf									0	0
+of Silence	100	1		26		19				8	2	red-mag		12	12										amul	orb	tors	shld	ring	circ							0	0
+of Sigils	100	1		42		35				8	2	red-mag		16	24										amul	orb	tors	shld	ring	circ							0	0
+of Signs	100	1		76		53				8	2	red-mag		32	50										amul	orb	tors	shld	ring	circ							0	0
+																																						
+of Coolness	100	1	1	11		8				1	3	abs-fire		2	2										tors	shld	boot	circ	staf	wand	orb						0	0
+of Incombustibility	100	1	1	19		14				1	3	abs-fire		3	3										tors	shld	boot	circ	staf	wand	orb						0	0
+of Amianthus	100	1	1	28		21				1	3	abs-fire		4	5										tors	shld	boot	circ	staf	wand	orb						0	0
+of Fire Quenching	100	1		38		30				1	3	abs-fire		6	8										tors	shld	boot	circ	staf	wand	orb						0	0
+of Coolness	100	1	1	13		9				1	3	abs-fire		2	2										ring	amul	orb	circ	staf	wand	orb						0	0
+of Incombustibility	100	1	1	22		16				1	3	abs-fire		3	3										amul	orb	circ	staf	wand	orb							0	0
+of Amianthus	100	1	1	33		25				1	3	abs-fire		4	5										amul	orb	circ	staf	wand	orb							0	0
+of Fire Quenching	100	1		46		38				1	3	abs-fire		6	8										amul	orb	circ	staf	wand	orb							0	0
+of Faith	100	1	1	23		17				1	3	abs-fire		1	2										jewl												0	0
+of Resistance	100	1	1	11		8				1	3	abs-ltng		2	2										tors	shld	boot	circ	staf	wand	orb						0	0
+of Insulation	100	1	1	19		14				1	3	abs-ltng		3	3										tors	shld	boot	circ	staf	wand	orb						0	0
+of Grounding	100	1	1	28		21				1	3	abs-ltng		4	5										tors	shld	boot	circ	staf	wand	orb						0	0
+of the Dynamo	100	1		38		30				1	3	abs-ltng		6	8										tors	shld	boot	circ	staf	wand	orb						0	0
+of Resistance	100	1	1	13		9				1	3	abs-ltng		2	2										ring	amul	orb	circ	staf	wand	orb						0	0
+of Insulation	100	1	1	22		16				1	3	abs-ltng		3	3										amul	orb	circ	staf	wand	orb							0	0
+of Grounding	100	1	1	33		25				1	3	abs-ltng		4	5										amul	orb	circ	staf	wand	orb							0	0
+of the Dynamo	100	1		46		38				1	3	abs-ltng		6	8										amul	orb	circ	staf	wand	orb							0	0
+of Stoicism	100	1	1	22		16				1	3	abs-ltng		1	2										jewl												0	0
+of Warming	100	1	1	11		8				1	3	abs-cold		2	2										tors	shld	boot	circ	staf	wand	orb						0	0
+of Thawing	100	1	1	19		14				1	3	abs-cold		3	3										tors	shld	boot	circ	staf	wand	orb						0	0
+of the Dunes	100	1	1	28		21				1	3	abs-cold		4	5										tors	shld	boot	circ	staf	wand	orb						0	0
+of the Sirocco	100	1		38		30				1	3	abs-cold		6	8										tors	shld	boot	circ	staf	wand	orb						0	0
+of Warming	100	1	1	13		9				1	3	abs-cold		2	2										ring	amul	orb	circ	staf	wand	orb						0	0
+of Thawing	100	1	1	22		16				1	3	abs-cold		3	3										amul	orb	circ	staf	wand	orb							0	0
+of the Dunes	100	1	1	33		25				1	3	abs-cold		4	5										amul	orb	circ	staf	wand	orb							0	0
+of the Sirocco	100	1		46		38				1	3	abs-cold		6	8										amul	orb	circ	staf	wand	orb							0	0
+of Desire	100	1	1	23		17				1	3	abs-cold		1	2										jewl												0	0
+																																						
+of Piercing	1	1	1	25		18				2	4	ignore-ac		1	1										rod	knif	h2h	misl									0	0
+																																						
+of Bashing	100		1	16		12				4	5	dmg-ac		-25	-40										blun							wand	staf	orb			0	0
+of Puncturing	100		1	6		4				4	5	dmg-ac		-10	-20										spea	knif	h2h	misl									0	0
+																																						
+of Thorns	1	1	1	14		10				4	6	thorns		1	3										tors	shld	belt										0	0
+of Spikes	1	1	1	21		15				4	6	thorns		4	6									oran	tors	shld	belt										0	0
+of Razors	100	1	1	34		26				4	6	thorns		7	9									oran	tors	shld											0	0
+of Swords	100	1		47		39				4	6	thorns		10	20									oran	tors	shld											0	0
+of Malice	100	1	1	37		29				4	6	thorns		20	100										jewl												0	0
+of Thorns	1	1	1	1	13	1				4	6	thorns		1	1										tors	belt	shld										0	0
+of Thorns	100	1		4		3				8	6	thorns		6	10										shld	belt	tors										0	0
+of Brambles	100	1		14		10				8	6	thorns		20	42										shld	belt	tors										0	0
+of Daggers	100	1		21		15				8	6	thorns		40	75										shld	belt	tors										0	0
+of Razors	100	1		34		26				8	6	thorns		50	125										shld	belt	tors										0	0
+of Spikes	100	1		47		39				8	6	thorns		100	153										shld	belt	tors										0	0
+of Reflecting	100	1		58		50				8	6	thorns		300	500										shld	belt	tors										0	0
+of Thorns	100	1		4		3				8	6	thorns%		10	15																							
+of Brambles	100	1		14		10				8	6	thorns%		13	20																							
+of Daggers	100	1		21		15				8	6	thorns%		25	40																							
+of Razors	100	1		34		26				8	6	thorns%		35	55																							
+of Spikes	100	1		47		39				8	6	thorns%		45	80																							
+of Reflecting	100	1		58		50				8	6	thorns%		50	125																							
+																																						
+of Readiness	1	1	1	5		3				6	7	swing1		10	10										weap	misl						wand	orb	staf			0	0
+of Alacrity	1	1	1	25		17				6	7	swing2		20	20										weap	misl						wand	orb	staf			0	0
+of Swiftness	1	1	1	34		26				6	7	swing2		30	30										mele							wand	staf	orb			0	0
+of Quickness	1	1	1	46		38				5	7	swing3		40	40									dyel	mele							wand	staf	orb			0	0
+of Alacrity	100	1	1	43		35				4	7	swing2		20	20									dyel	glov												0	0
+of Fervor	100	1		39		31				4	7	swing1		15	15										jewl												0	0
+of Readiness	1	1	1	20		15				2	7	swing1		10	10										glov												0	0
+																																						
+of Blocking	1	1	1	1		1				7	8	block		10	10	block2		15	15						shld												0	0
+of Deflecting	1	1	1	11		8				6	8	block		20	20	block2		30	30						shld												0	0
+of the People	100	1		1		1				14	8	block		25	25	block2		20	20						shld												0	0
+of the Innocent	100	1		25		22				12	8	block		40	40	block2		40	40						shld												0	0
+																																						
+of the Apprentice	1	1	1	5		3				6	9	cast1		10	10										rod	ring	amul	orb	circ								0	0
+of the Magus	1	1	1	29		21				5	9	cast3		20	20										rod	orb	circ										0	0
+of the Mage	100	1		5		3				12	9	cast2		15	15										rod	ring	amul	orb	circ								0	0
+of the Mystic	100	1		31		30				10	9	cast2		25	25										rod	ring	amul	orb	circ								0	0
+																																						
+of Frost	1	1	1	4		3				5	10	cold-min		1	1	cold-max		1	2	cold-len		50	50		weap	misl						wand	orb	staf			0	0
+of the Icicle	100	1	1	13		9				4	10	cold-min		1	1	cold-max		3	4	cold-len		75	75		weap	misl						wand	orb	staf			0	0
+of the Glacier	1	1	1	27		20				3	10	cold-min		2	4	cold-max		4	15	cold-len		100	100	dblu	weap	misl						wand	orb	staf			0	0
+of Winter	100	1	1	45		37				2	10	cold-min		5	9	cold-max		16	50	cold-len		150	150	dblu	mele							wand	orb	staf			0	0
+of Frost	1	1	1	55		41				2	10	cold-min		1	1	cold-max		3	6	cold-len		50	50		belt	amul											0	0
+of Frigidity	100	1	1	16		12				2	10	cold-min		1	1	cold-max		3	5	cold-len		50	50	dblu	jewl												0	0
+of the Icicle	100	1	1	37		29				2	10	cold-min		2	3	cold-max		6	10	cold-len		50	50	dblu	jewl												0	0
+of the Glacier	100	1		58		50				2	10	cold-min		4	5	cold-max		11	15	cold-len		50	50	dblu	jewl												0	0
+of Frost	1	1	1	1	3	1				4	10	dmg-cold	25	1	1										weap	misl						staf	wand	orb			0	0
+																																						
+of Warmth	1	1	1	10		7				4	11	half-freeze		1	1										shld	boot	glov	ring	amul	circ	orb						0	0
+																																						
+of Fire	100	1	1	36		28				2	12	fire-min		4	10	fire-max		11	30					dred	jewl												0	0
+of Burning	100	1	1	57		49				2	12	fire-min		11	25	fire-max		31	50					dred	jewl												0	0
+of Flame	1	1	1	4		3				5	12	fire-min		1	1	fire-max		2	5						weap	misl						wand	orb	staf			0	0
+of Fire	1	1	1	15		11				4	12	fire-min		1	4	fire-max		6	11						weap	misl						wand	orb	staf			0	0
+of Burning	1	1	1	25		18				3	12	fire-min		5	9	fire-max		10	20					dred	weap	misl						wand	orb	staf			0	0
+of Incineration	100	1	1	43		35				2	12	fire-min		10	20	fire-max		21	75					dred	mele							wand	orb	staf			0	0
+of Flame	100	1	1	40		30				2	12	fire-min		1	1	fire-max		2	6						glov	ring	amul										0	0
+of Passion	100	1	1	15		11				2	12	fire-min		1	3	fire-max		6	10					dred	jewl												0	0
+of Flame	1	1	1	1	3	1				4	12	dmg-fire		1	2										weap	misl						staf	wand	orb			0	0
+																																						
+of Shock	1	1	1	4		3				5	13	ltng-min		1	1	ltng-max		6	8						weap	misl						wand	orb	staf			0	0
+of Lightning	1	1	1	15		11				4	13	ltng-min		1	1	ltng-max		9	16						weap	misl						wand	orb	staf			0	0
+of Thunder	1	1	1	25		18				3	13	ltng-min		1	1	ltng-max		17	40					dyel	weap	misl						wand	orb	staf			0	0
+of Storms	100	1	1	34		26				2	13	ltng-min		1	6	ltng-max		41	120					dyel	mele							wand	orb	staf			0	0
+of Shock	100	1	1	50		37				2	13	ltng-min		1	1	ltng-max		11	23						boot	ring	amul										0	0
+of Ennui	100	1	1	15		11				2	13	ltng-min		1	1	ltng-max		10	20					dyel	jewl												0	0
+of Lightning	100	1	1	36		28				2	13	ltng-min		1	1	ltng-max		21	60					dyel	jewl												0	0
+of Thunder	100	1	1	57		49				2	13	ltng-min		1	1	ltng-max		61	100					dyel	jewl												0	0
+of Shock	1	1	1	1	3	1				4	13	dmg-ltng		1	3										weap	misl						staf	wand	orb			0	0
+																																						
+of Craftsmanship	1	1	1	1		1				8	14	dmg-max		1	1										weap	ring	amul	misl				wand	staf	orb			0	0
+of Quality	1	1	1	4		3				8	14	dmg-max		2	2										weap	misl						wand	staf	orb			0	0
+of Maiming	1	1	1	7		5				7	14	dmg-max		3	4										weap	misl						wand	staf	orb			0	0
+of Slaying	1	1	1	11		8				7	14	dmg-max		5	7										weap	misl						wand	staf	orb			0	0
+of Gore	1	1	1	14		10				6	14	dmg-max		8	10										weap	misl						wand	staf	orb			0	0
+of Carnage	1	1	1	19		14				6	14	dmg-max		11	14									blac	weap	misl						wand	staf	orb			0	0
+of Slaughter	1	1	1	25		18				5	14	dmg-max		15	20									blac	weap	misl						wand	staf	orb			0	0
+of Butchery	100	1		35		27				5	14	dmg-max		21	40									blac	weap	misl						wand	staf	orb			0	0
+of Evisceration	100	1		45		37				4	14	dmg-max		41	63									blac	weap	misl						wand	staf	orb			0	0
+of Maiming	1	1	1	42		34				4	14	dmg-max		3	4										shld	ring	amul										0	0
+of Craftsmanship	100	1	1	1	7	1				4	14	dmg-max		1	2										circ												0	0
+of Craftsmanship	100	1	1	8	14	6				4	14	dmg-max		2	3										circ												0	0
+of Craftsmanship	100	1	1	15		11				4	14	dmg-max		4	5										circ												0	0
+of Quality	100	1	1	23	29	17				4	14	dmg-max		6	7										circ												0	0
+of Quality	100	1	1	30		22				4	14	dmg-max		7	8										circ												0	0
+of Maiming	100	1		37	44	29				4	14	dmg-max		9	10										circ												0	0
+of Maiming	100	1		45		37				4	14	dmg-max		11	12										circ												0	0
+of Ire	100	1	1	4		3				4	14	dmg-max		2	5										jewl												0	0
+of Wrath	100	1	1	11		8				4	14	dmg-max		6	9									blac	jewl												0	0
+of Carnage	100	1		25		18				4	14	dmg-max		11	15									blac	jewl												0	0
+of Brutality	100	1		4		3				16	14	dmg-max		6	6									blac	weap	misl											0	0
+of Massacres	100	1		7		5				14	14	dmg-max		9	12									dred	weap	misl											0	0
+of Relentlessness	100	1		11		8				14	14	dmg-max		15	21									dred	weap	misl											0	0
+of Horror	100	1		14		10				12	14	dmg-max		24	30									blac	weap	misl											0	0
+of Bleeding	100	1		19		14				12	14	dmg-max		33	42									dred	weap	misl											0	0
+of Flaying	100	1		25		18				10	14	dmg-max		45	60									dred	weap	misl											0	0
+of Torture	100	1		35		27				10	14	dmg-max		63	120									blac	weap	misl											0	0
+of Violence	100	1		45		37				8	14	dmg-max		123	189									blac	weap	misl											0	0
+of Increasing Carnage	100	1		8		6				16	14	dmg/lvl	12																								0	0
+of Learned Chaos	100	1		17		14				14	14	dmg/lvl	16																								0	0
+of Repeated Massacres	100	1		22		20				12	14	dmg/lvl	20																								0	0
+of Endless Torture	100	1		31		26				10	14	dmg/lvl	24																								0	0
+of Endless Violence	100	1		45		38				8	14	dmg/lvl	28																								0	0
+of Endless Slaughter	100	1		65		55				6	14	dmg/lvl	32																								0	0
+of Exceptional Quality																																						
+of Excellent Quality																																						
+of Exceptional Craftsmanship																																						
+of Excellent Craftsmanship																																						
+of Impressive Quality																																						
+of Impressive Craftsmanship																																						
+of Excellence																																						
+of Perfection																																						
+																																						
+of Worth	1	1	1	1		1				8	15	dmg-min		1	2										weap	misl						staf	wand	orb			0	0
+of Measure	1	1	1	12		9				7	15	dmg-min		3	4										weap	misl						staf	wand	orb			0	0
+of Excellence	1	1	1	24		18				6	15	dmg-min		5	8										weap	misl						staf	wand	orb			0	0
+of Performance	1	1	1	48		40				5	15	dmg-min		9	14									blac	weap	misl						staf	wand	orb			0	0
+of Transcendence	100	1	1	76		68				4	15	dmg-min		15	20									blac	weap	misl						staf	wand	orb			0	0
+of Worth	1	1	1	15		11				4	15	dmg-min		2	3										ring	amul	circ										0	0
+of Measure	1	1	1	37		29				4	15	dmg-min		4	5										ring	amul	circ										0	0
+of Excellence	1	1	1	59		51				4	15	dmg-min		6	9										ring	amul	circ	jewl									0	0
+of Performance	100	1		81		73				4	15	dmg-min		10	13										ring	amul	circ	jewl									0	0
+of Joyfulness	100	1	1	5		3				4	15	dmg-min		1	4									whit	jewl												0	0
+of Bliss	100	1	1	43		37				4	15	dmg-min		5	10									whit	jewl												0	0
+of Increasing Worth																																						
+of Increasing Excellence																																						
+of Developing Worth																																						
+of Improving Worth																																						
+of Improving Excellence																																						
+of Developing Talent																																						
+of Development	100	1		1		1				8	15	dmg-min		3	5										weap	misl						staf	wand	orb			0	0
+of Growth	100	1		12		9				7	15	dmg-min		8	10										weap	misl						staf	wand	orb			0	0
+of Satisfaction	100	1		24		18				6	15	dmg-min		13	20										weap	misl						staf	wand	orb			0	0
+of Praise	100	1		48		40				5	15	dmg-min		23	35										weap	misl						staf	wand	orb			0	0
+of Potential	100	1		62		55				4	15	dmg-min		30	45										weap	misl						staf	wand	orb			0	0
+of Potency	100	1		76		68				3	15	dmg-min		38	50										weap	misl						staf	wand	orb			0	0
+																																						
+of Blight	1	1	1	5		3				5	16	dmg-pois	75	24	24										weap	circ	misl					rod	orb	staf			0	0
+of Venom	1	1	1	15		11				4	16	dmg-pois	100	54	54										weap	circ	misl					rod	orb	staf			0	0
+of Pestilence	1	1	1	25		18				3	16	dmg-pois	125	103	103									dgrn	weap	circ	misl					rod	orb	staf			0	0
+of Anthrax	100	1	1	33		25				2	16	dmg-pois	150	171	171									dgrn	weap	misl						rod	orb	staf			0	0
+of Blight	100	1	1	45		33				2	16	dmg-pois	75	171	171										ring	amul											0	0
+of Envy	100	1	1	1		1				2	16	dmg-pois	50	103	103									dgrn	jewl												0	0
+of Blight	1	1	1	1	4	1				4	16	dmg-pois	50	8	8										weap	misl						scep	staf	orb			0	0
+																																						
+of Dexterity	1	1	1	1		1				4	17	dex		1	2										amul	miss	circ										0	0
+of Skill	1	1	1	11		8				3	17	dex		3	5										amul	miss	circ										0	0
+of Accuracy	1	1	1	27		20				3	17	dex		6	9										amul	miss	circ										0	0
+of Precision	1	1	1	43		35				3	17	dex		10	15										amul	miss	circ										0	0
+of Perfection	1	1	1	59		51				3	17	dex		16	20									dgld	amul	miss	circ										0	0
+of Nirvana	100	1		72		64				3	17	dex		21	30									dgld	amul	miss	circ										0	0
+of Dexterity	1	1	1	6		4				4	17	dex		1	2										ring	glov											0	0
+of Skill	1	1	1	22		16				3	17	dex		3	5										ring	glov											0	0
+of Accuracy	1	1	1	39		31				3	17	dex		6	9										ring	glov											0	0
+of Precision	1	1	1	56		48				3	17	dex		10	15										ring	glov	jewl										0	0
+of Perfection	100	1		75		67				3	17	dex		16	20									dgld	ring	glov	jewl										0	0
+of Dexterity	1	1	1	13		9				3	17	dex		2	3										tors	boot						glov					0	0
+of Skill	1	1	1	34		26				3	17	dex		4	5										tors	boot						glov					0	0
+of Accuracy	1	1	1	46		38				3	17	dex		6	9										tors	boot						glov					0	0
+of Precision	100	1		60		52				3	17	dex		10	15									dgld	tors	boot						glov					0	0
+of Daring	100	1	1	7		5				3	17	dex		1	3										jewl												0	0
+of Daring	100	1	1	19		14				3	17	dex		4	6										jewl												0	0
+of Daring	100	1	1	36		28				3	17	dex		7	9										jewl												0	0
+of Dexterity	1	1	1	1	12	1				4	17	dex		1	1										boot	glov											0	0
+of Dexterity	1	1	1	1	5	1				4	17	dex		1	1										ring												0	0
+of Talent	100	1		1		1				10	17	dex		2	4										amul	miss	glov	ring									0	0
+of Artistry	100	1		11		8				8	17	dex		6	10										amul	miss	glov	ring									0	0
+of Proficiency	100	1		27		20				6	17	dex		12	18										amul	miss	glov	ring									0	0
+of Finesse	100	1		43		35				4	17	dex		20	30										amul	miss	glov	ring									0	0
+of Ingenuity	100	1		59		51				2	17	dex		32	40										amul	miss	glov	ring									0	0
+of Cleverness	100	1		72		64				1	17	dex		42	60										amul	miss	glov	ring									0	0
+of the Talented	100	1		1		1				10	17	dex%		1	2									lgrn	amul	miss	glov	ring									0	0
+of the Artisan	100	1		11		8				8	17	dex%		3	5									dgrn	amul	miss	glov	ring									0	0
+of the Thief	100	1		27		20				6	17	dex%		8	12									blac	amul	miss	glov	ring									0	0
+of the Assassin	100	1		43		35				4	17	dex%		14	19									blac	amul	miss	glov	ring									0	0
+of the Rogue	100	1		59		51				2	17	dex%		18	25									blac	amul	miss	glov	ring									0	0
+of the Master Thief	100	1		72		64				1	17	dex%		19	30									blac	amul	miss	glov	ring									0	0
+of Developing Talent	100	1		1		1				10	17	dex/lvl	3												amul	miss	glov	ring									0	0
+of Recurring Talent	100	1		11		8				8	17	dex/lvl	4												amul	miss	glov	ring									0	0
+of the Gift	100	1		27		20				6	17	dex/lvl	5											lgld	amul	miss	glov	ring									0	0
+of the Whisperer	100	1		43		35				4	17	dex/lvl	6												amul	miss	glov	ring									0	0
+of the Purveyor	100	1		59		51				2	17	dex/lvl	7												amul	miss	glov	ring									0	0
+of the Proficient	100	1		72		64				1	17	dex/lvl	8												amul	miss	glov	ring									0	0
+																																						
+of Balance	1	1	1	5		3				4	18	balance1		10	10										armo							glov					0	0
+of Equilibrium	1	1	1	9		6				4	18	balance2		17	17										tors	belt	shld										0	0
+of Stability	1	1	1	18		13				4	18	balance3		24	24									dyel	tors	belt											0	0
+of Truth	100	1	1	44		36				4	18	balance1		7	7										jewl												0	0
+																																						
+of Regeneration	1	1	1	10		7				4	19	regen		3	5										scep	belt	ring	amul	circ								0	0
+of Regeneration	1	1	1	40		30				4	19	regen		3	5										shld	glov											0	0
+of Regeneration	1	1	1	70		52				4	19	regen		3	5										tors	weap	boot					scep					0	0
+of Regrowth	1	1	1	17		12				4	19	regen		6	10									cred	scep	amul	circ										0	0
+of Regrowth	1	1	1	55		41				4	19	regen		6	9									cred	belt	ring											0	0
+of Revivification	100	1		38		30				4	19	regen		11	15									cred	scep	amul	circ										0	0
+of Honor	100	1	1	47		35				4	19	regen		1	4										jewl												0	0
+of Regeneration	1	1	1	1	9	1				3	19	regen		2	2										amul	circ											0	0
+of Prosperity	100	1		1		1				18	19	regen		4	5										scep	belt	ring	amul	glov	boot							0	0
+of Aspiration	100	1		8		6				16	19	regen		5	7										scep	belt	ring	amul	glov	boot							0	0
+of Health Everlasting	100	1		16		14				14	19	regen		5	8										scep	belt	ring	amul	glov	boot							0	0
+of Life Everlasting	100	1		25		20				12	19	regen		7	12										scep	belt	ring	amul	glov	boot							0	0
+of Prosperous Health	100	1		38		34				10	19	regen		9	13										scep	belt	ring	amul	glov	boot							0	0
+of Prosperous Life	100	1		65		50				8	19	regen		11	17										scep	belt	ring	amul	glov	boot							0	0
+																																						
+of Vileness	1	1	1	9		6				3	20	noheal		1	1										mele	misl						rod	orb				0	0
+																																						
+of Greed	1	1	1	1		1				4	21	gold%		25	40										ring	amul	circ										0	0
+of Wealth	1	1	1	17		12				4	21	gold%		41	80									lgld	boot	glov	belt	amul	circ								0	0
+of Avarice	100	1	1	1		1				4	21	gold%		20	60										jewl												0	0
+																																						
+of Chance	1	1	1	12		9				4	22	mag%		5	15										boot	glov	ring	amul	circ	rod	orb						0	0
+of Fortune	1	1	1	16		12				4	22	mag%		16	25									lgld	boot	glov	amul	circ	rod	orb							0	0
+of Fortune	1	1		42		31				4	22	mag%		16	25									lgld	ring												0	0
+of Luck	100	1		26		19				4	22	mag%		26	35									lgld	boot	amul	circ	rod	orb								0	0
+of Prosperity	100	1	1	26		19				2	22	mag%		10	20										jewl												0	0
+of Fate	100	1		12		8				3	22	mag%		15	28										armo	ring	amul	rod	orb								0	0
+of Good Luck	100	1		16		12				2	22	mag%		26	52										armo	ring	amul	rod	orb								0	0
+of Good Fortune	100	1		30		24				1	22	mag%		48	84										armo	ring	amul	rod	orb								0	0
+																																						
+of Energy	1	1	1	1		1				4	23	enr		1	3										amul	orb	circ	wand	staf								0	0
+of the Mind	1	1	1	7		3				4	23	enr		4	6										amul	orb	circ	wand	staf								0	0
+of Brilliance	1	1	1	13		9				3	23	enr		7	10										amul	orb	circ	wand	staf								0	0
+of Sorcery	1	1	1	21		16				3	23	enr		11	15										amul	orb	circ	wand	staf	jewl							0	0
+of Wizardry	1	1	1	31		23				3	23	enr		16	20									dgld	amul	orb	circ	wand	staf	jewl							0	0
+of Enlightenment	100	1		41		33				3	23	enr		21	30									dgld	amul	orb	circ	wand	staf	jewl							0	0
+of Energy	1	1	1	7		5				4	23	enr		1	3										ring												0	0
+of the Mind	1	1	1	13		9				3	23	enr		4	6										ring												0	0
+of Brilliance	1	1	1	21		16				3	23	enr		7	10										ring												0	0
+of Sorcery	1	1	1	31		23				3	23	enr		11	15										ring												0	0
+of Wizardry	100	1		41		33				3	23	enr		16	20									dgld	ring												0	0
+of Energy	1	1	1	4		3				3	23	enr		1	3										helm	scep											0	0
+of the Mind	1	1	1	10		7				3	23	enr		4	6										helm	scep											0	0
+of Brilliance	1	1	1	16		12				3	23	enr		7	10										helm	scep											0	0
+of Sorcery	100	1		26		21				3	23	enr		11	15									dgld	helm	scep											0	0
+of Knowledge	100	1	1	9		6				3	23	enr		1	5										jewl												0	0
+of Knowledge	100	1	1	24		18				3	23	enr		4	6										jewl												0	0
+of Knowledge	100	1	1	41		33				3	23	enr		7	9										jewl												0	0
+of Energy	1	1	1	1	4	1				4	23	enr		1	1										amul	orb	circ	wand	staf	helm	ring						0	0
+of the Arcane	100	1		1		1				10	23	enr		2	4										amul	rod	orb	ring	helm								0	0
+of the Occult	100	1		11		8				8	23	enr		6	10										amul	rod	orb	ring	helm								0	0
+of Witchcraft	100	1		27		20				6	23	enr		12	18										amul	rod	orb	ring	helm								0	0
+of Whispers	100	1		43		35				4	23	enr		20	30										amul	rod	orb	ring	helm								0	0
+of the Sorceror	100	1		59		51				2	23	enr		32	40										amul	rod	orb	ring	helm								0	0
+of the Sorceress	100	1		72		64				1	23	enr		42	60										amul	rod	orb	ring	helm								0	0
+of Knowledge	100	1		1		1				10	23	enr%		1	2										amul	rod	orb	ring	helm								0	0
+of Intelligence	100	1		11		8				8	23	enr%		3	5										amul	rod	orb	ring	helm								0	0
+of the Mind	100	1		27		20				6	23	enr%		8	12										amul	rod	orb	ring	helm								0	0
+of Secrets	100	1		43		35				4	23	enr%		14	19										amul	rod	orb	ring	helm								0	0
+of the Wizard	100	1		59		51				2	23	enr%		18	25										amul	rod	orb	ring	helm								0	0
+of the True Mage	100	1		72		64				1	23	enr%		19	30										amul	rod	orb	ring	helm								0	0
+of the Elder	100	1		1		1				10	23	enr/lvl	3												amul	rod	orb	ring	helm								0	0
+of Unlocked Potential	100	1		11		8				8	23	enr/lvl	4												amul	rod	orb	ring	helm								0	0
+of Learned Secrets	100	1		27		20				6	23	enr/lvl	5												amul	rod	orb	ring	helm								0	0
+of Practice	100	1		43		35				4	23	enr/lvl	6												amul	rod	orb	ring	helm								0	0
+of Repetition	100	1		59		51				2	23	enr/lvl	7												amul	rod	orb	ring	helm								0	0
+of Scribing	100	1		72		64				1	23	enr/lvl	8												amul	rod	orb	ring	helm								0	0
+of Infinite Potential																																						
+																																						
+of the Bear	1	1	1	8		6				3	24	knock		1	1										mele							rod	orb				0	0
+																																						
+of Light	1	1	1	6		4				1	25	light		1	1	att		15	15						armo	amul	ring	rod									0	0
+of Radiance	1	1	1	15		11				1	25	light		3	3	att		30	30						rod	miss	ring	amul	helm								0	0
+of the Sun	1	1	1	17		12				1	25	light		5	5	att%		5	5						rod	miss	glov	ring	amul	helm							0	0
+of Light	1	1	1	1	5	1				4	25	light		1	1	att		10	10						ring	amul											0	0
+																																						
+of the Jackal	1	1	1	1		1				3	26	hp		1	5										tors	belt	amul	phlm	circ								0	0
+of the Fox	1	1	1	7		5				3	26	hp		6	10										tors	belt	amul	phlm	circ								0	0
+of the Wolf	1	1	1	15		11				3	26	hp		11	20										tors	belt	amul	phlm	circ								0	0
+of the Tiger	1	1	1	20		15				3	26	hp		21	30										tors	belt	amul	phlm	circ								0	0
+of the Mammoth	1	1	1	25		18				3	26	hp		31	40									cred	tors	belt	amul	phlm	circ								0	0
+of the Colosuss	1	1	1	30		22				3	26	hp		41	60									cred	tors	belt	amul	phlm	circ								0	0
+of the Squid	100	1		40		30				3	26	hp		61	80									cred	tors	belt	amul	phlm	circ								0	0
+of the Whale	100	1		50		37				3	26	hp		81	100									cred	tors	belt	amul	phlm	circ								0	0
+of the Jackal	100	1	1	4		3				3	26	hp		1	5										shld	pelt											0	0
+of the Fox	100	1	1	11		8				3	26	hp		6	10										shld	pelt											0	0
+of the Wolf	100	1	1	27		20				3	26	hp		11	20										shld	pelt											0	0
+of the Tiger	100	1	1	43		35				3	26	hp		21	30										shld	pelt											0	0
+of the Mammoth	100	1	1	59		51				3	26	hp		31	40									cred	shld	pelt											0	0
+of the Colosuss	100	1		75		67				3	26	hp		41	60									cred	shld	pelt											0	0
+of the Jackal	1	1	1	8		6				3	26	hp		1	5										club	hamm	mace	ring	helm								0	0
+of the Fox	1	1	1	17		13				3	26	hp		6	10										club	hamm	mace	ring	helm								0	0
+of the Wolf	1	1	1	34		26				3	26	hp		11	20										club	hamm	mace	ring	helm								0	0
+of the Tiger	1	1	1	51		43				3	26	hp		21	30										club	hamm	mace	ring	helm								0	0
+of the Mammoth	1	1	1	68		60				3	26	hp		31	40									cred	club	hamm	mace	ring	helm								0	0
+of Spirit	100	1	1	1		1				4	26	hp		3	8										jewl												0	0
+of Hope	100	1		45		37				4	26	hp		9	20										jewl												0	0
+of the Leopard	100	1		3		1				18	26	hp		1	2									lgld	tors	belt	phlm	pelt	shld								0	0
+of the Ox	100	1		16		12				16	26	hp		8	10										tors	belt	phlm	pelt	shld								0	0
+of the Orca	100	1		26		23				14	26	hp		18	30									whit	tors	belt	phlm	pelt	shld								0	0
+of the Raptor	100	1		37		29				12	26	hp		35	80										tors	belt	phlm	pelt	shld								0	0
+of the Lion	100	1		53		42				10	26	hp		80	150										tors	belt	phlm	pelt	shld								0	0
+of the Whale	100	1		65		55				8	26	hp		100	210										tors	belt	phlm	pelt	shld								0	0
+of Vitality	100	1		8		6				7	26	hp%		1	3										tors	belt	phlm	pelt	shld								0	0
+of Liveliness	100	1		21		17				6	26	hp%		1	6										tors	belt	phlm	pelt	shld								0	0
+of Good Health	100	1		31		28				5	26	hp%		2	8										tors	belt	phlm	pelt	shld								0	0
+of the Bard	100	1		42		34				4	26	hp%		7	15										tors	belt	phlm	pelt	shld								0	0
+of Good Company	100	1		58		47				3	26	hp%		10	18										tors	belt	phlm	pelt	shld								0	0
+of Legends	100	1		70		60				2	26	hp%		17	20										tors	belt	phlm	pelt	shld								0	0
+of Improving Health	100	1		3		1				12	26	hp/lvl	4												tors	belt	phlm	pelt	shld								0	0
+of Resplendent Health	100	1		16		12				10	26	hp/lvl	8												tors	belt	phlm	pelt	shld								0	0
+of Robust Health	100	1		26		23				8	26	hp/lvl	12												tors	belt	phlm	pelt	shld								0	0
+of Long Life	100	1		37		29				6	26	hp/lvl	16												tors	belt	phlm	pelt	shld								0	0
+of Dreams	100	1		53		42				4	26	hp/lvl	20											dblu	tors	belt	phlm	pelt	shld								0	0
+of October Dreams	100	1		65		55				2	26	hp/lvl	24											oran	tors	belt	phlm	pelt	shld								0	0
+																																						
+of the Eel	1	1	1	6		4				7	27	lifesteal		4	5									cgrn	weap	misl						orb	staf	wand			0	0
+of the Moray	1	1	1	20		15				7	27	lifesteal		6	7									cgrn	mele	misl						orb	staf	wand			0	0
+of the Mosquito	100	1	1	55		43				7	27	lifesteal		8	9									blac	mele	misl						orb	staf	wand			0	0
+of the Eel	1	1	1	14		10				4	27	lifesteal		3	4									cgrn	ring	circ											0	0
+of the Moray	1	1	1	47		35				4	27	lifesteal		5	6									cgrn	ring	circ											0	0
+of the Mosquito	100	1	1	77		65				4	27	lifesteal		7	8									blac	ring	circ											0	0
+of the Eel	1	1	1	34		26				4	27	lifesteal		3	3									cgrn	glov												0	0
+of the Eel	100	1	1	24		20				2	27	lifesteal		2	3									cgrn	amul												0	0
+of the Moray	100	1	1	57		45				2	27	lifesteal		4	5									cgrn	amul												0	0
+of the Mosquito	100	1	1	85		73				2	27	lifesteal		6	6									blac	amul												0	0
+of the Leech	100	1		7		4				8	27	lifesteal		6	8										weap	misl											0	0
+of the Locust	100	1		21		16				6	27	lifesteal		9	11									cred	weap	misl											0	0
+of the Lamprey	100	1		56		48				4	27	lifesteal		12	14									cred	weap	misl											0	0
+of the Leech	100	1		7		4				8	27	lifesteal		5	6										amul												0	0
+of the Locust	100	1		21		16				6	27	lifesteal		8	9									cred	amul												0	0
+of the Lamprey	100	1		56		48				4	27	lifesteal		11	12									cred	amul												0	0
+of the Leech	100	1		7		4				8	27	lifesteal		3	5										glov	ring											0	0
+of the Locust	100	1		21		16				6	27	lifesteal		6	8									cred	glov	ring											0	0
+of the Lamprey	100	1		56		48				4	27	lifesteal		9	9									cred	glov	ring											0	0
+																																						
+of the Bat	1	1	1	7		4				7	28	manasteal		4	5										weap	misl											0	0
+of the Wraith	1	1	1	21		16				7	28	manasteal		6	7									cred	mele	misl											0	0
+of the Vampire	100	1	1	56		48				7	28	manasteal		8	9									cred	mele	misl											0	0
+of the Bat	1	1	1	15		11				4	28	manasteal		3	4										amul	circ											0	0
+of the Wraith	1	1	1	58		40				4	28	manasteal		5	6										amul	circ											0	0
+of the Vampire	100	1	1	78		66				4	28	manasteal		7	8									cred	amul	circ											0	0
+of the Bat	1	1	1	35		27				4	28	manasteal		3	3									cred	glov												0	0
+of the Bat	1	1	1	25		21				2	28	manasteal		2	3										ring												0	0
+of the Wraith	1	1	1	58		46				2	28	manasteal		4	5										ring												0	0
+of the Vampire	100	1	1	86		74				2	28	manasteal		6	6									cred	ring												0	0
+of Spirits	100	1		7		4				8	28	manasteal		6	8									cblu	weap	misl											0	0
+of Ghosts	100	1		21		16				6	28	manasteal		9	11									cblu	weap	misl											0	0
+of Specters	100	1		56		48				4	28	manasteal		12	14									cblu	weap	misl											0	0
+of Spirits	100	1		7		4				8	28	manasteal		5	6									cblu	amul												0	0
+of Ghosts	100	1		21		16				6	28	manasteal		8	9									cblu	amul												0	0
+of Specters	100	1		56		48				4	28	manasteal		11	12									cblu	amul												0	0
+of Spirits	100	1		7		4				8	28	manasteal		3	5									cblu	glov	ring											0	0
+of Ghosts	100	1		21		16				6	28	manasteal		6	8									cblu	glov	ring											0	0
+of Specters	100	1		56		48				4	28	manasteal		9	9									cblu	glov	ring											0	0
+																																						
+of Defiance	1	1	1	25		18				2	29	res-pois-len		75	75									dred	tors	shld	amul	circ									0	0
+of Amelioration	1	1	1	18		13				3	29	res-pois-len		50	50										tors	shld	amul	circ									0	0
+of Remedy	100	1	1	7		5				3	29	res-pois-len		25	25										armo	ring	amul	circ									0	0
+																																						
+of Simplicity	1	1	1	25		18				2	30	ease		-30	-30										tors	weap	shld					rod	orb	staf			0	0
+of Ease	1	1	1	15		11				3	30	ease		-20	-20										tors	weap	shld					rod	orb	staf			0	0
+of Freedom	100	1	1	1		1				3	30	ease		-30	-30										jewl												0	0
+																																						
+of Strength	1	1	1	1		1				4	31	str		1	2										amul	belt	club	hamm	circ			rod	orb	staf			0	0
+of Might	1	1	1	10		8				3	31	str		3	5										amul	belt	club	hamm	circ			rod	orb	staf			0	0
+of the Ox	1	1	1	26		19				3	31	str		6	9										amul	belt	club	hamm	circ			rod	orb	staf			0	0
+of the Giant	1	1	1	42		34				3	31	str		10	15										amul	belt	club	hamm	circ			rod	orb	staf			0	0
+of the Titan	1	1	1	58		50				3	31	str		16	20									dgld	amul	belt	club	hamm	circ			rod	orb	staf			0	0
+of Atlus	100	1	1	71		63				3	31	str		21	30									dgld	amul	belt	club	hamm	circ			rod	orb	staf			0	0
+of Strength	1	1	1	5		3				4	31	str		1	2										ring	scep	mace	tors									0	0
+of Might	1	1	1	21		15				3	31	str		3	5										ring	scep	mace	tors									0	0
+of the Ox	1	1	1	38		30				3	31	str		6	9										ring	scep	mace	tors									0	0
+of the Giant	1	1	1	55		47				3	31	str		10	15										ring	scep	mace	tors									0	0
+of the Titan	100	1	1	74		66				3	31	str		16	20									dgld	ring	scep	mace	tors									0	0
+of Strength	1	1	1	12		8				3	31	str		1	2										mele	glov	shld					blun					0	0
+of Might	1	1	1	33		25				3	31	str		3	5										mele	glov	shld					blun					0	0
+of the Ox	1	1	1	45		37				3	31	str		6	9										mele	glov	shld					blun					0	0
+of the Giant	100	1	1	59		51				3	31	str		10	15									dgld	mele	glov						blun					0	0
+of Virility	100	1	1	18		13				4	31	str		1	4										jewl												0	0
+of Virility	100	1	1	33		25				4	31	str		5	6										jewl												0	0
+of Virility	100	1	1	50		42				4	31	str		7	9										jewl												0	0
+of Strength	1	1	1	1	11	1				4	31	str		1	1										glov												0	0
+of Strength	1	1	1	1	4	1				4	31	str		1	1										ring												0	0
+of Heartiness	100	1		1		1				10	31	str		2	4										armo	mele	amul										0	0
+of Toughness	100	1		11		8				8	31	str		6	10										armo	mele	amul										0	0
+of Power	100	1		27		20				6	31	str		12	18										armo	mele	amul										0	0
+of Raw Strength	100	1		43		35				4	31	str		20	30										armo	mele	amul										0	0
+of Raw Power	100	1		59		51				2	31	str		32	40										armo	mele	amul										0	0
+of Incredible Strength	100	1		72		64				1	31	str		42	60										armo	mele	amul										0	0
+of Incredible Power																																						
+of the Strongman	100	1		1		1				10	31	str%		1	2										armo	mele	amul										0	0
+of the Strong	100	1		11		8				8	31	str%		3	5										armo	mele	amul										0	0
+of the Powerful	100	1		27		20				6	31	str%		8	12										armo	mele	amul										0	0
+of the Righteous	100	1		43		35				4	31	str%		14	19										armo	mele	amul										0	0
+of the Virtuous	100	1		59		51				2	31	str%		18	25										armo	mele	amul										0	0
+of the All-Powerful	100	1		72		64				1	31	str%		19	30										armo	mele	amul										0	0
+of Strengthening	100	1		1		1				10	31	str/lvl	3												armo	mele	amul										0	0
+of Empowering	100	1		11		8				8	31	str/lvl	4												armo	mele	amul										0	0
+of Embiggening	100	1		27		20				6	31	str/lvl	5												armo	mele	amul										0	0
+of Bolstering	100	1		43		35				4	31	str/lvl	6												armo	mele	amul										0	0
+of Invigoration	100	1		59		51				2	31	str/lvl	7												armo	mele	amul										0	0
+of Sinewing	100	1		72		64				1	31	str/lvl	8												armo	mele	amul										0	0
+																																						
+of Swift Learning	100	1		1		1				6	32	addxp		3	5										helm	amul	ring										0	0
+of Knowledge	100	1		12		12				4	32	addxp		7	10										helm	amul	ring										0	0
+of Wisdom	100	1		40		40				2	32	addxp		8	15										helm	amul	ring										0	0
+																																						
+of Confidence	100	1		53		30					33	all-skills		1	1										weap	belt											0	0
+																																						
+of Royalty	100	1		5		3				4	34	all-stats		1	1										helm	belt	ring	jewl									0	0
+of Regality	100	1		26		22				3	34	all-stats		4	6										helm	belt	ring	jewl									0	0
+of the Boyar	100	1		43		35				2	34	all-stats		5	8										helm	belt	ring										0	0
+of the Horadrim	100	1		65		55				1	34	all-stats		10	18										helm	belt	ring										0	0
+																																						
+of Pacing	1	1	1	12		8				3	35	move1		10	10										boot	circ											0	0
+of Haste	1	1	1	22		16				4	35	move2		20	20										boot	circ											0	0
+of Speed	1	1	1	37		29				4	35	move3		30	30										boot	circ											0	0
+of Traveling	100	1		65		57				4	35	move3		30	30	stamdrain		80	90						boot												0	0
+of Acceleration	100	1		51		43				4	35	move3		40	40										boot												0	0
+																																						
+of Charged Bolt	100	1	1	1	15	1				18	36	charged	Charged Bolt	20	3										staf	orb	wand										0	0
+of Charged Bolt	100	1	1	10	35	10				12	36	charged	Charged Bolt	20	10										staf	orb	wand										0	0
+of Charged Bolt	100	1	1	30		30				6	36	charged	Charged Bolt	20	25										staf	orb	wand										0	0
+of Fire Bolt	100	1	1	1	15	1				18	36	charged	Fire Bolt	20	3										staf	orb	wand										0	0
+of Fire Bolt	100	1	1	10	35	10				12	36	charged	Fire Bolt	20	10										staf	orb	wand										0	0
+of Fire Bolt	100	1	1	30		30				6	36	charged	Fire Bolt	20	25										staf	orb	wand										0	0
+of Ice Bolt	100	1	1	1	15	1				18	36	charged	Ice Bolt	20	3										staf	orb	wand										0	0
+of Ice Bolt	100	1	1	10	35	10				12	36	charged	Ice Bolt	20	10										staf	orb	wand										0	0
+of Ice Bolt	100	1	1	30		30				6	36	charged	Ice Bolt	20	25										staf	orb	wand										0	0
+of Static Field	100	1	1	8	23	1				18	36	charged	Static Field	20	3										staf	orb	wand										0	0
+of Static Field	100	1	1	18	43	10				12	36	charged	Static Field	20	10										staf	orb	wand										0	0
+of Static Field	100	1	1	38		30				6	36	charged	Static Field	20	25										staf	orb	wand										0	0
+of Telekinesis	100	1	1	8	23	1				18	36	charged	Telekinesis	20	3										staf	orb	wand										0	0
+of Telekinesis	100	1	1	18	43	10				12	36	charged	Telekinesis	20	10										staf	orb	wand										0	0
+of Telekinesis	100	1	1	38		30				6	36	charged	Telekinesis	20	25										staf	orb	wand										0	0
+of Frost Nova	100	1	1	8	23	1				18	36	charged	Frost Nova	10	3										staf	orb	wand										0	0
+of Frost Nova	100	1	1	18	43	10				12	36	charged	Frost Nova	10	10										staf	orb	wand										0	0
+of Frost Nova	100	1	1	38		30				6	36	charged	Frost Nova	10	25										staf	orb	wand										0	0
+of Ice Blast	100	1	1	8	23	1				18	36	charged	Ice Blast	20	3										staf	orb	wand										0	0
+of Ice Blast	100	1	1	18	43	10				12	36	charged	Ice Blast	20	10										staf	orb	wand										0	0
+of Ice Blast	100	1	1	38		30				6	36	charged	Ice Blast	20	25										staf	orb	wand										0	0
+of Nova	100	1	1	16	31	8				18	36	charged	Nova	10	3										staf	orb	wand										0	0
+of Nova	100	1	1	26	51	18				12	36	charged	Nova	10	10										staf	orb	wand										0	0
+of Nova	100	1	1	46		38				6	36	charged	Nova	10	25										staf	orb	wand										0	0
+of Fire Ball	100	1	1	16	31	8				18	36	charged	Fire Ball	10	3										staf	orb	wand										0	0
+of Fire Ball	100	1	1	26	51	18				12	36	charged	Fire Ball	10	10										staf	orb	wand										0	0
+of Fire Ball	100	1	1	46		38				6	36	charged	Fire Ball	10	25										staf	orb	wand										0	0
+of Blaze	100	1	1	16	31	8				18	36	charged	Blaze	10	3										staf	orb	wand										0	0
+of Blaze	100	1	1	26	51	18				12	36	charged	Blaze	10	10										staf	orb	wand										0	0
+of Blaze	100	1	1	46		38				6	36	charged	Blaze	10	25										staf	orb	wand										0	0
+of Lightning	100	1	1	16	31	8				18	36	charged	Lightning	20	3										staf	orb	wand										0	0
+of Lightning	100	1	1	26	51	18				12	36	charged	Lightning	20	10										staf	orb	wand										0	0
+of Lightning	100	1	1	46		38				6	36	charged	Lightning	20	25										staf	orb	wand										0	0
+of Glacial Spike	100	1	1	24	39	16				18	36	charged	Glacial Spike	20	3										staf	orb	wand										0	0
+of Glacial Spike	100	1	1	34	59	26				12	36	charged	Glacial Spike	20	10										staf	orb	wand										0	0
+of Glacial Spike	100	1	1	54		46				6	36	charged	Glacial Spike	20	25										staf	orb	wand										0	0
+of Teleport	100	1	1	24	39	16				18	36	charged	Teleport	20	3										staf	orb	wand										0	0
+of Teleport	100	1	1	34	59	26				12	36	charged	Teleport	20	10										staf	orb	wand										0	0
+of Teleport	100	1	1	54		46				6	36	charged	Teleport	20	25										staf	orb	wand										0	0
+of Fire Wall	100	1	1	24	39	16				18	36	charged	Fire Wall	10	3										staf	orb	wand										0	0
+of Fire Wall	100	1	1	34	59	26				12	36	charged	Fire Wall	10	10										staf	orb	wand										0	0
+of Fire Wall	100	1	1	54		46				6	36	charged	Fire Wall	10	25										staf	orb	wand										0	0
+of Chain Lightning	100	1	1	24	39	16				18	36	charged	Chain Lightning	20	3										staf	orb	wand										0	0
+of Chain Lightning	100	1	1	34	59	26				12	36	charged	Chain Lightning	20	10										staf	orb	wand										0	0
+of Chain Lightning	100	1	1	54		46				6	36	charged	Chain Lightning	20	25										staf	orb	wand										0	0
+of Blizzard	100	1	1	32	47	24				18	36	charged	Blizzard	10	3										staf	orb	wand										0	0
+of Blizzard	100	1	1	42	67	34				12	36	charged	Blizzard	10	10										staf	orb	wand										0	0
+of Blizzard	100	1	1	62		54				6	36	charged	Blizzard	10	25										staf	orb	wand										0	0
+of Meteor	100	1	1	32	47	24				18	36	charged	Meteor	10	3										staf	orb	wand										0	0
+of Meteor	100	1	1	42	67	34				12	36	charged	Meteor	10	10										staf	orb	wand										0	0
+of Meteor	100	1	1	62		54				6	36	charged	Meteor	10	25										staf	orb	wand										0	0
+of Frozen Orb	100	1	1	40	55	32				18	36	charged	Frozen Orb	10	3										staf	orb	wand										0	0
+of Frozen Orb	100	1	1	50	75	42				12	36	charged	Frozen Orb	10	10										staf	orb	wand										0	0
+of Frozen Orb	100	1	1	70		62				6	36	charged	Frozen Orb	10	25										staf	orb	wand										0	0
+of Hydra	100	1	1	40	55	32				18	36	charged	Hydra	20	3										staf	orb	wand										0	0
+of Hydra	100	1	1	50	75	42				12	36	charged	Hydra	20	10										staf	orb	wand										0	0
+of Hydra	100	1	1	70		62				6	36	charged	Hydra	20	25										staf	orb	wand										0	0
+of Amplify Damage	100	1	1	1	15	1				18	36	charged	Amplify Damage	10	3										staf	orb	wand										0	0
+of Amplify Damage	100	1	1	10	35	10				12	36	charged	Amplify Damage	10	10										staf	orb	wand										0	0
+of Amplify Damage	100	1	1	30		30				6	36	charged	Amplify Damage	10	25										staf	orb	wand										0	0
+of Teeth	100	1	1	1	15	1				18	36	charged	Teeth	20	3										staf	orb	wand										0	0
+of Teeth	100	1	1	10	35	10				12	36	charged	Teeth	20	10										staf	orb	wand										0	0
+of Teeth	100	1	1	30		30				6	36	charged	Teeth	20	25										staf	orb	wand										0	0
+of Weaken	100	1	1	8	23	1				18	36	charged	Weaken	10	3										staf	orb	wand										0	0
+of Weaken	100	1	1	18	43	10				12	36	charged	Weaken	10	10										staf	orb	wand										0	0
+of Weaken	100	1	1	38		30				6	36	charged	Weaken	10	25										staf	orb	wand										0	0
+of Dim Vision	100	1	1	8	23	1				18	36	charged	Dim Vision	10	3										staf	orb	wand										0	0
+of Dim Vision	100	1	1	18	43	10				12	36	charged	Dim Vision	10	10										staf	orb	wand										0	0
+of Dim Vision	100	1	1	38		30				6	36	charged	Dim Vision	10	25										staf	orb	wand										0	0
+of Corpse Explosion	100	1	1	8	23	1				18	36	charged	Corpse Explosion	10	3										staf	orb	wand										0	0
+of Corpse Explosion	100	1	1	18	43	10				12	36	charged	Corpse Explosion	10	10										staf	orb	wand										0	0
+of Corpse Explosion	100	1	1	38		30				6	36	charged	Corpse Explosion	10	25										staf	orb	wand										0	0
+of Iron Maiden	100	1	1	16	31	8				18	36	charged	Iron Maiden	10	3										staf	orb	wand										0	0
+of Iron Maiden	100	1	1	26	51	18				12	36	charged	Iron Maiden	10	10										staf	orb	wand										0	0
+of Iron Maiden	100	1	1	46		38				6	36	charged	Iron Maiden	10	25										staf	orb	wand										0	0
+of Terror	100	1	1	16	31	8				18	36	charged	Terror	10	3										staf	orb	wand										0	0
+of Terror	100	1	1	26	51	18				12	36	charged	Terror	10	10										staf	orb	wand										0	0
+of Terror	100	1	1	46		38				6	36	charged	Terror	10	25										staf	orb	wand										0	0
+of Confuse	100	1	1	24	39	16				18	36	charged	Confuse	10	3										staf	orb	wand										0	0
+of Confuse	100	1	1	34	59	26				12	36	charged	Confuse	10	10										staf	orb	wand										0	0
+of Confuse	100	1	1	54		46				6	36	charged	Confuse	10	25										staf	orb	wand										0	0
+of Life Tap	100	1	1	24	39	16				18	36	charged	Life Tap	10	3										staf	orb	wand										0	0
+of Life Tap	100	1	1	34	59	26				12	36	charged	Life Tap	10	10										staf	orb	wand										0	0
+of Life Tap	100	1	1	54		46				6	36	charged	Life Tap	10	25										staf	orb	wand										0	0
+of Poison Explosion	100	1	1	24	39	16				18	36	charged	Poison Explosion	10	3										staf	orb	wand										0	0
+of Poison Explosion	100	1	1	34	59	26				12	36	charged	Poison Explosion	10	10										staf	orb	wand										0	0
+of Poison Explosion	100	1	1	54		46				6	36	charged	Poison Explosion	10	25										staf	orb	wand										0	0
+of Bone Spear	100	1	1	24	39	16				18	36	charged	Bone Spear	20	3										staf	orb	wand										0	0
+of Bone Spear	100	1	1	34	59	26				12	36	charged	Bone Spear	20	10										staf	orb	wand										0	0
+of Bone Spear	100	1	1	54		46				6	36	charged	Bone Spear	20	25										staf	orb	wand										0	0
+of Attract	100	1	1	32	47	24				18	36	charged	Attract	10	3										staf	orb	wand										0	0
+of Attract	100	1	1	42	67	34				12	36	charged	Attract	10	10										staf	orb	wand										0	0
+of Attract	100	1	1	62		54				6	36	charged	Attract	10	25										staf	orb	wand										0	0
+of Decrepify	100	1	1	32	47	24				18	36	charged	Decrepify	10	3										staf	orb	wand										0	0
+of Decrepify	100	1	1	42	67	34				12	36	charged	Decrepify	10	10										staf	orb	wand										0	0
+of Decrepify	100	1	1	62		54				6	36	charged	Decrepify	10	25										staf	orb	wand										0	0
+of Lower Resist	100	1	1	40	55	32				18	36	charged	Lower Resist	10	3										staf	orb	wand										0	0
+of Lower Resist	100	1	1	50	75	42				12	36	charged	Lower Resist	10	10										staf	orb	wand										0	0
+of Lower Resist	100	1	1	70		62				6	36	charged	Lower Resist	10	25										staf	orb	wand										0	0
+of Bone Spirit	100	1	1	40	55	32				18	36	charged	Bone Spirit	20	3										staf	orb	wand										0	0
+of Bone Spirit	100	1	1	50	75	42				12	36	charged	Bone Spirit	20	10										staf	orb	wand										0	0
+of Bone Spirit	100	1	1	70		62				6	36	charged	Bone Spirit	20	25										staf	orb	wand										0	0
+of Poison Nova	100	1	1	40	55	32				18	36	charged	Poison Nova	10	3										staf	orb	wand										0	0
+of Poison Nova	100	1	1	50	75	42				12	36	charged	Poison Nova	10	10										staf	orb	wand										0	0
+of Poison Nova	100	1	1	70		62				6	36	charged	Poison Nova	10	25										staf	orb	wand										0	0
+of Firestorm	100	1	1	1	15	1				18	36	charged	Firestorm	10	3										staf	orb	wand										0	0
+of Firestorm	100	1	1	10	35	10				12	36	charged	Firestorm	10	10										staf	orb	wand										0	0
+of Firestorm	100	1	1	30		30				6	36	charged	Firestorm	10	25										staf	orb	wand										0	0
+of Molten Boulder	100	1	1	8	23	1				18	36	charged	Molten Boulder	10	3										staf	orb	wand										0	0
+of Molten Boulder	100	1	1	18	43	10				12	36	charged	Molten Boulder	10	10										staf	orb	wand										0	0
+of Molten Boulder	100	1	1	38		30				6	36	charged	Molten Boulder	10	25										staf	orb	wand										0	0
+of Fissure	100	1	1	16	31	8				18	36	charged	Eruption	10	3										staf	orb	wand										0	0
+of Fissure	100	1	1	26	51	18				12	36	charged	Eruption	10	10										staf	orb	wand										0	0
+of Fissure	100	1	1	46		38				6	36	charged	Eruption	10	25										staf	orb	wand										0	0
+of Twister	100	1	1	24	39	16				18	36	charged	Twister	10	3										staf	orb	wand										0	0
+of Twister	100	1	1	34	59	26				12	36	charged	Twister	10	10										staf	orb	wand										0	0
+of Twister	100	1	1	54		46				6	36	charged	Twister	10	25										staf	orb	wand										0	0
+of Tornado	100	1	1	32	47	24				18	36	charged	Tornado	10	3										staf	orb	wand										0	0
+of Tornado	100	1	1	42	67	34				12	36	charged	Tornado	10	10										staf	orb	wand										0	0
+of Tornado	100	1	1	62		54				6	36	charged	Tornado	10	25										staf	orb	wand										0	0
+of Volcano	100	1	1	32	47	24				18	36	charged	Volcano	10	3										staf	orb	wand										0	0
+of Volcano	100	1	1	42	67	34				12	36	charged	Volcano	10	10										staf	orb	wand										0	0
+of Volcano	100	1	1	62		54				6	36	charged	Volcano	10	25										staf	orb	wand										0	0
+																																						
+of Self-Repair	100	1	1	3		1				3	37	rep-dur	3												weap	armo						thro	miss	rod	orb		0	0
+of Fast Repair	100	1	1	20		12				2	37	rep-dur	5												weap	armo						thro	miss	rod	orb		0	0
+																																						
+of Ages	100	1		50		42				1	39	indestruct													weap	armo						thro	miss				0	0
+of Replenishing	100	1	1	5		3				6	39	rep-quant	20												thro	misl											0	0
+of Propogation	100	1	1	24		18				5	39	rep-quant	50												thro	misl											0	0
+																																						
+of the Kraken	100	1		20		1				1	41	hp/lvl	6											cred	tors	amul	pelt	phlm									0	0
+of Memory	100	1		20		1				1	41	mana/lvl	6											cred	circ	amul	pelt										0	0
+of the Elephant	100	1		37		7				2	41	hp/lvl	4			mana/lvl	2							cred	circ	pelt											0	0
+																																						
+of Damage Amplification	100	1	1	3						1	44	hit-skill	66	5	1										weap							orb	rod				0	0
+																																						
+of the Moon and Stars	100										45																										0	0
+of the Planets	100										45																										0	0
+of the Night Sky	100										45																										0	0
+of Distant Galaxies	100										45																										0	0
+																																						
+of Summer Heat	100										46																										0	0
+of the Red Sun	100										46																										0	0
+of Intensity	100										46																										0	0
+of Heatwaves	100										46																										0	0
+																																						
+of the Wind	100										47																										0	0
+of Swiftness	100										47																										0	0
+of the Sail	100										47																										0	0
+of the Tradewinds	100										47																										0	0
+																																						
+of Plagues	100	1	1	1	20	3					48	res-pois		3	10	res-pois-max		-1	-3						scha												0	0
+of Malaise	100	1	1	12	35	10					48	res-pois		3	11	res-pois-max		-1	-4						scha												0	0
+of Illness	100	1	1	20	40	18					48	res-pois		3	13	res-pois-max		-1	-5						scha												0	0
+of Hypoxia	100	1	1	35	55	30					48	res-pois		3	14	res-pois-max		-1	-7						scha												0	0
+of Ailments	100	1	1	40		35					48	res-pois		3	17	res-pois-max		-1	-8						scha												0	0
+of Infection	100	1	1	55		50					48	res-pois		3	20	res-pois-max		-1	-10						scha												0	0
+																																						
+of Lechery	100	1	1	1	30	1					49	str		0	0	vit		1	1						mcha												0	0
+of Consumption	100	1	1	9	39	8					49	str		-1	-1	vit		2	2						mcha												0	0
+of Obesity	100	1	1	18		16					49	str		-2	-4	vit		3	5						mcha												0	0
+																																						
+of the Unholy	100	1	1	1	30	1					50	vit		0	0	enr		1	1						mcha												0	0
+of the Abyss	100	1	1	9	39	8					51	vit		-1	-1	enr		2	2						mcha												0	0
+of the Cross	100	1	1	18		16					51	vit		-2	-4	enr		3	5						mcha												0	0
+																																						
+of the Raging Bull	100	1	1	1	30	1					52	att%		-10	-15	dmg%		25	40						lcha												0	0
+of Unbridled Anger	100	1	1	9	39	8					52	att%		-12	-20	dmg%		35	50						lcha												0	0
+of Hatred	100	1	1	18		16					52	att%		-15	-30	dmg%		40	75						lcha												0	0
+																																						
+of Unnatural Strength	100	1	1	1	30	1					53	str		3	6	vit		-3	-6						mcha												0	0
+of Bulging	100	1	1	9	39	8					53	str		8	12	vit		-8	-12						mcha												0	0
+of Wavering Strength	100	1	1	18		16					53	str		15	25	vit		-15	-25						mcha												0	0

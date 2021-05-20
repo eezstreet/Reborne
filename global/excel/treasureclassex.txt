@@ -1,0 +1,1161 @@
+Treasure Class	group	level	Picks	Unique	Set	Rare	Magic	NoDrop	Item1	Prob1	Item2	Prob2	Item3	Prob3	Item4	Prob4	Item5	Prob5	Item6	Prob6	Item7	Prob7	Item8	Prob8	Item9	Prob9	Item10	Prob10	*ItemProbSum	*ItemProbTotal	*TreasureClassDropChance	*eol
+Gold			1						"gld,mul=16"	1																						0
+Jewelry A			1						rin	8	amu	4	jew	2	cm3	2	cm2	2	cm1	2												0
+Jewelry B			1						rin	8	amu	4	jew	2	cm3	2	cm2	2	cm1	2												0
+Jewelry C			1						rin	8	amu	4	jew	2	cm3	2	cm2	2	cm1	2												0
+Chipped Gem			1						gcv	9	gcy	9	gcb	9	gcg	9	gcr	9	gcw	9	skc	6	ds1	1								0
+Flawed Gem			1						gfv	9	gfy	9	gfb	9	gfg	9	gfr	9	gfw	9	skf	6	ds1									0
+Normal Gem			1						gsv	9	gsy	9	gsb	9	gsg	9	gsr	9	gsw	9	sku	6	ds1	1								0
+Flawless Gem			1						gzv	9	gly	9	glb	9	glg	9	glr	9	glw	9	skl	6	ds1	1								0
+Perfect Gem			1						gpv	9	gpy	9	gpb	9	gpg	9	gpr	9	gpw	9	skz	6	ds1	1								0
+Ammo			1						aqv	1	cqv	1																				0
+Misc 0			1						key	5	tsc	3	isc	6	opl	2	gpl	2														0
+Misc 1			1						key	5	tsc	3	isc	6	opm	2	gpm	2														0
+Misc 2			1						key	5	tsc	3	isc	6	ops	2	gps	2														0
+Hpotion 1			1						hp1	3	hp2	2	mp1	1	mp2	1	rvs	1	h01	3	h02	3	h03	3								0
+Hpotion 2			1						hp1	1	hp2	4	hp3	3	mp2	2	mp3	2	rvs	1	h02	5	h03	5								0
+Hpotion 3			1						hp2	1	hp3	4	hp4	3	mp3	2	mp4	2	rvs	1	h03	5	h04	5								0
+Hpotion 4			1						hp3	1	hp4	4	hp5	3	mp4	2	mp5	2	rvs	1	h04	5	h05	5								0
+Hpotion 5			1						hp3	1	hp4	4	hp5	4	mp5	4	rvs	1	h06	5	h07	5										0
+Hpotion 6			1						hp4	4	hp5	6	mp4	2	mp5	4	rvs	1	h07	6												0
+Potion 1			1						hp1	4	hp2	1	mp1	1	mp2	1	rvs	1	vps	1	h01	6										0
+Potion 2			1						hp1	4	hp2	8	hp3	5	mp2	2	mp3	5	rvs	1	vps	2	yps	3	wms	1	h02	12				0
+Potion 3			1						hp2	6	hp3	6	hp4	4	mp3	3	mp4	3	rvs	1	vps	2	yps	2	wms	1	h03	12				0
+Potion 4			1						hp3	6	hp4	6	hp5	4	mp4	3	mp5	3	rvs	1	vps	2	yps	2	wms	1	h04	12				0
+Potion 5			1						hp3	4	hp4	6	hp5	6	mp5	5	rvs	1	vps	2	yps	2	wms	1	h05	12						0
+Potion 6			1						hp4	6	hp5	8	mp4	1	mp5	5	rvs	1	vps	2	yps	2	wms	1	h06	12						0
+Runes 1			1						r01	2	r02	1																				0
+Runes 2			1						r03	2	r04	1	Runes 1	4																		0
+Runes 3			1						r05	2	r06	1	Runes 2	4																		0
+Runes 4			1						r07	2	r08	1	Runes 3	4																		0
+Runes 5			1						r09	2	r10	1	Runes 4	4																		0
+Runes 6			1						r11	2	r12	1	Runes 5	4																		0
+Runes 7			1						r13	2	r14	1	Runes 6	4																		0
+Runes 8			1						r15	2	r16	1	Runes 7	4																		0
+Runes 9			1						r17	2	r18	1	Runes 8	4																		0
+Runes 10			1						r19	2	r20	1	Runes 9	4																		0
+Runes 11			1						r21	2	r22	1	Runes 10	4																		0
+Runes 12			1						r23	2	r24	1	Runes 11	4																		0
+Runes 13			1						r25	2	r26	1	Runes 12	4																		0
+Runes 14			1						r27	2	r28	1	Runes 13	4																		0
+Runes 15			1						r29	2	r30	1	Runes 14	4																		0
+Runes 16			1						r31	2	r32	1	Runes 15	4																		0
+Runes 17			1						r33	1	Runes 16	10																				0
+Rune Lottery (N) Act 1 A	24	1	6						r01	3	r02	2																				0
+Rune Lottery (N) Act 1 B	24	5	6						r01	1	r02	1																				0
+Rune Lottery (N) Act 1 C	24	9	6						r01	2	r02	2	r03	1	r04	1	r05	1														0
+Rune Lottery (N) Act 2 A	24	12	6						Rune Lottery (N) Act 1 C	3	r05	2	r06	2																		0
+Rune Lottery (N) Act 2 B	24	15	6						Rune Lottery (N) Act 2 A	3	r06	1	r07	2																		0
+Rune Lottery (N) Act 2 C	24	18	6						Rune Lottery (N) Act 2 B	3	r07	2	r08	2																		0
+Rune Lottery (N) Act 3 A	24	20	6						Rune Lottery (N) Act 2 C	3	r09	1																				0
+Rune Lottery (N) Act 3 B	24	22	6						Rune Lottery (N) Act 3 A	3	r10	1																				0
+Rune Lottery (N) Act 3 C	24	24	6						Rune Lottery (N) Act 3 B	3	r11	1																				0
+Rune Lottery (N) Act 4 A	24	26	6						Rune Lottery (N) Act 3 C	3	r12	1																				0
+Rune Lottery (N) Act 4 B	24	29	6						Rune Lottery (N) Act 4 A	3	r13	1	r14	1																		0
+Rune Lottery (N) Act 5 A	24	34	6						Rune Lottery (N) Act 4 B	3	r15	1																				0
+Rune Lottery (N) Act 5 B	24	36	6						Rune Lottery (N) Act 5 A	3	r16	1																				0
+Rune Lottery (N) Act 5 C	24	38	6						Rune Lottery (N) Act 5 B	3	r17	1																				0
+Rune Lottery (NM) Act 1 A	24	40	6						Rune Lottery (N) Act 5 C	3	r17	1																				0
+Rune Lottery (NM) Act 1 B	24	41	6						Rune Lottery (NM) Act 1 A	3	r17	1																				0
+Rune Lottery (NM) Act 1 C	24	42	6						Rune Lottery (NM) Act 1 B	3	r17	1																				0
+Rune Lottery (NM) Act 2 A	24	44	6						Rune Lottery (NM) Act 1 C	3	r18	1																				0
+Rune Lottery (NM) Act 2 B	24	45	6						Rune Lottery (NM) Act 2 A	3	r18	1																				0
+Rune Lottery (NM) Act 2 C	24	46	6						Rune Lottery (NM) Act 2 B	3	r19	1																				0
+Rune Lottery (NM) Act 3 A	24	48	6						Rune Lottery (NM) Act 2 C	3	r20	1																				0
+Rune Lottery (NM) Act 3 B	24	50	6						Rune Lottery (NM) Act 3 A	3	r20	1																				0
+Rune Lottery (NM) Act 3 C	24	51	6						Rune Lottery (NM) Act 3 B	3	r21	1																				0
+Rune Lottery (NM) Act 4 A	24	54	6						Rune Lottery (NM) Act 3 C	3	r22	1																				0
+Rune Lottery (NM) Act 4 B	24	57	6						Rune Lottery (NM) Act 4 A	3	r22	1	r23	1																		0
+Rune Lottery (NM) Act 5 A	24	60	6						Rune Lottery (NM) Act 4 B	3	r24	1																				0
+Rune Lottery (NM) Act 5 B	24	62	6						Rune Lottery (NM) Act 5 A	3	r25	1																				0
+Rune Lottery (NM) Act 5 C	24	63	6						Rune Lottery (NM) Act 5 B	3	r25	1																				0
+Rune Lottery (H) Act 1 A	24	66	6						Rune Lottery (NM) Act 5 C	3	r26	1																				0
+Rune Lottery (H) Act 1 B	24	68	6						Rune Lottery (H) Act 1 A	3	r26	1																				0
+Rune Lottery (H) Act 1 C	24	69	6						Rune Lottery (H) Act 1 B	3	r27	1																				0
+Rune Lottery (H) Act 2 A	24	71	6						Rune Lottery (H) Act 1 C	3	r27	1																				0
+Rune Lottery (H) Act 2 B	24	72	6						Rune Lottery (H) Act 2 A	3	r28	1																				0
+Rune Lottery (H) Act 2 C	24	74	6						Rune Lottery (H) Act 2 B	3	r28	1																				0
+Rune Lottery (H) Act 3 A	24	75	6						Rune Lottery (H) Act 2 C	3	r28	1																				0
+Rune Lottery (H) Act 3 B	24	77	6						Rune Lottery (H) Act 3 A	3	r29	1																				0
+Rune Lottery (H) Act 3 C	24	78	6						Rune Lottery (H) Act 3 B	3	r29	1																				0
+Rune Lottery (H) Act 4 A	24	80	6						Rune Lottery (H) Act 3 C	3	r30	1																				0
+Rune Lottery (H) Act 4 B	24	81	6						Rune Lottery (H) Act 4 A	3	r30	1																				0
+Rune Lottery (H) Act 5 A	24	83	6						Rune Lottery (H) Act 4 B	3	r31	1																				0
+Rune Lottery (H) Act 5 B	24	85	6						Rune Lottery (H) Act 5 A	3	r32	1																				0
+Rune Lottery (H) Act 5 C	24	87	6						Rune Lottery (H) Act 5 B	3	r33	1																				0
+Set Lottery Civerb's Vestments			-3	0	1024	0	0		Civerb's Ward	1	Civerb's Icon	1	Civerb's Cudgel	1																		0
+Set Lottery Hsarus' Defense			-3	0	1024	0	0		Hsarus' Iron Heel	1	Hsarus' Iron Fist	1	Hsarus' Iron Stay	1																		0
+Set Lottery Cleglaw's Brace			-3	0	1024	0	0		Cleglaw's Tooth	1	Cleglaw's Claw	1	Cleglaw's Pincers	1																		0
+Set Lottery Iratha's Finery			-4	0	1024	0	0		Iratha's Collar	1	Iratha's Cuff	1	Iratha's Coil	1	Iratha's Cord	1																0
+Set Lottery Isenhart's Armory			-4	0	1024	0	0		Isenhart's Lightbrand	1	Isenhart's Parry	1	Isenhart's Case	1	Isenhart's Horns	1																0
+Set Lottery Vidala's Rig			-4	0	1024	0	0		Vidala's Barb	1	Vidala's Fetlock	1	Vidala's Ambush	1	Vidala's Snare	1																0
+Set Lottery Milabrega's Regalia			-4	0	1024	0	0		Milabrega's Orb	1	Milabrega's Rod	1	Milabrega's Diadem	1	Milabrega's Robe	1																0
+Set Lottery Cathan's Traps			-5	0	1024	0	0		Cathan's Rule	1	Cathan's Mesh	1	Cathan's Visage	1	Cathan's Sigil	1	Cathan's Seal	1														0
+Set Lottery Tancred's Battlegear			-5	0	1024	0	0		Tancred's Crowbill	1	Tancred's Spine	1	Tancred's Hobnails	1	Tancred's Weird	1	Tancred's Skull	1														0
+Set Lottery Sigon's Complete Steel			-6	0	1024	0	0		Sigon's Gage	1	Sigon's Visor	1	Sigon's Shelter	1	Sigon's Sabot	1	Sigon's Wrap	1	Sigon's Guard	1												0
+Set Lottery Infernal Tools			-3	0	1024	0	0		Infernal Cranium	1	Infernal Torch	1	Infernal Sign	1																		0
+Set Lottery Berserker's Garb			-3	0	1024	0	0		Berserker's Headgear	1	Berserker's Hauberk	1	Berserker's Hatchet	1																		0
+Set Lottery Death's Disguise			-3	0	1024	0	0		Death's Hand	1	Death's Guard	1	Death's Touch	1																		0
+Set Lottery Angelical Raiment			-4	0	1024	0	0		Angelic Sickle	1	Angelic Mantle	1	Angelic Halo	1	Angelic Wings	1																0
+Set Lottery Arctic Gear			-4	0	1024	0	0		Arctic Horn	1	Arctic Furs	1	Arctic Binding	1	Arctic Mitts	1																0
+Set Lottery Arcanna's Tricks			-4	0	1024	0	0		Arcanna's Sign	1	Arcanna's Deathwand	1	Arcanna's Head	1	Arcanna's Flesh	1																0
+Set Lottery Natalya's Odium			-4	0	1024	0	0		Natalya's Totem	1	Natalya's Mark	1	Natalya's Shadow	1	Natalya's Soul	1																0
+Set Lottery Aldur's Watchtower			-4	0	1024	0	0		Aldur's Stony Gaze	1	Aldur's Deception	1	Aldur's Gauntlet	1	Aldur's Advance	1																0
+Set Lottery Immortal King			-6	0	1024	0	0		Immortal King's Will	1	Immortal King's Soul Cage	1	Immortal King's Detail	1	Immortal King's Forge	1	Immortal King's Pillar	1	Immortal King's Stone Crusher	1												0
+Set Lottery Tal Rasha's Wrappings			-5	0	1024	0	0		Tal Rasha's Fire-Spun Cloth	1	Tal Rasha's Adjudication	1	Tal Rasha's Lidless Eye	1	Tal Rasha's Howling Wind	1	Tal Rasha's Horadric Crest	1														0
+Set Lottery Griswold's Legacy			-4	0	1024	0	0		Griswold's Valor	1	Griswold's Heart	1	Griswolds's Redemption	1	Griswold's Honor	1																0
+Set Lottery Trang-Oul's Avatar			-5	0	1024	0	0		Trang-Oul's Guise	1	Trang-Oul's Scales	1	Trang-Oul's Wing	1	Trang-Oul's Claws	1	Trang-Oul's Girth	1														0
+Set Lottery M'avina's Battle Hymn			-5	0	1024	0	0		M'avina's True Sight	1	M'avina's Embrace	1	M'avina's Icy Clutch	1	M'avina's Tenet	1	M'avina's Caster	1														0
+Set Lottery The Disciple			-5	0	1024	0	0		Telling of Beads	1	Laying of Hands	1	Rite of Passage	1	Spiritual Custodian	1	Credendum	1														0
+Set Lottery Heaven's Brethren			-4	0	1024	0	0		Dangoon's Teaching	1	Heaven's Taebaek	1	Haemosu's Adament	1	Ondal's Almighty	1																0
+Set Lottery Orphan's Call			-4	0	1024	0	0		Guillaume's Face	1	Wilhelm's Pride	1	Magnus' Skin	1	Wihtstan's Guard	1																0
+Set Lottery Hwanin's Majesty			-4	0	1024	0	0		Hwanin's Splendor	1	Hwanin's Refuge	1	Hwanin's Seal	1	Hwanin's Justice	1																0
+Set Lottery Sazabi's Grand Tribute			-3	0	1024	0	0		Sazabi's Cobalt Redeemer	1	Sazabi's Ghost Liberator	1	Sazabi's Mental Sheath	1																		0
+Set Lottery Bul-Kathos' Children			-2	0	1024	0	0		Bul-Kathos' Sacred Charge	1	Bul-Kathos' Tribal Guardian	1																				0
+Set Lottery Cow King's Leathers			-3	0	1024	0	0		Cow King's Horns	1	Cow King's Hide	1	Cow King's Hoofs	1																		0
+Set Lottery Naj's Ancient Set			-3	0	1024	0	0		Naj's Puzzler	1	Naj's Light Plate	1	Naj's Circlet	1																		0
+Set Lottery McAuley's Folly			-4	0	1024	0	0		McAuley's Paragon	1	McAuley's Riprap	1	McAuley's Taboo	1	McAuley's Superstition	1																0
+Set Lottery Winds of Valhalla			-4	0	1024	0	0		Breath of the Valkyrie	1	Hand of Odin	1	Flight of the Valkyrie	1	Heavenly Cord	1																0
+Set Lottery Athlete's Arsenal			-3	0	1024	0	0		Three-Pronged Javelin	1	Durable Uniform	1	Adequate Protection	1																		0
+Set Lottery Art of the Hunt			-4	0	1024	0	0		Hunter's Disguise	1	Hunter's Arrows	1	Hunter's Score	1	Hunter's Oath	1																0
+Set Lottery Malena's Training Gear			-5	0	1024	0	0		Malena's Finery	1	Malena's Delicate Gloves	1	Malena's Pavise	1	Malena's Garb	1	Malena's Headgear	1														0
+Set Lottery Memories of Myranda			-4	0	1024	0	0		Slitthroat	1	Shutter	1	Sneakers	1	Simplicity	1																0
+Set Lottery Tools of the Thief			-5	0	1024	0	0		Toolbelt of Thievery	1	Master Thief's Gloves	1	Deadly Lockpick	1	Diversion	1	Subterfuge	1														0
+Set Lottery Shadowbender's Armory			-3	0	1024	0	0		Cloak of Darkness	1	Shadow Strike	1	Cover of Darkness	1																		0
+Set Lottery Legacy of Arreat			-4	0	1024	0	0		Heft of the Mountain	1	Heart of the Mountain	1	Stone of the Mountain	1	Shadow of the Mountain	1																0
+Set Lottery Ker's Corpus			-4	0	1024	0	0		Ker's Chiseled Helm	1	Ker's Manifesto	1	Ker's Iron Grip	1	Ker's Broken Band	1																0
+Set Lottery True Grit			-4	0	1024	0	0		Skull Basher	1	Man Flayer	1	Improvised Headgear	1	Beast Hides	1																0
+Set Lottery Four Seasons			-4	0	1024	0	0		Summer	1	Winter	1	Autumn	1	Spring	1																0
+Set Lottery Sigil of the Steel Wolf			-4	0	1024	0	0		The Beast's Visage	1	The Beast's Pelt	1	The Beast's Claw	1	Mark of the Beast	1																0
+Set Lottery Call of Nature			-3	0	1024	0	0		Nature's Wonder	1	Nature's Cruelty	1	Nature's Awe	1																		0
+Set Lottery Ramul's Eternal Trials			-3	0	1024	0	0		Ramul's Eternal Trophy	1	Ramul's Eternal Pride	1	Ramul's Eternal Savior	1																		0
+Set Lottery Library of Undeath			-4	0	1024	0	0		The Poisoned Blade	1	The Curse of Undeath	1	The Essence of Undeath	1	The Cycle of Life	1																0
+Set Lottery Final Rites			-4	0	1024	0	0		Memory of the Light	1	The Estate	1	Memoir of the Light	1	Eulogy	1																0
+Set Lottery Zakarum's Offerings			-4	0	1024	0	0		Offering of the Blade	1	Offering of the Shield	1	Offering of the Sole	1	Offering of the Hand	1																0
+Set Lottery Depths of Winter			-2	0	1024	0	0		Wintergrasp	1	Winterspell	1																				0
+Set Lottery Eye of the Storm			-3	0	1024	0	0		Electric Eye	1	Conductive Guard	1	Thunder Shroud	1																		0
+Set Lottery Wildfires of the West			-4	0	1024	0	0		Blazenrod	1	Fireguard	1	Flamemask	1	Vindication	1																0
+Set Lottery Apprentice's Satchel			-3	0	1024	0	0		Apprentice's Staff	1	Apprentice's Robes	1	Apprentice's Headwear	1																		0
+Act 1 Set Lottery A			1						Set Lottery Malena's Training Gear	1	Set Lottery Shadowbender's Armory	1	Set Lottery True Grit	1	Set Lottery Call of Nature	1	Set Lottery Library of Undeath	1	Set Lottery Zakarum's Offerings	1	Set Lottery Apprentice's Satchel	1	Set Lottery Arctic Gear	1								0
+Act 1 Set Lottery B			1						Act 1 Set Lottery A	1	Set Lottery Hsarus' Defense	1	Set Lottery Cleglaw's Brace	1	Set Lottery Berserker's Garb	1	Set Lottery Infernal Tools	1														0
+Act 1 Set Lottery C			1						Act 1 Set Lottery B	2	Set Lottery Death's Disguise	1	Set Lottery Sigon's Complete Steel	1																		0
+Act 2 Set Lottery A			1						Act 1 Set Lottery C	4	Set Lottery Isenhart's Armory	1	Set Lottery Civerb's Vestments	1																		0
+Act 2 Set Lottery B			1						Act 2 Set Lottery A	6	Set Lottery Cathan's Traps	1	Set Lottery Angelical Raiment	1																		0
+Act 2 Set Lottery C			1						Act 2 Set Lottery B	8	Set Lottery Vidala's Rig	1																				0
+Act 3 Set Lottery A			1						Act 2 Set Lottery C	10	Set Lottery M'avina's Battle Hymn	1	Set Lottery Iratha's Finery	1	Set Lottery Arcanna's Tricks	1	Set Lottery McAuley's Folly	1														0
+Act 3 Set Lottery B			1						Act 3 Set Lottery A	12	Set Lottery Milabrega's Regalia	1	Set Lottery Natalya's Odium	1																		0
+Act 3 Set Lottery C			1						Act 3 Set Lottery B	14	Set Lottery Tal Rasha's Wrappings	1																				0
+Act 4 Set Lottery A			1						Act 3 Set Lottery C	16	Set Lottery Tancred's Battlegear	1																				0
+Act 4 Set Lottery B			1						Act 4 Set Lottery A	18	Set Lottery Hwanin's Majesty	1																				0
+Act 5 Set Lottery A			1						Act 4 Set Lottery B	20	Set Lottery Aldur's Watchtower	1																				0
+Act 5 Set Lottery B			1						Act 5 Set Lottery A	22	Set Lottery Sazabi's Grand Tribute	1	Set Lottery Trang-Oul's Avatar	1																		0
+Act 5 Set Lottery C			1						Act 5 Set Lottery B	24	Set Lottery Immortal King	1																				0
+Act 1 (N) Set Lottery A			1						Act 5 Set Lottery C	26	Set Lottery Orphan's Call	1	Set Lottery The Disciple	1																		0
+Act 1 (N) Set Lottery B			1						Act 1 (N) Set Lottery A	28	Set Lottery Griswold's Legacy	1	Set Lottery Naj's Ancient Set	1																		0
+Act 2 (N) Set Lottery A			1						Act 1 (N) Set Lottery B	30																						0
+Act 2 (N) Set Lottery B			1						Act 2 (N) Set Lottery A	32																						0
+Act 3 (N) Set Lottery A			1						Act 2 (N) Set Lottery B	34																						0
+Act 3 (N) Set Lottery B			1						Act 3 (N) Set Lottery A	36	Set Lottery Bul-Kathos' Children	1																				0
+Act 4 (N) Set Lottery A			1						Act 3 (N) Set Lottery B	38																						0
+Act 4 (N) Set Lottery B			1						Act 4 (N) Set Lottery A	40																						0
+Act 5 (N) Set Lottery A			1						Act 4 (N) Set Lottery B	42																						0
+Act 5 (N) Set Lottery B			1						Act 5 (N) Set Lottery A	44	Set Lottery Heaven's Brethren	1																				0
+Act 5 (N) Set Lottery C			1						Act 5 (N) Set Lottery B	46																						0
+Act 1 (H) Set Lottery A			1						Act 5 (N) Set Lottery C	48																						0
+Act 1 (H) Set Lottery B			1						Act 1 (H) Set Lottery A	50																						0
+Act 2 (H) Set Lottery A			1						Act 1 (H) Set Lottery B	52																						0
+Act 2 (H) Set Lottery B			1						Act 2 (H) Set Lottery A	54																						0
+Act 3 (H) Set Lottery A			1						Act 2 (H) Set Lottery B	56																						0
+Act 3 (H) Set Lottery B			1						Act 3 (H) Set Lottery A	58																						0
+Act 4 (H) Set Lottery A			1						Act 3 (H) Set Lottery B	60																						0
+Act 4 (H) Set Lottery B			1						Act 4 (H) Set Lottery A	62																						0
+Act 5 (H) Set Lottery A			1						Act 4 (H) Set Lottery B	64																						0
+Act 5 (H) Set Lottery B			1						Act 5 (H) Set Lottery A	66	Set Lottery Tools of the Thief	1	Set Lottery Memories of Myranda	1	Set Lottery Art of the Hunt	1	Set Lottery Athlete's Arsenal	1	Set Lottery Winds of Valhalla	1												0
+Act 5 (H) Set Lottery C			1						Act 5 (H) Set Lottery B	68	Set Lottery Wildfires of the West	1	Set Lottery Eye of the Storm	1	Set Lottery Depths of Winter	1	Set Lottery Final Rites	1	Set Lottery Ramul's Eternal Trials	1	Set Lottery Sigil of the Steel Wolf	1	Set Lottery Four Seasons	1	Set Lottery Ker's Corpus	1	Set Lottery Legacy of Arreat	1				0
+Organs (Regular)			1						hrt	1	brz	1	jaw	1	eyz	2	hrn	3	fng	4	scz	1	spe	1								0
+Organs (Quilled)			1						hrt	1	brz	1	jaw	1	eyz	2	hrn	3	fng	4	scz	1	spe	1	qll	6						0
+Organs (Flags)			1						hrt	1	brz	1	jaw	1	eyz	2	hrn	3	fng	4	scz	1	spe	1	flg	1						0
+Organs (Quill + Tail)			1						hrt	1	brz	1	jaw	1	eyz	2	hrn	3	fng	4	scz	1	spe	1	qll	6	tal	1				0
+Organs (Ghostly)			1						sol	1																						0
+Organs (Tail)			1						hrt	1	brz	1	jaw	1	eyz	2	hrn	3	fng	4	scz	1	spe	1	tal	1						0
+Act 1 Herbs A			1						yhrb3	36																						0
+Act 1 Herbs B			1						yhrb3	20	yhrb6	16																				0
+Act 1 Herbs C			1						yhrb3	10	yhrb6	16	yhrb9	10																		0
+Act 2 Herbs A			1						yhrb3	3	yhrb6	15	yhrb9	15	yhrb12	3																0
+Act 2 Herbs B			1						yhrb3	1	yhrb6	7	yhrb9	20	yhrb12	7	yhrb15	1														0
+Act 2 Herbs C			1						yhrb3	1	yhrb6	3	yhrb9	14	yhrb12	14	yhrb15	3	yhrb18	1												0
+Act 3 Herbs A			1						yhrb3	1	yhrb6	3	yhrb9	6	yhrb12	12	yhrb15	6	yhrb18	3	yhrb21	1										0
+Act 3 Herbs B			1						yhrb3	1	yhrb6	3	yhrb9	6	yhrb12	8	yhrb15	8	yhrb18	6	yhrb21	3	yhrb24	1								0
+Act 3 Herbs C			1						yhrb3	1	yhrb6	2	yhrb9	5	yhrb12	7	yhrb15	8	yhrb18	7	yhrb21	4	yhrb24	2								0
+Act 4 Herbs A			1						yhrb6	1	yhrb9	3	yhrb12	6	yhrb15	8	yhrb18	8	yhrb21	6	yhrb24	3	yhrb27	1	Act 3 Herbs C	110						0
+Act 4 Herbs B			1						yhrb6	1	yhrb9	2	yhrb12	5	yhrb15	7	yhrb18	8	yhrb21	7	yhrb24	4	yhrb27	2	Act 4 Herbs A	180						0
+Act 5 Herbs A			1						yhrb9	1	yhrb12	3	yhrb15	6	yhrb18	8	yhrb21	8	yhrb24	6	yhrb27	3	yhrb30	1	Act 4 Herbs B	270						0
+Act 5 Herbs B			1						yhrb9	1	yhrb12	2	yhrb15	5	yhrb18	7	yhrb21	8	yhrb24	7	yhrb27	4	yhrb30	2	Act 5 Herbs A	380						0
+Act 5 Herbs C			1						yhrb9	1	yhrb12	2	yhrb15	5	yhrb18	7	yhrb21	8	yhrb24	7	yhrb27	4	yhrb30	2	Act 5 Herbs B	500						0
+Act 1 (N) Herbs A			1						yhrb12	1	yhrb15	2	yhrb18	5	yhrb21	7	yhrb24	8	yhrb27	7	yhrb30	4	yhrb33	2	Act 5 Herbs C	630						0
+Act 1 (N) Herbs B			1						yhrb15	1	yhrb18	2	yhrb21	5	yhrb24	7	yhrb27	8	yhrb30	7	yhrb33	4	yhrb36	2	Act 1 (N) Herbs A	770						0
+Act 2 (N) Herbs A			1						yhrb18	1	yhrb21	2	yhrb24	5	yhrb27	7	yhrb30	8	yhrb33	7	yhrb36	4	yhrb39	2	Act 1 (N) Herbs B	920						0
+Act 2 (N) Herbs B			1						yhrb21	1	yhrb24	2	yhrb27	5	yhrb30	7	yhrb33	8	yhrb36	7	yhrb39	4	yhrb42	2	Act 2 (N) Herbs A	1070						0
+Act 3 (N) Herbs A			1						yhrb24	1	yhrb27	2	yhrb30	5	yhrb33	7	yhrb36	8	yhrb39	7	yhrb42	4	yhrb45	2	Act 2 (N) Herbs B	1220						0
+Act 3 (N) Herbs B			1						yhrb27	1	yhrb30	2	yhrb33	5	yhrb36	7	yhrb39	8	yhrb42	7	yhrb45	4	yhrb48	2	Act 3 (N) Herbs A	1370						0
+Act 4 (N) Herbs A			1						yhrb30	1	yhrb33	2	yhrb36	5	yhrb39	7	yhrb42	8	yhrb45	7	yhrb48	4	yhrb51	2	Act 3 (N) Herbs B	1520						0
+Act 4 (N) Herbs B			1						yhrb33	1	yhrb36	2	yhrb39	5	yhrb42	7	yhrb45	8	yhrb48	7	yhrb51	4	yhrb54	2	Act 4 (N) Herbs A	1670						0
+Act 5 (N) Herbs A			1						yhrb36	1	yhrb39	2	yhrb42	5	yhrb45	7	yhrb48	8	yhrb51	7	yhrb54	4	yhrb57	2	Act 4 (N) Herbs B	1820						0
+Act 5 (N) Herbs B			1						yhrb39	1	yhrb42	2	yhrb45	5	yhrb48	7	yhrb51	8	yhrb54	7	yhrb57	4	yhrb60	2	Act 5 (N) Herbs A	1970						0
+Act 5 (N) Herbs C			1						yhrb42	1	yhrb45	2	yhrb48	5	yhrb51	7	yhrb54	8	yhrb57	7	yhrb60	4	yhrb63	2	Act 5 (N) Herbs B	2120						0
+Act 1 (H) Herbs A			1						yhrb45	1	yhrb48	2	yhrb51	5	yhrb54	7	yhrb57	8	yhrb60	7	yhrb63	4	yhrb66	2	Act 5 (N) Herbs C	2270						0
+Act 1 (H) Herbs B			1						yhrb48	1	yhrb51	2	yhrb54	5	yhrb57	7	yhrb60	8	yhrb63	7	yhrb66	4	yhrb69	2	Act 1 (H) Herbs A	2270						0
+Act 2 (H) Herbs A			1						yhrb51	1	yhrb54	2	yhrb57	5	yhrb60	7	yhrb63	8	yhrb66	7	yhrb69	4	yhrb72	2	Act 1 (H) Herbs B	2270						0
+Act 2 (H) Herbs B			1						yhrb54	1	yhrb57	2	yhrb60	5	yhrb63	7	yhrb66	8	yhrb69	7	yhrb72	4	yhrb75	2	Act 2 (H) Herbs A	2270						0
+Act 3 (H) Herbs A			1						yhrb57	1	yhrb60	2	yhrb63	5	yhrb66	7	yhrb69	8	yhrb72	7	yhrb75	4	yhrb78	2	Act 2 (H) Herbs B	2270						0
+Act 3 (H) Herbs B			1						yhrb60	1	yhrb63	2	yhrb66	5	yhrb69	7	yhrb72	8	yhrb75	7	yhrb78	4	yhrb81	2	Act 3 (H) Herbs A	2270						0
+Act 4 (H) Herbs A			1						yhrb63	1	yhrb66	2	yhrb69	5	yhrb72	7	yhrb75	8	yhrb78	7	yhrb81	4	yhrb84	2	Act 3 (H) Herbs B	2270						0
+Act 4 (H) Herbs B			1						yhrb66	1	yhrb69	2	yhrb72	5	yhrb75	7	yhrb78	8	yhrb81	7	yhrb84	2	yhrb84	1	Act 4 (H) Herbs A	2080						0
+Act 5 (H) Herbs A			1						yhrb69	1	yhrb72	2	yhrb75	5	yhrb78	7	yhrb81	8	yhrb84	7	yhrb87	2	yhrb87	1	Act 4 (H) Herbs B	2080						0
+Act 5 (H) Herbs B			1						yhrb72	1	yhrb75	2	yhrb78	5	yhrb81	7	yhrb84	8	yhrb87	7	yhrb87	2	yhrb87	1	Act 5 (H) Herbs A	2080						0
+Act 5 (H) Herbs C			1						yhrb75	1	yhrb78	2	yhrb81	5	yhrb84	7	yhrb87	8	yhrb87	1	yhrb87	1	yhrb87	1	Act 5 (H) Herbs B	1655						0
+Act 1 Recipes A			1						yrec3	36																						0
+Act 1 Recipes B			1						yrec3	20	yrec6	16																				0
+Act 1 Recipes C			1						yrec3	10	yrec6	16	yrec9	10																		0
+Act 2 Recipes A			1						yrec3	3	yrec6	15	yrec9	15	yrec12	3																0
+Act 2 Recipes B			1						yrec3	1	yrec6	7	yrec9	20	yrec12	7	yrec15	1														0
+Act 2 Recipes C			1						yrec3	1	yrec6	3	yrec9	14	yrec12	14	yrec15	3	yrec18	1												0
+Act 3 Recipes A			1						yrec3	1	yrec6	3	yrec9	6	yrec12	12	yrec15	6	yrec18	3	yrec21	1										0
+Act 3 Recipes B			1						yrec3	1	yrec6	3	yrec9	6	yrec12	8	yrec15	8	yrec18	6	yrec21	3	yrec24	1								0
+Act 3 Recipes C			1						yrec3	1	yrec6	2	yrec9	5	yrec12	7	yrec15	8	yrec18	7	yrec21	4	yrec24	2								0
+Act 4 Recipes A			1						yrec6	1	yrec9	3	yrec12	6	yrec15	8	yrec18	8	yrec21	6	yrec24	3	yrec27	1	Act 3 Recipes C	110						0
+Act 4 Recipes B			1						yrec6	1	yrec9	2	yrec12	5	yrec15	7	yrec18	8	yrec21	7	yrec24	4	yrec27	2	Act 4 Recipes A	180						0
+Act 5 Recipes A			1						yrec9	1	yrec12	3	yrec15	6	yrec18	8	yrec21	8	yrec24	6	yrec27	3	yrec30	1	Act 4 Recipes B	270						0
+Act 5 Recipes B			1						yrec9	1	yrec12	2	yrec15	5	yrec18	7	yrec21	8	yrec24	7	yrec27	4	yrec30	2	Act 5 Recipes A	380						0
+Act 5 Recipes C			1						yrec9	1	yrec12	2	yrec15	5	yrec18	7	yrec21	8	yrec24	7	yrec27	4	yrec30	2	Act 5 Recipes B	500						0
+Act 1 (N) Recipes A			1						yrec12	1	yrec15	2	yrec18	5	yrec21	7	yrec24	8	yrec27	7	yrec30	4	yrec33	2	Act 5 Recipes C	630						0
+Act 1 (N) Recipes B			1						yrec15	1	yrec18	2	yrec21	5	yrec24	7	yrec27	8	yrec30	7	yrec33	4	yrec36	2	Act 1 (N) Recipes A	770						0
+Act 2 (N) Recipes A			1						yrec18	1	yrec21	2	yrec24	5	yrec27	7	yrec30	8	yrec33	7	yrec36	4	yrec39	2	Act 1 (N) Recipes B	920						0
+Act 2 (N) Recipes B			1						yrec21	1	yrec24	2	yrec27	5	yrec30	7	yrec33	8	yrec36	7	yrec39	4	yrec42	2	Act 2 (N) Recipes A	1070						0
+Act 3 (N) Recipes A			1						yrec24	1	yrec27	2	yrec30	5	yrec33	7	yrec36	8	yrec39	7	yrec42	4	yrec45	2	Act 2 (N) Recipes B	1220						0
+Act 3 (N) Recipes B			1						yrec27	1	yrec30	2	yrec33	5	yrec36	7	yrec39	8	yrec42	7	yrec45	4	yrec48	2	Act 3 (N) Recipes A	1370						0
+Act 4 (N) Recipes A			1						yrec30	1	yrec33	2	yrec36	5	yrec39	7	yrec42	8	yrec45	7	yrec48	4	yrec51	2	Act 3 (N) Recipes B	1520						0
+Act 4 (N) Recipes B			1						yrec33	1	yrec36	2	yrec39	5	yrec42	7	yrec45	8	yrec48	7	yrec51	4	yrec54	2	Act 4 (N) Recipes A	1670						0
+Act 5 (N) Recipes A			1						yrec36	1	yrec39	2	yrec42	5	yrec45	7	yrec48	8	yrec51	7	yrec54	4	yrec57	2	Act 4 (N) Recipes B	1820						0
+Act 5 (N) Recipes B			1						yrec39	1	yrec42	2	yrec45	5	yrec48	7	yrec51	8	yrec54	7	yrec57	4	yrec60	2	Act 5 (N) Recipes A	1970						0
+Act 5 (N) Recipes C			1						yrec42	1	yrec45	2	yrec48	5	yrec51	7	yrec54	8	yrec57	7	yrec60	4	yrec63	2	Act 5 (N) Recipes B	2120						0
+Act 1 (H) Recipes A			1						yrec45	1	yrec48	2	yrec51	5	yrec54	7	yrec57	8	yrec60	7	yrec63	4	yrec66	2	Act 5 (N) Recipes C	2270						0
+Act 1 (H) Recipes B			1						yrec48	1	yrec51	2	yrec54	5	yrec57	7	yrec60	8	yrec63	7	yrec66	4	yrec69	2	Act 1 (H) Recipes A	2270						0
+Act 2 (H) Recipes A			1						yrec51	1	yrec54	2	yrec57	5	yrec60	7	yrec63	8	yrec66	7	yrec69	4	yrec72	2	Act 1 (H) Recipes B	2270						0
+Act 2 (H) Recipes B			1						yrec54	1	yrec57	2	yrec60	5	yrec63	7	yrec66	8	yrec69	7	yrec72	4	yrec75	2	Act 2 (H) Recipes A	2270						0
+Act 3 (H) Recipes A			1						yrec57	1	yrec60	2	yrec63	5	yrec66	7	yrec69	8	yrec72	7	yrec75	4	yrec78	2	Act 2 (H) Recipes B	2270						0
+Act 3 (H) Recipes B			1						yrec60	1	yrec63	2	yrec66	5	yrec69	7	yrec72	8	yrec75	7	yrec78	4	yrec81	2	Act 3 (H) Recipes A	2270						0
+Act 4 (H) Recipes A			1						yrec63	1	yrec66	2	yrec69	5	yrec72	7	yrec75	8	yrec78	7	yrec81	4	yrec84	2	Act 3 (H) Recipes B	2270						0
+Act 4 (H) Recipes B			1						yrec66	1	yrec69	2	yrec72	5	yrec75	7	yrec78	8	yrec81	7	yrec84	2	yrec84	1	Act 4 (H) Recipes A	2080						0
+Act 5 (H) Recipes A			1						yrec69	1	yrec72	2	yrec75	5	yrec78	7	yrec81	8	yrec84	7	yrec87	2	yrec87	1	Act 4 (H) Recipes B	2080						0
+Act 5 (H) Recipes B			1						yrec72	1	yrec75	2	yrec78	5	yrec81	7	yrec84	8	yrec87	7	yrec87	2	yrec87	1	Act 5 (H) Recipes A	2080						0
+Act 5 (H) Recipes C			1						yrec75	1	yrec78	2	yrec81	5	yrec84	7	yrec87	8	yrec87	1	yrec87	1	yrec87	1	Act 5 (H) Recipes B	1655						0
+Act 1 Crafting A			1						Act 1 Recipes A	1	Act 1 Herbs A	4																				0
+Act 1 Crafting B			1						Act 1 Recipes B	1	Act 1 Herbs B	4																				0
+Act 1 Crafting C			1						Act 1 Recipes C	1	Act 1 Herbs C	4																				0
+Act 2 Crafting A			1						Act 2 Recipes A	1	Act 2 Herbs A	4																				0
+Act 2 Crafting B			1						Act 2 Recipes B	1	Act 2 Herbs B	4																				0
+Act 2 Crafting C			1						Act 2 Recipes C	1	Act 2 Herbs C	4																				0
+Act 3 Crafting A			1						Act 3 Recipes A	1	Act 3 Herbs A	4																				0
+Act 3 Crafting B			1						Act 3 Recipes B	1	Act 3 Herbs B	4																				0
+Act 3 Crafting C			1						Act 3 Recipes C	1	Act 3 Herbs C	4																				0
+Act 4 Crafting A			1						Act 4 Recipes A	1	Act 4 Herbs A	4																				0
+Act 4 Crafting B			1						Act 4 Recipes B	1	Act 4 Herbs B	4																				0
+Act 5 Crafting A			1						Act 5 Recipes A	1	Act 5 Herbs A	4																				0
+Act 5 Crafting B			1						Act 5 Recipes B	1	Act 5 Herbs B	4																				0
+Act 5 Crafting C			1						Act 5 Recipes C	1	Act 5 Herbs C	4																				0
+Act 1 (N) Crafting A			1						Act 1 (N) Recipes A	1	Act 1 (N) Herbs A	4																				0
+Act 1 (N) Crafting B			1						Act 1 (N) Recipes B	1	Act 1 (N) Herbs B	4																				0
+Act 2 (N) Crafting A			1						Act 2 (N) Recipes A	1	Act 2 (N) Herbs A	4																				0
+Act 2 (N) Crafting B			1						Act 2 (N) Recipes B	1	Act 2 (N) Herbs B	4																				0
+Act 3 (N) Crafting A			1						Act 3 (N) Recipes A	1	Act 3 (N) Herbs A	4																				0
+Act 3 (N) Crafting B			1						Act 3 (N) Recipes B	1	Act 3 (N) Herbs B	4																				0
+Act 4 (N) Crafting A			1						Act 4 (N) Recipes A	1	Act 4 (N) Herbs A	4																				0
+Act 4 (N) Crafting B			1						Act 4 (N) Recipes B	1	Act 4 (N) Herbs B	4																				0
+Act 5 (N) Crafting A			1						Act 5 (N) Recipes A	1	Act 5 (N) Herbs A	4																				0
+Act 5 (N) Crafting B			1						Act 5 (N) Recipes B	1	Act 5 (N) Herbs B	4																				0
+Act 5 (N) Crafting C			1						Act 5 (N) Recipes C	1	Act 5 (N) Herbs C	4																				0
+Act 1 (H) Crafting A			1						Act 1 (H) Recipes A	1	Act 1 (H) Herbs A	4																				0
+Act 1 (H) Crafting B			1						Act 1 (H) Recipes B	1	Act 1 (H) Herbs B	4																				0
+Act 2 (H) Crafting A			1						Act 2 (H) Recipes A	1	Act 2 (H) Herbs A	4																				0
+Act 2 (H) Crafting B			1						Act 2 (H) Recipes B	1	Act 2 (H) Herbs B	4																				0
+Act 3 (H) Crafting A			1						Act 3 (H) Recipes A	1	Act 3 (H) Herbs A	4																				0
+Act 3 (H) Crafting B			1						Act 3 (H) Recipes B	1	Act 3 (H) Herbs B	4																				0
+Act 4 (H) Crafting A			1						Act 4 (H) Recipes A	1	Act 4 (H) Herbs A	4																				0
+Act 4 (H) Crafting B			1						Act 4 (H) Recipes B	1	Act 4 (H) Herbs B	4																				0
+Act 5 (H) Crafting A			1						Act 5 (H) Recipes A	1	Act 5 (H) Herbs A	4																				0
+Act 5 (H) Crafting B			1						Act 5 (H) Recipes B	1	Act 5 (H) Herbs B	4																				0
+Act 5 (H) Crafting C			1						Act 5 (H) Recipes C	1	Act 5 (H) Herbs C	4																				0
+Act 1 Junk			1						Potion 1	32	Misc 0	32	Ammo	8	Act 1 Crafting A	3	Act 1 Crafting B	2	Act 1 Crafting C	1												0
+Act 2 Junk			1						Act 1 Junk	48	Potion 2	8	Misc 0	8	Ammo	8	Act 2 Crafting A	3	Act 2 Crafting B	2	Act 2 Crafting C	1										0
+Act 3 Junk			1						Act 2 Junk	48	Potion 3	8	Misc 1	8	Ammo	8	Act 3 Crafting A	3	Act 3 Crafting B	2	Act 3 Crafting C	1										0
+Act 4 Junk			1						Act 3 Junk	48	Potion 4	8	Misc 1	8	Ammo	8	Act 4 Crafting A	3	Act 4 Crafting B	2												0
+Act 5 Junk			1						Act 4 Junk	48	Potion 5	8	Misc 2	8	Ammo	8	Act 5 Crafting A	3	Act 5 Crafting B	2	Act 5 Crafting C	1										0
+Act 1 (N) Junk			1						Act 5 Junk	48	Potion 6	8	Misc 2	8	Ammo	8	Act 1 (N) Crafting A	3	Act 1 (N) Crafting B	2	Act 1 (N) Crafting C	1										0
+Act 2 (N) Junk			1						Act 5 Junk	48	Potion 6	8	Misc 2	8	Ammo	8	Act 2 (N) Crafting A	3	Act 2 (N) Crafting B	2	Act 2 (N) Crafting C	1										0
+Act 3 (N) Junk			1						Act 5 Junk	48	Potion 6	8	Misc 2	8	Ammo	8	Act 3 (N) Crafting A	3	Act 3 (N) Crafting B	2	Act 3 (N) Crafting C	1										0
+Act 4 (N) Junk			1						Act 5 Junk	48	Potion 6	8	Misc 2	8	Ammo	8	Act 4 (N) Crafting A	3	Act 4 (N) Crafting B	2												0
+Act 5 (N) Junk			1						Act 5 Junk	48	Potion 6	8	Misc 2	8	Ammo	8	Act 5 (N) Crafting A	3	Act 5 (N) Crafting B	2	Act 5 (N) Crafting C	1										0
+Act 1 (H) Junk			1						Act 5 Junk	48	Potion 6	8	Misc 2	8	Ammo	8	Act 1 (H) Crafting A	3	Act 1 (H) Crafting B	2	Act 1 (H) Crafting C	1										0
+Act 2 (H) Junk			1						Act 5 Junk	48	Potion 6	8	Misc 2	8	Ammo	8	Act 2 (H) Crafting A	3	Act 2 (H) Crafting B	2	Act 2 (H) Crafting C	1										0
+Act 3 (H) Junk			1						Act 5 Junk	48	Potion 6	8	Misc 2	8	Ammo	8	Act 3 (H) Crafting A	3	Act 3 (H) Crafting B	2	Act 3 (H) Crafting C	1										0
+Act 4 (H) Junk			1						Act 5 Junk	48	Potion 6	8	Misc 2	8	Ammo	8	Act 4 (H) Crafting A	3	Act 4 (H) Crafting B	2												0
+Act 5 (H) Junk			1						Act 5 Junk	48	Potion 6	8	Misc 2	8	Ammo	8	Act 5 (H) Crafting A	3	Act 5 (H) Crafting B	2	Act 5 (H) Crafting C	1										0
+Act 1 Equip A	1	0	1						weap3	7	armo3	7																				0
+Act 1 Equip B	1	5	1						weap3	3	armo3	3	weap6	7	armo6	7																0
+Act 1 Equip C	1	9	1						weap3	2	armo3	1	weap6	6	armo6	3	weap9	14	armo9	7	weap12	2	armo12	1								0
+Act 2 Equip A	1	12	1						weap6	2	armo6	1	weap9	6	armo9	3	weap12	14	armo12	7	weap15	2	armo15	1	Act 1 Equip C	30			36	66	0.4545	0
+Act 2 Equip B	1	15	1						weap9	2	armo9	1	weap12	6	armo12	3	weap15	14	armo15	7	weap18	2	armo18	1	Act 2 Equip A	60			36	96	0.625	0
+Act 2 Equip C	1	18	1						weap12	2	armo12	1	weap15	6	armo15	3	weap18	14	armo18	7	weap21	2	armo21	1	Act 2 Equip B	80			36	116	0.6897	0
+Act 3 Equip A	1	20	1						weap15	2	armo15	1	weap18	6	armo18	3	weap21	14	armo21	7	weap24	2	armo24	1	Act 2 Equip C	100			36	136	0.7353	0
+Act 3 Equip B	1	22	1						weap18	2	armo18	1	weap21	6	armo21	3	weap24	14	armo24	7	weap27	2	armo27	1	Act 3 Equip A	200			36	236	0.8475	0
+Act 3 Equip C	1	24	1						weap21	2	armo21	1	weap24	6	armo24	3	weap27	14	armo27	7	weap30	2	armo30	1	Act 3 Equip B	340			36	376	0.9043	0
+Act 4 Equip A	1	26	1						weap24	2	armo24	1	weap27	6	armo27	3	weap30	14	armo30	4	weap33	2	armo33	1	Act 3 Equip C	430			33	463	0.9287	0
+Act 4 Equip B	1	29	1						weap27	2	armo27	1	weap30	6	armo30	3	weap33	14	armo33	3	weap36	2	armo36	1	Act 4 Equip A	500			32	532	0.9398	0
+Act 5 Equip A	1	32	1						weap27	2	armo27	1	weap30	6	armo30	3	weap33	14	armo33	3	weap36	7	armo36	5	Act 4 Equip B	629			41	670	0.9388	0
+Act 5 Equip B	1	34	1						weap30	2	armo30	1	weap33	6	armo33	2	weap36	14	armo36	7	weap39	2	armo39	1	Act 5 Equip A	731			35	766	0.9543	0
+Act 5 Equip C	1	36	1						weap30	2	armo30	1	weap33	6	armo33	2	weap36	14	armo36	7	weap39	2	armo39	1	Act 5 Equip B	833			35	868	0.9597	0
+Act 1 (N) Equip A	1	38	1						weap33	2	armo33	1	weap36	6	armo36	3	weap39	14	armo39	7	weap42	2	armo42	1	Act 5 Equip C	935			36	971	0.9629	0
+Act 1 (N) Equip B	1	40	1						weap33	2	armo33	1	weap36	6	armo36	3	weap39	14	armo39	7	weap42	6	armo42	3	Act 1 (N) Equip A	1105			42	1147	0.9634	0
+Act 1 (N) Equip C	1	42	1						weap36	2	armo36	1	weap39	6	armo39	3	weap42	14	armo42	7	weap45	2	armo45	1	Act 1 (N) Equip A	1020			36	1056	0.9659	0
+Act 2 (N) Equip A	1	44	1						weap36	2	armo36	1	weap39	6	armo39	3	weap42	14	armo42	7	weap45	6	armo45	3	Act 1 (N) Equip B	1233			42	1275	0.9671	0
+Act 2 (N) Equip B	1	46	1						weap39	2	armo39	1	weap42	6	armo42	3	weap45	14	armo45	7	weap48	2	armo48	1	Act 2 (N) Equip A	1105			36	1141	0.9684	0
+Act 2 (N) Equip C	1	48	1						weap39	2	armo39	1	weap42	6	armo42	3	weap45	14	armo45	7	weap48	6	armo48	3	Act 2 (N) Equip A	1318			42	1360	0.9691	0
+Act 3 (N) Equip A	1	50	1						weap42	2	armo42	1	weap45	6	armo45	3	weap48	14	armo48	7	weap51	2	armo51	1	Act 2 (N) Equip B	1190			36	1226	0.9706	0
+Act 3 (N) Equip B	1	52	1						weap42	2	armo42	1	weap45	6	armo45	3	weap48	14	armo48	7	weap51	6	armo51	3	Act 3 (N) Equip A	1445			42	1487	0.9718	0
+Act 3 (N) Equip C	1	54	1						weap45	2	armo45	1	weap48	6	armo48	3	weap51	14	armo51	7	weap54	2	armo54	1	Act 3 (N) Equip A	1275			36	1311	0.9725	0
+Act 4 (N) Equip A	1	56	1						weap45	2	armo45	1	weap48	6	armo48	3	weap51	14	armo51	7	weap54	6	armo54	3	Act 3 (N) Equip B	1530			42	1572	0.9733	0
+Act 4 (N) Equip B	1	58	1						weap48	2	armo48	1	weap51	6	armo51	3	weap54	14	armo54	7	weap57	2	armo57	1	Act 4 (N) Equip A	1360			36	1396	0.9742	0
+Act 4 (N) Equip C	1	60	1						weap48	2	armo48	1	weap51	6	armo51	3	weap54	14	armo54	7	weap57	6	armo57	3	Act 4 (N) Equip A	1658			42	1700	0.9753	0
+Act 5 (N) Equip A	1	62	1						weap51	2	armo51	1	weap54	6	armo54	3	weap57	14	armo57	7	weap60	2	armo60	1	Act 4 (N) Equip B	1445			36	1481	0.9757	0
+Act 5 (N) Equip B	1	64	1						weap51	2	armo51	1	weap54	6	armo54	3	weap57	14	armo57	7	weap60	6	armo60	3	Act 5 (N) Equip A	1743			42	1785	0.9765	0
+Act 5 (N) Equip C	1	66	1						weap54	2	armo54	1	weap57	6	armo57	3	weap60	14	armo60	7	weap63	2	armo63	1	Act 5 (N) Equip B	1530			36	1566	0.977	0
+Act 1 (H) Equip A	1	68	1						weap54	2	armo54	1	weap57	6	armo57	3	weap60	14	armo60	7	weap63	6	armo63	3	Act 5 (N) Equip C	1785			42	1827	0.977	0
+Act 1 (H) Equip B	1	70	1						weap57	2	armo57	1	weap60	6	armo60	3	weap63	14	armo63	7	weap66	2	armo66	1	Act 1 (H) Equip A	1530			36	1566	0.977	0
+Act 1 (H) Equip C	1	71	1						weap57	2	armo57	1	weap60	6	armo60	3	weap63	14	armo63	7	weap66	6	armo66	3	Act 1 (H) Equip A	1785			42	1827	0.977	0
+Act 2 (H) Equip A	1	73	1						weap60	2	armo60	1	weap63	6	armo63	3	weap66	14	armo66	7	weap69	2	armo69	1	Act 1 (H) Equip B	1530			36	1566	0.977	0
+Act 2 (H) Equip B	1	75	1						weap60	2	armo60	1	weap63	6	armo63	3	weap66	14	armo66	7	weap69	6	armo69	3	Act 2 (H) Equip A	1785			42	1827	0.977	0
+Act 2 (H) Equip C	1	76	1						weap63	2	armo63	1	weap66	6	armo66	3	weap69	14	armo69	7	weap72	2	armo72	1	Act 2 (H) Equip A	1530			36	1566	0.977	0
+Act 3 (H) Equip A	1	77	1						weap63	2	armo63	1	weap66	6	armo66	3	weap69	14	armo69	7	weap72	6	armo72	3	Act 2 (H) Equip B	1785			42	1827	0.977	0
+Act 3 (H) Equip B	1	78	1						weap66	2	armo66	1	weap69	6	armo69	3	weap72	14	armo72	7	weap75	2	armo75	1	Act 3 (H) Equip A	1530			36	1566	0.977	0
+Act 3 (H) Equip C	1	79	1						weap66	2	armo66	1	weap69	6	armo69	3	weap72	14	armo72	7	weap75	6	armo75	3	Act 3 (H) Equip A	1785			42	1827	0.977	0
+Act 4 (H) Equip A	1	80	1						weap69	2	armo69	1	weap72	6	armo72	3	weap75	14	armo75	7	weap78	2	armo78	1	Act 3 (H) Equip B	1530			36	1566	0.977	0
+Act 4 (H) Equip B	1	81	1						weap69	2	armo69	1	weap72	6	armo72	3	weap75	14	armo75	7	weap78	6	armo78	3	Act 4 (H) Equip A	1785			42	1827	0.977	0
+Act 4 (H) Equip C	1	82	1						weap72	2	armo72	1	weap75	6	armo75	3	weap78	14	armo78	7	weap81	2	armo81	1	Act 4 (H) Equip A	1530			36	1566	0.977	0
+Act 5 (H) Equip A	1	83	1						weap75	2	armo75	1	weap78	6	armo78	3	weap81	14	armo81	7	weap84	2	armo84	1	Act 4 (H) Equip B	1530			36	1566	0.977	0
+Act 5 (H) Equip B	1	84	1						weap78	2	armo78	1	weap81	6	armo81	3	weap84	14	armo84	7	weap87	2	armo87	1	Act 5 (H) Equip A	1530			36	1566	0.977	0
+Act 5 (H) Equip C	1	85	1						weap81	2	armo81	1	weap84	6	armo84	3	weap87	14	armo87	7	weap87	1	armo87	1	Act 5 (H) Equip B	1530			35	1565	0.9776	0
+Act 1 Melee A	2	0	1						mele3	7	armo3	7																				0
+Act 1 Melee B	2	5	1						mele3	3	armo3	3	mele6	7	armo6	7																0
+Act 1 Melee C	2	9	1						mele3	2	armo3	1	mele6	6	armo6	3	mele9	14	armo9	7	mele12	2	armo12	1								0
+Act 2 Melee A	2	12	1						mele6	2	armo6	1	mele9	6	armo9	3	mele12	14	armo12	7	mele15	2	armo15	1	Act 1 Melee C	30			36	66	0.4545	0
+Act 2 Melee B	2	15	1						mele9	2	armo9	1	mele12	6	armo12	3	mele15	14	armo15	7	mele18	2	armo18	1	Act 2 Melee A	60			36	96	0.625	0
+Act 2 Melee C	2	18	1						mele12	2	armo12	1	mele15	6	armo15	3	mele18	14	armo18	7	mele21	2	armo21	1	Act 2 Melee B	90			36	126	0.7143	0
+Act 3 Melee A	2	20	1						mele15	2	armo15	1	mele18	6	armo18	3	mele21	14	armo21	7	mele24	2	armo24	1	Act 2 Melee C	120			36	156	0.7692	0
+Act 3 Melee B	2	22	1						mele18	2	armo18	1	mele21	6	armo21	3	mele24	14	armo24	7	mele27	2	armo27	1	Act 3 Melee A	150			36	186	0.8065	0
+Act 3 Melee C	2	24	1						mele21	2	armo21	1	mele24	6	armo24	3	mele27	14	armo27	7	mele30	2	armo30	1	Act 3 Melee B	180			36	216	0.8333	0
+Act 4 Melee A	2	26	1						mele24	2	armo24	1	mele27	6	armo27	3	mele30	14	armo30	4	mele33	2	armo33	1	Act 3 Melee C	210			33	243	0.8642	0
+Act 4 Melee B	2	29	1						mele27	2	armo27	1	mele30	6	armo30	3	mele33	14	armo33	3	mele36	2	armo36	1	Act 4 Melee A	260			32	292	0.8904	0
+Act 5 Melee A	2	32	1						mele27	2	armo27	1	mele30	6	armo30	3	mele33	14	armo33	3	mele36	7	armo36	5	Act 4 Melee B	400			41	441	0.907	0
+Act 5 Melee B	2	34	1						mele30	2	armo30	1	mele33	6	armo33	2	mele36	14	armo36	7	mele39	2	armo39	1	Act 5 Melee A	489			35	524	0.9332	0
+Act 5 Melee C	2	36	1						mele30	2	armo30	1	mele33	6	armo33	2	mele36	14	armo36	7	mele39	2	armo39	1	Act 5 Melee B	629			35	664	0.9473	0
+Act 1 (N) Melee A	2	38	1						weap33	2	armo33	1	weap36	6	armo36	3	weap39	14	armo39	7	weap42	2	armo42	1	Act 5 Melee C	769			36	805	0.9553	0
+Act 1 (N) Melee B	2	40	1						weap36	2	armo36	1	weap39	6	armo39	3	weap42	14	armo42	7	weap45	2	armo45	1	Act 1 (N) Melee A	935			36	971	0.9629	0
+Act 2 (N) Melee A	2	42	1						weap36	2	armo36	1	weap39	6	armo39	3	weap42	14	armo42	7	weap45	6	armo45	3	Act 1 (N) Melee B	1148			42	1190	0.9647	0
+Act 2 (N) Melee B	2	44	1						weap39	2	armo39	1	weap42	6	armo42	3	weap45	14	armo45	7	weap48	2	armo48	1	Act 2 (N) Melee A	1020			36	1056	0.9659	0
+Act 3 (N) Melee A	2	46	1						weap42	2	armo42	1	weap45	6	armo45	3	weap48	14	armo48	7	weap51	2	armo51	1	Act 2 (N) Melee B	1063			36	1099	0.9672	0
+Act 3 (N) Melee B	2	48	1						weap45	2	armo45	1	weap48	6	armo48	3	weap51	14	armo51	7	weap54	2	armo54	1	Act 3 (N) Melee A	1105			36	1141	0.9684	0
+Act 4 (N) Melee A	2	51	1						weap45	2	armo45	1	weap48	6	armo48	3	weap51	14	armo51	7	weap54	6	armo54	3	Act 3 (N) Melee B	1339			42	1381	0.9696	0
+Act 4 (N) Melee B	2	54	1						weap48	2	armo48	1	weap51	6	armo51	3	weap54	14	armo54	7	weap57	2	armo57	1	Act 4 (N) Melee A	1190			36	1226	0.9706	0
+Act 5 (N) Melee A	2	57	1						weap51	2	armo51	1	weap54	6	armo54	3	weap57	14	armo57	7	weap60	2	armo60	1	Act 4 (N) Melee B	1275			36	1311	0.9725	0
+Act 5 (N) Melee B	2	60	1						weap51	2	armo51	1	weap54	6	armo54	3	weap57	14	armo57	7	weap60	6	armo60	3	Act 5 (N) Melee A	1743			42	1785	0.9765	0
+Act 5 (N) Melee C	2	63	1						weap54	2	armo54	1	weap57	6	armo57	3	weap60	14	armo60	7	weap63	2	armo63	1	Act 5 (N) Melee B	1530			36	1566	0.977	0
+Act 1 (H) Melee A	2	66	1						weap54	2	armo54	1	weap57	6	armo57	3	weap60	14	armo60	7	weap63	6	armo63	3	Act 5 (N) Melee C	1781			42	1823	0.977	0
+Act 1 (H) Melee B	2	68	1						weap57	2	armo57	1	weap60	6	armo60	3	weap63	14	armo63	7	weap66	2	armo66	1	Act 1 (H) Melee A	1530			36	1566	0.977	0
+Act 2 (H) Melee A	2	71	1						weap60	2	armo60	1	weap63	6	armo63	3	weap66	14	armo66	7	weap69	2	armo69	1	Act 1 (H) Melee B	1530			36	1566	0.977	0
+Act 2 (H) Melee B	2	73	1						weap63	2	armo63	1	weap66	6	armo66	3	weap69	14	armo69	7	weap72	2	armo72	1	Act 2 (H) Melee A	1530			36	1566	0.977	0
+Act 3 (H) Melee A	2	75	1						weap63	2	armo63	1	weap66	6	armo66	3	weap69	14	armo69	7	weap72	6	armo72	3	Act 2 (H) Melee B	1781			42	1823	0.977	0
+Act 3 (H) Melee B	2	77	1						weap66	2	armo66	1	weap69	6	armo69	3	weap72	14	armo72	7	weap75	2	armo75	1	Act 3 (H) Melee A	1530			36	1566	0.977	0
+Act 4 (H) Melee A	2	79	1						weap69	2	armo69	1	weap72	6	armo72	3	weap75	14	armo75	7	weap78	2	armo78	1	Act 3 (H) Melee B	1530			36	1566	0.977	0
+Act 4 (H) Melee B	2	80	1						weap72	2	armo72	1	weap75	6	armo75	3	weap78	14	armo78	7	weap81	2	armo81	1	Act 4 (H) Melee A	1530			36	1566	0.977	0
+Act 5 (H) Melee A	2	81	1						weap75	2	armo75	1	weap78	6	armo78	3	weap81	14	armo81	7	weap84	2	armo84	1	Act 4 (H) Melee B	1530			36	1566	0.977	0
+Act 5 (H) Melee B	2	83	1						weap78	2	armo78	1	weap81	6	armo81	3	weap84	14	armo84	7	weap87	2	armo87	1	Act 5 (H) Melee A	1530			36	1566	0.977	0
+Act 5 (H) Melee C	2	85	1						weap81	2	armo81	1	weap84	6	armo84	3	weap87	14	armo87	7	weap87	1	armo87	1	Act 5 (H) Melee B	1530			35	1565	0.9776	0
+Act 1 Bow A	3	0	1						bow3	36																						0
+Act 1 Bow B	3	5	1						bow3	20	bow6	16																				0
+Act 1 Bow C	3	9	1						bow3	10	bow6	16	bow9	10																		0
+Act 2 Bow A	3	12	1						bow3	3	bow6	15	bow9	15	bow12	3																0
+Act 2 Bow B	3	15	1						bow3	1	bow6	7	bow9	20	bow12	7	bow15	1														0
+Act 2 Bow C	3	18	1						bow3	1	bow6	3	bow9	14	bow12	14	bow15	3	bow18	1												0
+Act 3 Bow A	3	20	1						bow3	1	bow6	3	bow9	6	bow12	12	bow15	6	bow18	3	bow21	1										0
+Act 3 Bow B	3	22	1						bow3	1	bow6	3	bow9	6	bow12	8	bow15	8	bow18	6	bow21	3	bow24	1								0
+Act 3 Bow C	3	24	1						bow3	1	bow6	2	bow9	5	bow12	7	bow15	8	bow18	7	bow21	4	bow24	2								0
+Act 4 Bow A	3	26	1						bow6	1	bow9	3	bow12	6	bow15	8	bow18	8	bow21	6	bow24	3	bow27	1	Act 3 Bow C	110			36	146	0.7534	0
+Act 4 Bow B	3	29	1						bow6	1	bow9	2	bow12	5	bow15	7	bow18	8	bow21	7	bow24	4	bow27	2	Act 4 Bow A	180			36	216	0.8333	0
+Act 5 Bow A	3	32	1						bow9	1	bow12	3	bow15	6	bow18	8	bow21	8	bow24	6	bow27	3	bow30	1	Act 4 Bow B	270			36	306	0.8824	0
+Act 5 Bow B	3	34	1						bow9	1	bow12	2	bow15	5	bow18	7	bow21	8	bow24	7	bow27	4	bow30	2	Act 5 Bow A	380			36	416	0.9135	0
+Act 5 Bow C	3	36	1						bow9	1	bow12	2	bow15	5	bow18	7	bow21	8	bow24	7	bow27	4	bow30	2	Act 5 Bow B	500			36	536	0.9328	0
+Act 1 (N) Bow A	3	38	1						bow12	1	bow15	2	bow18	5	bow21	7	bow24	8	bow27	7	bow30	4	bow33	2	Act 5 Bow C	630			36	666	0.9459	0
+Act 1 (N) Bow B	3	40	1						bow15	1	bow18	2	bow21	5	bow24	7	bow27	8	bow30	7	bow33	4	bow36	2	Act 1 (N) Bow A	770			36	806	0.9553	0
+Act 2 (N) Bow A	3	42	1						bow18	1	bow21	2	bow24	5	bow27	7	bow30	8	bow33	7	bow36	4	bow39	2	Act 1 (N) Bow B	920			36	956	0.9623	0
+Act 2 (N) Bow B	3	44	1						bow21	1	bow24	2	bow27	5	bow30	7	bow33	8	bow36	7	bow39	4	bow42	2	Act 2 (N) Bow A	1070			36	1106	0.9675	0
+Act 3 (N) Bow A	3	46	1						bow24	1	bow27	2	bow30	5	bow33	7	bow36	8	bow39	7	bow42	4	bow45	2	Act 2 (N) Bow B	1220			36	1256	0.9713	0
+Act 3 (N) Bow B	3	48	1						bow27	1	bow30	2	bow33	5	bow36	7	bow39	8	bow42	7	bow45	4	bow48	2	Act 3 (N) Bow A	1370			36	1406	0.9744	0
+Act 4 (N) Bow A	3	51	1						bow30	1	bow33	2	bow36	5	bow39	7	bow42	8	bow45	7	bow48	4	bow51	2	Act 3 (N) Bow B	1520			36	1556	0.9769	0
+Act 4 (N) Bow B	3	54	1						bow33	1	bow36	2	bow39	5	bow42	7	bow45	8	bow48	7	bow51	4	bow54	2	Act 4 (N) Bow A	1670			36	1706	0.9789	0
+Act 5 (N) Bow A	3	57	1						bow36	1	bow39	2	bow42	5	bow45	7	bow48	8	bow51	7	bow54	4	bow57	2	Act 4 (N) Bow B	1820			36	1856	0.9806	0
+Act 5 (N) Bow B	3	60	1						bow39	1	bow42	2	bow45	5	bow48	7	bow51	8	bow54	7	bow57	4	bow60	2	Act 5 (N) Bow A	1970			36	2006	0.9821	0
+Act 5 (N) Bow C	3	63	1						bow42	1	bow45	2	bow48	5	bow51	7	bow54	8	bow57	7	bow60	4	bow63	2	Act 5 (N) Bow B	2120			36	2156	0.9833	0
+Act 1 (H) Bow A	3	66	1						bow45	1	bow48	2	bow51	5	bow54	7	bow57	8	bow60	7	bow63	4	bow66	2	Act 5 (N) Bow C	2270			36	2306	0.9844	0
+Act 1 (H) Bow B	3	69	1						bow48	1	bow51	2	bow54	5	bow57	7	bow60	8	bow63	7	bow66	4	bow69	2	Act 1 (H) Bow A	2270			36	2306	0.9844	0
+Act 2 (H) Bow A	3	71	1						bow51	1	bow54	2	bow57	5	bow60	7	bow63	8	bow66	7	bow69	4	bow72	2	Act 1 (H) Bow B	2270			36	2306	0.9844	0
+Act 2 (H) Bow B	3	73	1						bow54	1	bow57	2	bow60	5	bow63	7	bow66	8	bow69	7	bow72	4	bow75	2	Act 2 (H) Bow A	2270			36	2306	0.9844	0
+Act 3 (H) Bow A	3	75	1						bow57	1	bow60	2	bow63	5	bow66	7	bow69	8	bow72	7	bow75	4	bow78	2	Act 2 (H) Bow B	2270			36	2306	0.9844	0
+Act 3 (H) Bow B	3	77	1						bow60	1	bow63	2	bow66	5	bow69	7	bow72	8	bow75	7	bow78	4	bow81	2	Act 3 (H) Bow A	2270			36	2306	0.9844	0
+Act 4 (H) Bow A	3	79	1						bow63	1	bow66	2	bow69	5	bow72	7	bow75	8	bow78	7	bow81	4	bow84	2	Act 3 (H) Bow B	2270			36	2306	0.9844	0
+Act 4 (H) Bow B	3	80	1						bow66	1	bow69	2	bow72	5	bow75	7	bow78	8	bow81	7	bow84	2	bow84	1	Act 4 (H) Bow A	2080			33	2113	0.9844	0
+Act 5 (H) Bow A	3	82	1						bow69	1	bow72	2	bow75	5	bow78	7	bow81	8	bow84	7	bow87	2	bow87	1	Act 4 (H) Bow B	2080			33	2113	0.9844	0
+Act 5 (H) Bow B	3	83	1						bow72	1	bow75	2	bow78	5	bow81	7	bow84	8	bow87	7	bow87	2	bow87	1	Act 5 (H) Bow A	2080			33	2113	0.9844	0
+Act 5 (H) Bow C	3	85	1						bow75	1	bow78	2	bow81	5	bow84	7	bow87	8	bow87	1	bow87	1	bow87	1	Act 5 (H) Bow B	1655			26	1681	0.9845	0
+Act 1 Magic A	4	0	1						tsc	2	isc	4	mp1	6																		0
+Act 1 Magic B	4	5	1						tsc	2	isc	4	mp1	4	mp2	2																0
+Act 1 Magic C	4	9	1						tsc	2	isc	4	mp1	2	mp2	4																0
+Act 2 Magic A	4	12	1						tsc	2	isc	4	mp1	1	mp2	4	mp3	1														0
+Act 2 Magic B	4	15	1						tsc	2	isc	4	mp1	1	mp2	3	mp3	2														0
+Act 2 Magic C	4	18	1						tsc	2	isc	4	mp2	2	mp3	3	mp4	1														0
+Act 3 Magic A	4	20	1						tsc	2	isc	4	mp3	4	mp4	2																0
+Act 3 Magic B	4	22	1						tsc	2	isc	4	mp3	3	mp4	3																0
+Act 3 Magic C	4	24	1						tsc	2	isc	4	mp3	2	mp4	3	mp5	1														0
+Act 4 Magic A	4	26	1						tsc	2	isc	4	mp3	1	mp4	4	mp5	1														0
+Act 4 Magic B	4	29	1						tsc	2	isc	4	mp4	4	mp5	2																0
+Act 5 Magic A	4	32	1						tsc	2	isc	4	mp4	3	mp5	3																0
+Act 5 Magic B	4	34	1						tsc	2	isc	4	mp4	2	mp5	4																0
+Act 5 Magic C	4	36	1						tsc	2	isc	4	mp4	2	mp5	4																0
+Act 1 (N) Magic A	4	38	1						tsc	2	isc	4	mp4	2	mp5	4																0
+Act 1 (N) Magic B	4	40	1						tsc	2	isc	4	mp4	2	mp5	4																0
+Act 2 (N) Magic A	4	42	1						tsc	2	isc	4	mp4	2	mp5	4																0
+Act 2 (N) Magic B	4	44	1						tsc	2	isc	4	mp4	2	mp5	4																0
+Act 3 (N) Magic A	4	46	1						tsc	2	isc	4	mp4	2	mp5	4																0
+Act 3 (N) Magic B	4	48	1						tsc	2	isc	4	mp4	2	mp5	4																0
+Act 4 (N) Magic A	4	51	1						tsc	2	isc	4	mp4	2	mp5	4																0
+Act 4 (N) Magic B	4	54	1						tsc	2	isc	4	mp4	2	mp5	4																0
+Act 5 (N) Magic A	4	57	1						tsc	2	isc	4	mp4	2	mp5	4																0
+Act 5 (N) Magic B	4	60	1						tsc	2	isc	4	mp4	2	mp5	4																0
+Act 5 (N) Magic C	4	63	1						tsc	2	isc	4	mp4	2	mp5	4																0
+Act 1 (H) Magic A	4	66	1						tsc	2	isc	4	mp4	2	mp5	4																0
+Act 1 (H) Magic B	4	69	1						tsc	2	isc	4	mp4	2	mp5	4																0
+Act 2 (H) Magic A	4	71	1						tsc	2	isc	4	mp4	2	mp5	4																0
+Act 2 (H) Magic B	4	73	1						tsc	2	isc	4	mp4	2	mp5	4																0
+Act 3 (H) Magic A	4	75	1						tsc	2	isc	4	mp4	2	mp5	4																0
+Act 3 (H) Magic B	4	77	1						tsc	2	isc	4	mp4	2	mp5	4																0
+Act 4 (H) Magic A	4	79	1						tsc	2	isc	4	mp4	2	mp5	4																0
+Act 4 (H) Magic B	4	80	1						tsc	2	isc	4	mp4	2	mp5	4																0
+Act 5 (H) Magic A	4	82	1						tsc	2	isc	4	mp4	2	mp5	4																0
+Act 5 (H) Magic B	4	83	1						tsc	2	isc	4	mp4	2	mp5	4																0
+Act 5 (H) Magic C	4	85	1						tsc	2	isc	4	mp4	2	mp5	4																0
+Act 1 Good	5	0	1						Jewelry A	5	Chipped Gem	5	Runes 1	1																		0
+Act 2 Good	5	12	1						Jewelry B	20	Chipped Gem	6	Flawed Gem	4	Runes 1	3	Runes 2	6														0
+Act 3 Good	5	18	1						Jewelry C	20	Chipped Gem	4	Flawed Gem	8	Runes 3	3	Runes 4	6														0
+Act 4 Good	5	26	1						Jewelry C	50	Chipped Gem	7	Flawed Gem	28	Normal Gem	42	Runes 5	14	Runes 6	14												0
+Act 5 Good	5	32	1						Jewelry C	50	Chipped Gem	3	Flawed Gem	8	Normal Gem	24	Flawless Gem	4	Runes 7	20												0
+Act 1 (N) Good	5	38	1						Jewelry C	60	Chipped Gem	3	Flawed Gem	8	Normal Gem	28	Flawless Gem	14	Runes 8	20												0
+Act 2 (N) Good	5	42	1						Jewelry C	60	Chipped Gem	2	Flawed Gem	10	Normal Gem	14	Flawless Gem	28	Runes 9	20												0
+Act 3 (N) Good	5	46	1						Jewelry C	60	Chipped Gem	2	Flawed Gem	10	Normal Gem	14	Flawless Gem	28	Runes 10	20												0
+Act 4 (N) Good	5	51	1						Jewelry C	60	Chipped Gem	2	Flawed Gem	10	Normal Gem	14	Flawless Gem	28	Runes 11	20												0
+Act 5 (N) Good	5	57	1						Jewelry C	60	Chipped Gem	2	Flawed Gem	10	Normal Gem	14	Flawless Gem	28	Runes 12	20												0
+Act 1 (H) Good	5	66	1						Jewelry C	60	Chipped Gem	2	Flawed Gem	10	Normal Gem	14	Flawless Gem	28	Runes 13	20												0
+Act 2 (H) Good	5	72	1						Jewelry C	60	Chipped Gem	2	Flawed Gem	10	Normal Gem	14	Flawless Gem	28	Runes 14	20												0
+Act 3 (H) Good	5	78	1						Jewelry C	60	Chipped Gem	2	Flawed Gem	10	Normal Gem	14	Flawless Gem	28	Runes 15	20												0
+Act 4 (H) Good	5	82	1						Jewelry C	60	Chipped Gem	2	Flawed Gem	10	Normal Gem	14	Flawless Gem	28	Runes 16	20												0
+Act 5 (H) Good	5	85	1						Jewelry C	60	Chipped Gem	2	Flawed Gem	10	Normal Gem	14	Flawless Gem	28	Runes 17	20												0
+Act 1 Chest A	6	0	4					100	Act 1 Junk	15	Act 1 Equip A	10	Act 1 Good	2																		0
+Act 1 Chest B	6	5	4					100	Act 1 Junk	15	Act 1 Equip B	10	Act 1 Good	2																		0
+Act 1 Chest C	6	9	4					100	Gold	10	Act 1 Junk	12	Act 2 Junk	3	Act 1 Equip C	15	Act 1 Good	2														0
+Act 2 Chest A	6	12	4					100	Gold	10	Act 2 Junk	15	Act 2 Equip A	10	Act 2 Good	2																0
+Act 2 Chest B	6	15	4					100	Gold	10	Act 2 Junk	15	Act 2 Equip B	10	Act 2 Good	2																0
+Act 2 Chest C	6	18	4					100	Gold	10	Act 2 Junk	12	Act 3 Junk	3	Act 2 Equip C	15	Act 2 Good	2														0
+Act 3 Chest A	6	20	4					100	Gold	10	Act 3 Junk	15	Act 3 Equip A	10	Act 3 Good	2																0
+Act 3 Chest B	6	22	4					100	Gold	10	Act 3 Junk	15	Act 3 Equip B	10	Act 3 Good	2																0
+Act 3 Chest C	6	24	4					100	Gold	10	Act 3 Junk	15	Act 3 Equip C	10	Act 3 Good	2																0
+Act 4 Chest A	6	26	4					100	Gold	10	Act 4 Junk	15	Act 4 Equip A	10	Act 4 Good	2																0
+Act 4 Chest B	6	28	4					100	Gold	10	Act 4 Junk	15	Act 4 Equip B	10	Act 4 Good	2																0
+Act 4 Chest C	6	30	4					100	Gold	10	Act 4 Junk	15	Act 4 Equip B	10	Act 4 Good	2																0
+Act 5 Chest A	6	32	4					100	Gold	10	Act 5 Junk	15	Act 5 Equip A	10	Act 5 Good	2																0
+Act 5 Chest B	6	34	4					100	Gold	10	Act 5 Junk	15	Act 5 Equip B	10	Act 5 Good	2																0
+Act 5 Chest C	6	36	4					100	Gold	10	Act 5 Junk	15	Act 5 Equip B	10	Act 5 Good	2																0
+Act 1 (N) Chest A	6	38	4					100	Gold	10	Act 1 (N) Junk	15	Act 1 (N) Equip A	10	Act 1 (N) Good	2																0
+Act 1 (N) Chest B	6	40	4					100	Gold	10	Act 1 (N) Junk	15	Act 1 (N) Equip B	10	Act 1 (N) Good	2																0
+Act 1 (N) Chest C	6	42	4					100	Gold	10	Act 1 (N) Junk	15	Act 1 (N) Equip B	10	Act 1 (N) Good	2																0
+Act 2 (N) Chest A	6	44	4					100	Gold	10	Act 2 (N) Junk	15	Act 2 (N) Equip A	10	Act 2 (N) Good	2																0
+Act 2 (N) Chest B	6	46	4					100	Gold	10	Act 2 (N) Junk	15	Act 2 (N) Equip B	10	Act 2 (N) Good	2																0
+Act 2 (N) Chest C	6	48	4					100	Gold	10	Act 2 (N) Junk	15	Act 2 (N) Equip B	10	Act 2 (N) Good	2																0
+Act 3 (N) Chest A	6	50	4					100	Gold	10	Act 3 (N) Junk	15	Act 3 (N) Equip A	10	Act 3 (N) Good	2																0
+Act 3 (N) Chest B	6	52	4					100	Gold	10	Act 3 (N) Junk	15	Act 3 (N) Equip B	10	Act 3 (N) Good	2																0
+Act 3 (N) Chest C	6	54	4					100	Gold	10	Act 3 (N) Junk	15	Act 3 (N) Equip B	10	Act 3 (N) Good	2																0
+Act 4 (N) Chest A	6	56	4					100	Gold	10	Act 4 (N) Junk	15	Act 4 (N) Equip A	10	Act 4 (N) Good	2																0
+Act 4 (N) Chest B	6	58	4					100	Gold	10	Act 4 (N) Junk	15	Act 4 (N) Equip B	10	Act 4 (N) Good	2																0
+Act 4 (N) Chest C	6	60	4					100	Gold	10	Act 4 (N) Junk	15	Act 4 (N) Equip C	10	Act 4 (N) Good	2																0
+Act 5 (N) Chest A	6	62	4					100	Gold	10	Act 5 (N) Junk	15	Act 5 (N) Equip A	10	Act 5 (N) Good	2																0
+Act 5 (N) Chest B	6	64	4					100	Gold	10	Act 5 (N) Junk	15	Act 5 (N) Equip B	10	Act 5 (N) Good	2																0
+Act 5 (N) Chest C	6	66	4					100	Gold	10	Act 5 (N) Junk	15	Act 5 (N) Equip B	10	Act 5 (N) Good	2																0
+Act 1 (H) Chest A	6	68	4					100	Gold	10	Act 1 (H) Junk	15	Act 1 (H) Equip A	10	Act 1 (H) Good	2																0
+Act 1 (H) Chest B	6	70	4					100	Gold	10	Act 1 (H) Junk	15	Act 1 (H) Equip B	10	Act 1 (H) Good	2																0
+Act 1 (H) Chest C	6	71	4					100	Gold	10	Act 1 (H) Junk	15	Act 1 (H) Equip B	10	Act 1 (H) Good	2																0
+Act 2 (H) Chest A	6	72	4					100	Gold	10	Act 2 (H) Junk	15	Act 2 (H) Equip A	10	Act 2 (H) Good	2																0
+Act 2 (H) Chest B	6	74	4					100	Gold	10	Act 2 (H) Junk	15	Act 2 (H) Equip B	10	Act 2 (H) Good	2																0
+Act 2 (H) Chest C	6	75	4					100	Gold	10	Act 2 (H) Junk	15	Act 2 (H) Equip B	10	Act 2 (H) Good	2																0
+Act 3 (H) Chest A	6	76	4					100	Gold	10	Act 3 (H) Junk	15	Act 3 (H) Equip A	10	Act 3 (H) Good	2																0
+Act 3 (H) Chest B	6	78	4					100	Gold	10	Act 3 (H) Junk	15	Act 3 (H) Equip B	10	Act 3 (H) Good	2																0
+Act 3 (H) Chest C	6	79	4					100	Gold	10	Act 3 (H) Junk	15	Act 3 (H) Equip B	10	Act 3 (H) Good	2																0
+Act 4 (H) Chest A	6	80	4					100	Gold	10	Act 4 (H) Junk	15	Act 4 (H) Equip A	10	Act 4 (H) Good	2																0
+Act 4 (H) Chest B	6	81	4					100	Gold	10	Act 4 (H) Junk	15	Act 4 (H) Equip B	10	Act 4 (H) Good	2																0
+Act 4 (H) Chest C	6	82	4					100	Gold	10	Act 4 (H) Junk	15	Act 4 (H) Equip B	10	Act 4 (H) Good	2																0
+Act 5 (H) Chest A	6	83	4					100	Gold	10	Act 5 (H) Junk	15	Act 5 (H) Equip A	10	Act 5 (H) Good	2																0
+Act 5 (H) Chest B	6	84	4					100	Gold	10	Act 5 (H) Junk	15	Act 5 (H) Equip B	10	Act 5 (H) Good	2																0
+Act 5 (H) Chest C	6	85	4					100	Gold	10	Act 5 (H) Junk	15	Act 5 (H) Equip B	10	Act 5 (H) Good	2																0
+Act 1 H2H A	7	0	1					100	Act 1 Equip A	32	Act 1 Junk	42	Act 1 Good	8	Organs (Regular)	2																0
+Act 1 H2H B	7	5	1					100	Act 1 Equip B	32	Act 1 Junk	42	Act 1 Good	8	Organs (Regular)	2																0
+Act 1 H2H C	7	9	1					100	Gold	32	Act 1 Equip C	32	Act 1 Junk	42	Act 1 Good	8	Organs (Regular)	2														0
+Act 2 H2H A	7	12	1					100	Gold	32	Act 2 Equip A	32	Act 2 Junk	42	Act 2 Good	8	Organs (Regular)	2														0
+Act 2 H2H B	7	15	1					100	Gold	32	Act 2 Equip B	32	Act 2 Junk	42	Act 2 Good	8	Organs (Regular)	2														0
+Act 2 H2H C	7	18	1					100	Gold	32	Act 2 Equip C	32	Act 2 Junk	42	Act 3 Good	8	Organs (Regular)	2														0
+Act 3 H2H A	7	20	1					100	Gold	32	Act 3 Equip A	32	Act 3 Junk	42	Act 3 Good	8	Organs (Regular)	2														0
+Act 3 H2H B	7	22	1					100	Gold	32	Act 3 Equip B	32	Act 3 Junk	42	Act 3 Good	8	Organs (Regular)	2														0
+Act 3 H2H C	7	24	1					100	Gold	32	Act 3 Equip C	32	Act 3 Junk	42	Act 3 Good	8	Organs (Regular)	2														0
+Act 4 H2H A	7	26	1					100	Gold	32	Act 4 Equip A	32	Act 4 Junk	42	Act 4 Good	8	Organs (Regular)	2														0
+Act 4 H2H B	7	29	1					100	Gold	32	Act 4 Equip B	32	Act 4 Junk	42	Act 4 Good	8	Organs (Regular)	2														0
+Act 5 H2H A	7	32	1					100	Gold	32	Act 5 Equip A	32	Act 5 Junk	42	Act 5 Good	8	Organs (Regular)	2														0
+Act 5 H2H B	7	34	1					100	Gold	32	Act 5 Equip B	32	Act 5 Junk	42	Act 5 Good	8	Organs (Regular)	2														0
+Act 5 H2H C	7	36	1					100	Gold	32	Act 5 Equip C	32	Act 5 Junk	42	Act 5 Good	8	Organs (Regular)	2														0
+Act 1 (N) H2H A	7	38	1					100	Gold	32	Act 1 (N) Equip A	32	Act 1 (N) Junk	42	Act 1 (N) Good	8	Organs (Regular)	2														0
+Act 1 (N) H2H B	7	40	1					100	Gold	32	Act 1 (N) Equip B	32	Act 1 (N) Junk	42	Act 1 (N) Good	8	Organs (Regular)	2														0
+Act 1 (N) H2H C	7	41	1					100	Gold	32	Act 1 (N) Equip B	32	Act 1 (N) Junk	42	Act 1 (N) Good	8	Organs (Regular)	2														0
+Act 2 (N) H2H A	7	42	1					100	Gold	32	Act 2 (N) Equip A	32	Act 2 (N) Junk	42	Act 2 (N) Good	8	Organs (Regular)	2														0
+Act 2 (N) H2H B	7	44	1					100	Gold	32	Act 2 (N) Equip B	32	Act 2 (N) Junk	42	Act 2 (N) Good	8	Organs (Regular)	2														0
+Act 2 (N) H2H C	7	45	1					100	Gold	32	Act 2 (N) Equip B	32	Act 2 (N) Junk	42	Act 2 (N) Good	8	Organs (Regular)	2														0
+Act 3 (N) H2H A	7	46	1					100	Gold	32	Act 3 (N) Equip A	32	Act 3 (N) Junk	42	Act 3 (N) Good	8	Organs (Regular)	2														0
+Act 3 (N) H2H B	7	48	1					100	Gold	32	Act 3 (N) Equip B	32	Act 3 (N) Junk	42	Act 3 (N) Good	8	Organs (Regular)	2														0
+Act 3 (N) H2H C	7	50	1					100	Gold	32	Act 3 (N) Equip B	32	Act 3 (N) Junk	42	Act 3 (N) Good	8	Organs (Regular)	2														0
+Act 4 (N) H2H A	7	51	1					100	Gold	32	Act 4 (N) Equip A	32	Act 4 (N) Junk	42	Act 4 (N) Good	8	Organs (Regular)	2														0
+Act 4 (N) H2H B	7	54	1					100	Gold	32	Act 4 (N) Equip B	32	Act 4 (N) Junk	42	Act 4 (N) Good	8	Organs (Regular)	2														0
+Act 5 (N) H2H A	7	57	1					100	Gold	32	Act 5 (N) Equip A	32	Act 5 (N) Junk	42	Act 5 (N) Good	8	Organs (Regular)	2														0
+Act 5 (N) H2H B	7	60	1					100	Gold	32	Act 5 (N) Equip B	32	Act 5 (N) Junk	42	Act 5 (N) Good	8	Organs (Regular)	2														0
+Act 5 (N) H2H C	7	62	1					100	Gold	32	Act 5 (N) Equip C	32	Act 5 (N) Junk	42	Act 5 (N) Good	8	Organs (Regular)	2														0
+Act 1 (H) H2H A	7	63	1					100	Gold	32	Act 1 (H) Equip A	32	Act 1 (H) Junk	42	Act 1 (H) Good	8	Organs (Regular)	2														0
+Act 1 (H) H2H B	7	66	1					100	Gold	32	Act 1 (H) Equip B	32	Act 1 (H) Junk	42	Act 1 (H) Good	8	Organs (Regular)	2														0
+Act 1 (H) H2H C	7	68	1					100	Gold	32	Act 1 (H) Equip B	32	Act 1 (H) Junk	42	Act 1 (H) Good	8	Organs (Regular)	2														0
+Act 2 (H) H2H A	7	69	1					100	Gold	32	Act 2 (H) Equip A	32	Act 1 (H) Junk	42	Act 2 (H) Good	8	Organs (Regular)	2														0
+Act 2 (H) H2H B	7	71	1					100	Gold	32	Act 2 (H) Equip B	32	Act 1 (H) Junk	42	Act 2 (H) Good	8	Organs (Regular)	2														0
+Act 2 (H) H2H C	7	73	1					100	Gold	32	Act 2 (H) Equip B	32	Act 1 (H) Junk	42	Act 2 (H) Good	8	Organs (Regular)	2														0
+Act 3 (H) H2H A	7	74	1					100	Gold	32	Act 3 (H) Equip A	32	Act 1 (H) Junk	42	Act 3 (H) Good	8	Organs (Regular)	2														0
+Act 3 (H) H2H B	7	76	1					100	Gold	32	Act 3 (H) Equip B	32	Act 1 (H) Junk	42	Act 3 (H) Good	8	Organs (Regular)	2														0
+Act 3 (H) H2H C	7	77	1					100	Gold	32	Act 3 (H) Equip B	32	Act 1 (H) Junk	42	Act 3 (H) Good	8	Organs (Regular)	2														0
+Act 4 (H) H2H A	7	79	1					100	Gold	32	Act 4 (H) Equip A	32	Act 1 (H) Junk	42	Act 4 (H) Good	8	Organs (Regular)	2														0
+Act 4 (H) H2H B	7	80	1					100	Gold	32	Act 4 (H) Equip B	32	Act 1 (H) Junk	42	Act 4 (H) Good	8	Organs (Regular)	2														0
+Act 5 (H) H2H A	7	82	1					100	Gold	32	Act 5 (H) Equip A	32	Act 1 (H) Junk	42	Act 5 (H) Good	8	Organs (Regular)	2														0
+Act 5 (H) H2H B	7	83	1					100	Gold	32	Act 5 (H) Equip B	32	Act 1 (H) Junk	42	Act 5 (H) Good	8	Organs (Regular)	2														0
+Act 5 (H) H2H C	7	85	1					100	Gold	32	Act 5 (H) Equip C	32	Act 1 (H) Junk	42	Act 5 (H) Good	8	Organs (Regular)	2														0
+Act 1 Cast A	8	0	1					100	Act 1 Equip A	30	Act 1 Junk	36	Act 1 Good	2	Act 1 Magic A	8	Organs (Regular)	2														0
+Act 1 Cast B	8	5	1					100	Act 1 Equip B	30	Act 1 Junk	36	Act 1 Good	2	Act 1 Magic B	8	Organs (Regular)	2														0
+Act 1 Cast C	8	9	1					100	Gold	30	Act 1 Equip C	30	Act 1 Junk	36	Act 1 Good	2	Act 1 Magic C	8	Organs (Regular)	2												0
+Act 2 Cast A	8	12	1					100	Gold	30	Act 2 Equip A	30	Act 2 Junk	36	Act 2 Good	2	Act 2 Magic A	8	Organs (Regular)	2												0
+Act 2 Cast B	8	15	1					100	Gold	30	Act 2 Equip B	30	Act 2 Junk	36	Act 2 Good	2	Act 2 Magic B	8	Organs (Regular)	2												0
+Act 2 Cast C	8	18	1					100	Gold	30	Act 2 Equip C	30	Act 2 Junk	36	Act 3 Good	2	Act 2 Magic C	8	Organs (Regular)	2												0
+Act 3 Cast A	8	20	1					100	Gold	30	Act 3 Equip A	30	Act 3 Junk	36	Act 3 Good	2	Act 3 Magic A	8	Organs (Regular)	2												0
+Act 3 Cast B	8	22	1					100	Gold	30	Act 3 Equip B	30	Act 3 Junk	36	Act 3 Good	2	Act 3 Magic B	8	Organs (Regular)	2												0
+Act 3 Cast C	8	24	1					100	Gold	30	Act 3 Equip C	30	Act 3 Junk	36	Act 3 Good	2	Act 3 Magic C	8	Organs (Regular)	2												0
+Act 4 Cast A	8	26	1					100	Gold	30	Act 4 Equip A	30	Act 4 Junk	36	Act 4 Good	2	Act 4 Magic A	8	Organs (Regular)	2												0
+Act 4 Cast B	8	29	1					100	Gold	30	Act 4 Equip B	30	Act 4 Junk	36	Act 4 Good	2	Act 4 Magic B	8	Organs (Regular)	2												0
+Act 5 Cast A	8	32	1					100	Gold	30	Act 5 Equip A	30	Act 5 Junk	36	Act 5 Good	2	Act 5 Magic A	8	Organs (Regular)	2												0
+Act 5 Cast B	8	34	1					100	Gold	30	Act 5 Equip B	30	Act 5 Junk	36	Act 5 Good	2	Act 5 Magic B	8	Organs (Regular)	2												0
+Act 5 Cast C	8	36	1					100	Gold	30	Act 5 Equip C	30	Act 5 Junk	36	Act 5 Good	2	Act 5 Magic C	8	Organs (Regular)	2												0
+Act 1 (N) Cast A	8	38	1					100	Gold	30	Act 1 (N) Equip A	30	Act 1 (N) Junk	36	Act 1 (N) Good	2	Act 1 (N) Magic A	8	Organs (Regular)	2												0
+Act 1 (N) Cast B	8	40	1					100	Gold	30	Act 1 (N) Equip B	30	Act 1 (N) Junk	36	Act 1 (N) Good	2	Act 1 (N) Magic B	8	Organs (Regular)	2												0
+Act 1 (N) Cast C	8	41	1					100	Gold	30	Act 1 (N) Equip B	30	Act 1 (N) Junk	36	Act 1 (N) Good	2	Act 1 (N) Magic B	8	Organs (Regular)	2												0
+Act 2 (N) Cast A	8	42	1					100	Gold	30	Act 2 (N) Equip A	30	Act 2 (N) Junk	36	Act 2 (N) Good	2	Act 2 (N) Magic A	8	Organs (Regular)	2												0
+Act 2 (N) Cast B	8	44	1					100	Gold	30	Act 2 (N) Equip B	30	Act 2 (N) Junk	36	Act 2 (N) Good	2	Act 2 (N) Magic B	8	Organs (Regular)	2												0
+Act 2 (N) Cast C	8	45	1					100	Gold	30	Act 2 (N) Equip B	30	Act 2 (N) Junk	36	Act 2 (N) Good	2	Act 2 (N) Magic B	8	Organs (Regular)	2												0
+Act 3 (N) Cast A	8	46	1					100	Gold	30	Act 3 (N) Equip A	30	Act 3 (N) Junk	36	Act 3 (N) Good	2	Act 3 (N) Magic A	8	Organs (Regular)	2												0
+Act 3 (N) Cast B	8	48	1					100	Gold	30	Act 3 (N) Equip B	30	Act 3 (N) Junk	36	Act 3 (N) Good	2	Act 3 (N) Magic B	8	Organs (Regular)	2												0
+Act 3 (N) Cast C	8	50	1					100	Gold	30	Act 3 (N) Equip B	30	Act 3 (N) Junk	36	Act 3 (N) Good	2	Act 3 (N) Magic B	8	Organs (Regular)	2												0
+Act 4 (N) Cast A	8	51	1					100	Gold	30	Act 4 (N) Equip A	30	Act 4 (N) Junk	36	Act 4 (N) Good	2	Act 4 (N) Magic A	8	Organs (Regular)	2												0
+Act 4 (N) Cast B	8	54	1					100	Gold	30	Act 4 (N) Equip B	30	Act 4 (N) Junk	36	Act 4 (N) Good	2	Act 4 (N) Magic B	8	Organs (Regular)	2												0
+Act 5 (N) Cast A	8	57	1					100	Gold	30	Act 5 (N) Equip A	30	Act 5 (N) Junk	36	Act 5 (N) Good	2	Act 5 (N) Magic A	8	Organs (Regular)	2												0
+Act 5 (N) Cast B	8	60	1					100	Gold	30	Act 5 (N) Equip B	30	Act 5 (N) Junk	36	Act 5 (N) Good	2	Act 5 (N) Magic B	8	Organs (Regular)	2												0
+Act 5 (N) Cast C	8	62	1					100	Gold	30	Act 5 (N) Equip C	30	Act 5 (N) Junk	36	Act 5 (N) Good	2	Act 5 (N) Magic B	8	Organs (Regular)	2												0
+Act 1 (H) Cast A	8	63	1					100	Gold	30	Act 1 (H) Equip A	30	Act 1 (H) Junk	36	Act 1 (H) Good	2	Act 1 (H) Magic A	8	Organs (Regular)	2												0
+Act 1 (H) Cast B	8	66	1					100	Gold	30	Act 1 (H) Equip B	30	Act 1 (H) Junk	36	Act 1 (H) Good	2	Act 1 (H) Magic B	8	Organs (Regular)	2												0
+Act 1 (H) Cast C	8	68	1					100	Gold	30	Act 1 (H) Equip B	30	Act 1 (H) Junk	36	Act 1 (H) Good	2	Act 1 (H) Magic B	8	Organs (Regular)	2												0
+Act 2 (H) Cast A	8	69	1					100	Gold	30	Act 2 (H) Equip A	30	Act 1 (H) Junk	36	Act 2 (H) Good	2	Act 2 (H) Magic A	8	Organs (Regular)	2												0
+Act 2 (H) Cast B	8	71	1					100	Gold	30	Act 2 (H) Equip B	30	Act 1 (H) Junk	36	Act 2 (H) Good	2	Act 2 (H) Magic B	8	Organs (Regular)	2												0
+Act 2 (H) Cast C	8	72	1					100	Gold	30	Act 2 (H) Equip B	30	Act 1 (H) Junk	36	Act 2 (H) Good	2	Act 2 (H) Magic B	8	Organs (Regular)	2												0
+Act 3 (H) Cast A	8	74	1					100	Gold	30	Act 3 (H) Equip A	30	Act 1 (H) Junk	36	Act 3 (H) Good	2	Act 3 (H) Magic A	8	Organs (Regular)	2												0
+Act 3 (H) Cast B	8	75	1					100	Gold	30	Act 3 (H) Equip B	30	Act 1 (H) Junk	36	Act 3 (H) Good	2	Act 3 (H) Magic B	8	Organs (Regular)	2												0
+Act 3 (H) Cast C	8	77	1					100	Gold	30	Act 3 (H) Equip B	30	Act 1 (H) Junk	36	Act 3 (H) Good	2	Act 3 (H) Magic B	8	Organs (Regular)	2												0
+Act 4 (H) Cast A	8	78	1					100	Gold	30	Act 4 (H) Equip A	30	Act 1 (H) Junk	36	Act 4 (H) Good	2	Act 4 (H) Magic A	8	Organs (Regular)	2												0
+Act 4 (H) Cast B	8	80	1					100	Gold	30	Act 4 (H) Equip B	30	Act 1 (H) Junk	36	Act 4 (H) Good	2	Act 4 (H) Magic B	8	Organs (Regular)	2												0
+Act 5 (H) Cast A	8	81	1					100	Gold	30	Act 5 (H) Equip A	30	Act 1 (H) Junk	36	Act 5 (H) Good	2	Act 5 (H) Magic A	8	Organs (Regular)	2												0
+Act 5 (H) Cast B	8	83	1					100	Gold	30	Act 5 (H) Equip B	30	Act 1 (H) Junk	36	Act 5 (H) Good	2	Act 5 (H) Magic B	8	Organs (Regular)	2												0
+Act 5 (H) Cast C	8	85	1					100	Gold	30	Act 5 (H) Equip C	30	Act 1 (H) Junk	36	Act 5 (H) Good	2	Act 5 (H) Magic B	8	Organs (Regular)	2												0
+Act 1 Miss A	9	0	1					100	Gold	30	Act 1 Equip A	26	Act 1 Junk	36	Act 1 Good	2	Act 1 Bow A	6	Organs (Regular)	2												0
+Act 1 Miss B	9	5	1					100	Gold	30	Act 1 Equip B	26	Act 1 Junk	36	Act 1 Good	2	Act 1 Bow B	6	Organs (Regular)	2												0
+Act 1 Miss C	9	9	1					100	Gold	30	Act 1 Equip C	26	Act 1 Junk	36	Act 1 Good	2	Act 1 Bow C	6	Organs (Regular)	2												0
+Act 2 Miss A	9	12	1					100	Gold	30	Act 2 Equip A	26	Act 2 Junk	36	Act 2 Good	2	Act 2 Bow A	6	Organs (Regular)	2												0
+Act 2 Miss B	9	15	1					100	Gold	30	Act 2 Equip B	26	Act 2 Junk	36	Act 2 Good	2	Act 2 Bow B	6	Organs (Regular)	2												0
+Act 2 Miss C	9	18	1					100	Gold	30	Act 2 Equip C	26	Act 2 Junk	36	Act 3 Good	2	Act 2 Bow C	6	Organs (Regular)	2												0
+Act 3 Miss A	9	20	1					100	Gold	30	Act 3 Equip A	26	Act 3 Junk	36	Act 3 Good	2	Act 3 Bow A	6	Organs (Regular)	2												0
+Act 3 Miss B	9	22	1					100	Gold	30	Act 3 Equip B	26	Act 3 Junk	36	Act 3 Good	2	Act 3 Bow B	6	Organs (Regular)	2												0
+Act 3 Miss C	9	24	1					100	Gold	30	Act 3 Equip C	26	Act 3 Junk	36	Act 3 Good	2	Act 3 Bow C	6	Organs (Regular)	2												0
+Act 4 Miss A	9	26	1					100	Gold	30	Act 4 Equip A	26	Act 4 Junk	36	Act 4 Good	2	Act 4 Bow A	6	Organs (Regular)	2												0
+Act 4 Miss B	9	29	1					100	Gold	30	Act 4 Equip B	26	Act 4 Junk	36	Act 4 Good	2	Act 4 Bow B	6	Organs (Regular)	2												0
+Act 5 Miss A	9	32	1					100	Gold	30	Act 5 Equip A	26	Act 5 Junk	36	Act 5 Good	2	Act 5 Bow A	6	Organs (Regular)	2												0
+Act 5 Miss B	9	34	1					100	Gold	30	Act 5 Equip B	26	Act 5 Junk	36	Act 5 Good	2	Act 5 Bow B	6	Organs (Regular)	2												0
+Act 5 Miss C	9	36	1					100	Gold	30	Act 5 Equip C	26	Act 5 Junk	36	Act 5 Good	2	Act 5 Bow B	6	Organs (Regular)	2												0
+Act 1 (N) Miss A	9	38	1					100	Gold	30	Act 1 (N) Equip A	26	Act 1 (N) Junk	36	Act 1 (N) Good	2	Act 1 (N) Bow A	6	Organs (Regular)	2												0
+Act 1 (N) Miss B	9	40	1					100	Gold	30	Act 1 (N) Equip B	26	Act 1 (N) Junk	36	Act 1 (N) Good	2	Act 1 (N) Bow B	6	Organs (Regular)	2												0
+Act 1 (N) Miss C	9	41	1					100	Gold	30	Act 1 (N) Equip B	26	Act 1 (N) Junk	36	Act 1 (N) Good	2	Act 1 (N) Bow B	6	Organs (Regular)	2												0
+Act 2 (N) Miss A	9	42	1					100	Gold	30	Act 2 (N) Equip A	26	Act 2 (N) Junk	36	Act 2 (N) Good	2	Act 2 (N) Bow A	6	Organs (Regular)	2												0
+Act 2 (N) Miss B	9	44	1					100	Gold	30	Act 2 (N) Equip B	26	Act 2 (N) Junk	36	Act 2 (N) Good	2	Act 2 (N) Bow B	6	Organs (Regular)	2												0
+Act 2 (N) Miss C	9	45	1					100	Gold	30	Act 2 (N) Equip B	26	Act 2 (N) Junk	36	Act 2 (N) Good	2	Act 2 (N) Bow B	6	Organs (Regular)	2												0
+Act 3 (N) Miss A	9	46	1					100	Gold	30	Act 3 (N) Equip A	26	Act 3 (N) Junk	36	Act 3 (N) Good	2	Act 3 (N) Bow A	6	Organs (Regular)	2												0
+Act 3 (N) Miss B	9	48	1					100	Gold	30	Act 3 (N) Equip B	26	Act 3 (N) Junk	36	Act 3 (N) Good	2	Act 3 (N) Bow B	6	Organs (Regular)	2												0
+Act 3 (N) Miss C	9	50	1					100	Gold	30	Act 3 (N) Equip B	26	Act 3 (N) Junk	36	Act 3 (N) Good	2	Act 3 (N) Bow B	6	Organs (Regular)	2												0
+Act 4 (N) Miss A	9	51	1					100	Gold	30	Act 4 (N) Equip A	26	Act 4 (N) Junk	36	Act 4 (N) Good	2	Act 4 (N) Bow A	6	Organs (Regular)	2												0
+Act 4 (N) Miss B	9	54	1					100	Gold	30	Act 4 (N) Equip B	26	Act 4 (N) Junk	36	Act 4 (N) Good	2	Act 4 (N) Bow B	6	Organs (Regular)	2												0
+Act 5 (N) Miss A	9	57	1					100	Gold	30	Act 5 (N) Equip A	26	Act 5 (N) Junk	36	Act 5 (N) Good	2	Act 5 (N) Bow A	6	Organs (Regular)	2												0
+Act 5 (N) Miss B	9	60	1					100	Gold	30	Act 5 (N) Equip B	26	Act 5 (N) Junk	36	Act 5 (N) Good	2	Act 5 (N) Bow B	6	Organs (Regular)	2												0
+Act 5 (N) Miss C	9	62	1					100	Gold	30	Act 5 (N) Equip C	26	Act 5 (N) Junk	36	Act 5 (N) Good	2	Act 5 (N) Bow B	6	Organs (Regular)	2												0
+Act 1 (H) Miss A	9	63	1					100	Gold	30	Act 1 (H) Equip A	26	Act 1 (H) Junk	36	Act 1 (H) Good	2	Act 1 (H) Bow A	6	Organs (Regular)	2												0
+Act 1 (H) Miss B	9	66	1					100	Gold	30	Act 1 (H) Equip B	26	Act 1 (H) Junk	36	Act 1 (H) Good	2	Act 1 (H) Bow B	6	Organs (Regular)	2												0
+Act 1 (H) Miss C	9	68	1					100	Gold	30	Act 1 (H) Equip B	26	Act 1 (H) Junk	36	Act 1 (H) Good	2	Act 1 (H) Bow B	6	Organs (Regular)	2												0
+Act 2 (H) Miss A	9	69	1					100	Gold	30	Act 2 (H) Equip A	26	Act 1 (H) Junk	36	Act 2 (H) Good	2	Act 2 (H) Bow A	6	Organs (Regular)	2												0
+Act 2 (H) Miss B	9	71	1					100	Gold	30	Act 2 (H) Equip B	26	Act 1 (H) Junk	36	Act 2 (H) Good	2	Act 2 (H) Bow B	6	Organs (Regular)	2												0
+Act 2 (H) Miss C	9	72	1					100	Gold	30	Act 2 (H) Equip B	26	Act 1 (H) Junk	36	Act 2 (H) Good	2	Act 2 (H) Bow B	6	Organs (Regular)	2												0
+Act 3 (H) Miss A	9	74	1					100	Gold	30	Act 3 (H) Equip A	26	Act 1 (H) Junk	36	Act 3 (H) Good	2	Act 3 (H) Bow A	6	Organs (Regular)	2												0
+Act 3 (H) Miss B	9	75	1					100	Gold	30	Act 3 (H) Equip B	26	Act 1 (H) Junk	36	Act 3 (H) Good	2	Act 3 (H) Bow B	6	Organs (Regular)	2												0
+Act 3 (H) Miss C	9	77	1					100	Gold	30	Act 3 (H) Equip B	26	Act 1 (H) Junk	36	Act 3 (H) Good	2	Act 3 (H) Bow B	6	Organs (Regular)	2												0
+Act 4 (H) Miss A	9	78	1					100	Gold	30	Act 4 (H) Equip A	26	Act 1 (H) Junk	36	Act 4 (H) Good	2	Act 4 (H) Bow A	6	Organs (Regular)	2												0
+Act 4 (H) Miss B	9	80	1					100	Gold	30	Act 4 (H) Equip B	26	Act 1 (H) Junk	36	Act 4 (H) Good	2	Act 4 (H) Bow B	6	Organs (Regular)	2												0
+Act 5 (H) Miss A	9	81	1					100	Gold	30	Act 5 (H) Equip A	26	Act 1 (H) Junk	36	Act 5 (H) Good	2	Act 5 (H) Bow A	6	Organs (Regular)	2												0
+Act 5 (H) Miss B	9	83	1					100	Gold	30	Act 5 (H) Equip B	26	Act 1 (H) Junk	36	Act 5 (H) Good	2	Act 5 (H) Bow B	6	Organs (Regular)	2												0
+Act 5 (H) Miss C	9	85	1					100	Gold	30	Act 5 (H) Equip C	26	Act 1 (H) Junk	36	Act 5 (H) Good	2	Act 5 (H) Bow B	6	Organs (Regular)	2												0
+Act 1 Wraith A	10	0	1					75	Act 1 Good	4	Act 1 Magic A	25	Organs (Ghostly)	3																		0
+Act 1 Wraith B	10	5	1					75	Act 1 Good	4	Act 1 Magic B	25	Organs (Ghostly)	3																		0
+Act 1 Wraith C	10	9	1					75	Act 1 Good	4	Act 1 Magic C	25	Organs (Ghostly)	3																		0
+Act 2 Wraith A	10	12	1					75	Act 2 Good	4	Act 2 Magic A	25	Organs (Ghostly)	3																		0
+Act 2 Wraith B	10	15	1					75	Act 2 Good	4	Act 2 Magic B	25	Organs (Ghostly)	3																		0
+Act 2 Wraith C	10	18	1					75	Act 3 Good	4	Act 2 Magic C	25	Organs (Ghostly)	3																		0
+Act 3 Wraith A	10	20	1					75	Act 3 Good	4	Act 3 Magic A	25	Organs (Ghostly)	3																		0
+Act 3 Wraith B	10	22	1					75	Act 3 Good	4	Act 3 Magic B	25	Organs (Ghostly)	3																		0
+Act 3 Wraith C	10	24	1					75	Act 3 Good	4	Act 3 Magic C	25	Organs (Ghostly)	3																		0
+Act 4 Wraith A	10	26	1					75	Act 4 Good	4	Act 4 Magic A	25	Organs (Ghostly)	3																		0
+Act 4 Wraith B	10	29	1					75	Act 4 Good	4	Act 4 Magic B	25	Organs (Ghostly)	3																		0
+Act 5 Wraith A	10	32	1					75	Act 5 Good	4	Act 5 Magic A	25	Organs (Ghostly)	3																		0
+Act 5 Wraith B	10	34	1					75	Act 5 Good	4	Act 5 Magic B	25	Organs (Ghostly)	3																		0
+Act 5 Wraith C	10	36	1					75	Act 5 Good	4	Act 5 Magic C	25	Organs (Ghostly)	3																		0
+Act 1 (N) Wraith A	10	38	1					75	Act 1 (N) Good	4	Act 1 (N) Magic A	25	Organs (Ghostly)	3																		0
+Act 1 (N) Wraith B	10	40	1					75	Act 1 (N) Good	4	Act 1 (N) Magic B	25	Organs (Ghostly)	3																		0
+Act 1 (N) Wraith C	10	41	1					75	Act 1 (N) Good	4	Act 1 (N) Magic B	25	Organs (Ghostly)	3																		0
+Act 2 (N) Wraith A	10	42	1					75	Act 2 (N) Good	4	Act 2 (N) Magic A	25	Organs (Ghostly)	3																		0
+Act 2 (N) Wraith B	10	44	1					75	Act 2 (N) Good	4	Act 2 (N) Magic B	25	Organs (Ghostly)	3																		0
+Act 2 (N) Wraith C	10	45	1					75	Act 2 (N) Good	4	Act 2 (N) Magic B	25	Organs (Ghostly)	3																		0
+Act 3 (N) Wraith A	10	46	1					75	Act 3 (N) Good	4	Act 3 (N) Magic A	25	Organs (Ghostly)	3																		0
+Act 3 (N) Wraith B	10	48	1					75	Act 3 (N) Good	4	Act 3 (N) Magic B	25	Organs (Ghostly)	3																		0
+Act 3 (N) Wraith C	10	50	1					75	Act 3 (N) Good	4	Act 3 (N) Magic B	25	Organs (Ghostly)	3																		0
+Act 4 (N) Wraith A	10	51	1					75	Act 4 (N) Good	4	Act 4 (N) Magic A	25	Organs (Ghostly)	3																		0
+Act 4 (N) Wraith B	10	54	1					75	Act 4 (N) Good	4	Act 4 (N) Magic B	25	Organs (Ghostly)	3																		0
+Act 5 (N) Wraith A	10	57	1					75	Act 5 (N) Good	4	Act 5 (N) Magic A	25	Organs (Ghostly)	3																		0
+Act 5 (N) Wraith B	10	60	1					75	Act 5 (N) Good	4	Act 5 (N) Magic B	25	Organs (Ghostly)	3																		0
+Act 5 (N) Wraith C	10	62	1					75	Act 5 (N) Good	4	Act 5 (N) Magic C	25	Organs (Ghostly)	3																		0
+Act 1 (H) Wraith A	10	63	1					75	Act 1 (H) Good	4	Act 1 (H) Magic A	25	Organs (Ghostly)	3																		0
+Act 1 (H) Wraith B	10	66	1					75	Act 1 (H) Good	4	Act 1 (H) Magic B	25	Organs (Ghostly)	3																		0
+Act 1 (H) Wraith C	10	68	1					75	Act 1 (H) Good	4	Act 1 (H) Magic B	25	Organs (Ghostly)	3																		0
+Act 2 (H) Wraith A	10	69	1					75	Act 2 (H) Good	4	Act 2 (H) Magic A	25	Organs (Ghostly)	3																		0
+Act 2 (H) Wraith B	10	71	1					75	Act 2 (H) Good	4	Act 2 (H) Magic B	25	Organs (Ghostly)	3																		0
+Act 2 (H) Wraith C	10	72	1					75	Act 2 (H) Good	4	Act 2 (H) Magic B	25	Organs (Ghostly)	3																		0
+Act 3 (H) Wraith A	10	74	1					75	Act 3 (H) Good	4	Act 3 (H) Magic A	25	Organs (Ghostly)	3																		0
+Act 3 (H) Wraith B	10	75	1					75	Act 3 (H) Good	4	Act 3 (H) Magic B	25	Organs (Ghostly)	3																		0
+Act 3 (H) Wraith C	10	77	1					75	Act 3 (H) Good	4	Act 3 (H) Magic B	25	Organs (Ghostly)	3																		0
+Act 4 (H) Wraith A	10	78	1					75	Act 4 (H) Good	4	Act 4 (H) Magic A	25	Organs (Ghostly)	3																		0
+Act 4 (H) Wraith B	10	80	1					75	Act 4 (H) Good	4	Act 4 (H) Magic B	25	Organs (Ghostly)	3																		0
+Act 5 (H) Wraith A	10	81	1					75	Act 5 (H) Good	4	Act 5 (H) Magic A	25	Organs (Ghostly)	3																		0
+Act 5 (H) Wraith B	10	83	1					75	Act 5 (H) Good	4	Act 5 (H) Magic B	25	Organs (Ghostly)	3																		0
+Act 5 (H) Wraith C	10	85	1					75	Act 5 (H) Good	4	Act 5 (H) Magic C	25	Organs (Ghostly)	3																		0
+Act 1 Quill Rat A	20	0						75	Act 1 Good	4	Organs (Quilled)	2	Act 1 Junk	18																		0
+Act 1 Quill Rat B	20	5						75	Act 1 Good	4	Organs (Quilled)	2	Act 1 Junk	18																		0
+Act 1 Quill Rat C	20	9						75	Act 1 Good	4	Organs (Quilled)	2	Act 1 Junk	18																		0
+Act 2 Quill Rat A	20	12						75	Act 2 Good	4	Organs (Quilled)	2	Act 2 Junk	18																		0
+Act 2 Quill Rat B	20	15						75	Act 2 Good	4	Organs (Quilled)	2	Act 2 Junk	18																		0
+Act 2 Quill Rat C	20	18						75	Act 3 Good	4	Organs (Quilled)	2	Act 2 Junk	18																		0
+Act 3 Quill Rat A	20	20						75	Act 3 Good	4	Organs (Quilled)	2	Act 3 Junk	18																		0
+Act 3 Quill Rat B	20	22						75	Act 3 Good	4	Organs (Quilled)	2	Act 3 Junk	18																		0
+Act 3 Quill Rat C	20	24						75	Act 3 Good	4	Organs (Quilled)	2	Act 3 Junk	18																		0
+Act 4 Quill Rat A	20	26						75	Act 4 Good	4	Organs (Quilled)	2	Act 4 Junk	18																		0
+Act 4 Quill Rat B	20	29						75	Act 4 Good	4	Organs (Quilled)	2	Act 4 Junk	18																		0
+Act 5 Quill Rat A	20	32						75	Act 5 Good	4	Organs (Quilled)	2	Act 5 Junk	18																		0
+Act 5 Quill Rat B	20	34						75	Act 5 Good	4	Organs (Quilled)	2	Act 5 Junk	18																		0
+Act 5 Quill Rat C	20	36						75	Act 5 Good	4	Organs (Quilled)	2	Act 5 Junk	18																		0
+Act 1 (N) Quill Rat A	20	38						75	Act 1 (N) Good	4	Organs (Quilled)	2	Act 1 (N) Junk	18																		0
+Act 1 (N) Quill Rat B	20	40						75	Act 1 (N) Good	4	Organs (Quilled)	2	Act 1 (N) Junk	18																		0
+Act 1 (N) Quill Rat C	20	41						75	Act 1 (N) Good	4	Organs (Quilled)	2	Act 1 (N) Junk	18																		0
+Act 2 (N) Quill Rat A	20	42						75	Act 2 (N) Good	4	Organs (Quilled)	2	Act 2 (N) Junk	18																		0
+Act 2 (N) Quill Rat B	20	44						75	Act 2 (N) Good	4	Organs (Quilled)	2	Act 2 (N) Junk	18																		0
+Act 2 (N) Quill Rat C	20	45						75	Act 2 (N) Good	4	Organs (Quilled)	2	Act 2 (N) Junk	18																		0
+Act 3 (N) Quill Rat A	20	46						75	Act 3 (N) Good	4	Organs (Quilled)	2	Act 3 (N) Junk	18																		0
+Act 3 (N) Quill Rat B	20	48						75	Act 3 (N) Good	4	Organs (Quilled)	2	Act 3 (N) Junk	18																		0
+Act 3 (N) Quill Rat C	20	50						75	Act 3 (N) Good	4	Organs (Quilled)	2	Act 3 (N) Junk	18																		0
+Act 4 (N) Quill Rat A	20	51						75	Act 4 (N) Good	4	Organs (Quilled)	2	Act 4 (N) Junk	18																		0
+Act 4 (N) Quill Rat B	20	54						75	Act 4 (N) Good	4	Organs (Quilled)	2	Act 4 (N) Junk	18																		0
+Act 5 (N) Quill Rat A	20	57						75	Act 5 (N) Good	4	Organs (Quilled)	2	Act 5 (N) Junk	18																		0
+Act 5 (N) Quill Rat B	20	60						75	Act 5 (N) Good	4	Organs (Quilled)	2	Act 5 (N) Junk	18																		0
+Act 5 (N) Quill Rat C	20	62						75	Act 5 (N) Good	4	Organs (Quilled)	2	Act 5 (N) Junk	18																		0
+Act 1 (H) Quill Rat A	20	63						75	Act 1 (H) Good	4	Organs (Quilled)	2	Act 1 (H) Junk	18																		0
+Act 1 (H) Quill Rat B	20	66						75	Act 1 (H) Good	4	Organs (Quilled)	2	Act 1 (H) Junk	18																		0
+Act 1 (H) Quill Rat C	20	68						75	Act 1 (H) Good	4	Organs (Quilled)	2	Act 1 (H) Junk	18																		0
+Act 2 (H) Quill Rat A	20	69						75	Act 2 (H) Good	4	Organs (Quilled)	2	Act 1 (H) Junk	18																		0
+Act 2 (H) Quill Rat B	20	71						75	Act 2 (H) Good	4	Organs (Quilled)	2	Act 1 (H) Junk	18																		0
+Act 2 (H) Quill Rat C	20	72						75	Act 2 (H) Good	4	Organs (Quilled)	2	Act 1 (H) Junk	18																		0
+Act 3 (H) Quill Rat A	20	74						75	Act 3 (H) Good	4	Organs (Quilled)	2	Act 1 (H) Junk	18																		0
+Act 3 (H) Quill Rat B	20	75						75	Act 3 (H) Good	4	Organs (Quilled)	2	Act 1 (H) Junk	18																		0
+Act 3 (H) Quill Rat C	20	77						75	Act 3 (H) Good	4	Organs (Quilled)	2	Act 1 (H) Junk	18																		0
+Act 4 (H) Quill Rat A	20	78						75	Act 4 (H) Good	4	Organs (Quilled)	2	Act 1 (H) Junk	18																		0
+Act 4 (H) Quill Rat B	20	80						75	Act 4 (H) Good	4	Organs (Quilled)	2	Act 1 (H) Junk	18																		0
+Act 5 (H) Quill Rat A	20	81						75	Act 5 (H) Good	4	Organs (Quilled)	2	Act 1 (H) Junk	18																		0
+Act 5 (H) Quill Rat B	20	83						75	Act 5 (H) Good	4	Organs (Quilled)	2	Act 1 (H) Junk	18																		0
+Act 5 (H) Quill Rat C	20	85						75	Act 5 (H) Good	4	Organs (Quilled)	2	Act 1 (H) Junk	18																		0
+Act 1 Shaman A	21	0	1					25	Act 1 Good	4	Act 1 Magic A	12	Organs (Flags)	1																		0
+Act 1 Shaman B	21	5	1					25	Act 1 Good	4	Act 1 Magic B	12	Organs (Flags)	1																		0
+Act 1 Shaman C	21	9	1					25	Act 1 Good	4	Act 1 Magic C	12	Organs (Flags)	1																		0
+Act 2 Shaman A	21	12	1					25	Act 2 Good	4	Act 2 Magic A	12	Organs (Flags)	1																		0
+Act 2 Shaman B	21	15	1					25	Act 2 Good	4	Act 2 Magic B	12	Organs (Flags)	1																		0
+Act 2 Shaman C	21	18	1					25	Act 3 Good	4	Act 2 Magic C	12	Organs (Flags)	1																		0
+Act 3 Shaman A	21	20	1					25	Act 3 Good	4	Act 3 Magic A	12	Organs (Flags)	1																		0
+Act 3 Shaman B	21	22	1					25	Act 3 Good	4	Act 3 Magic B	12	Organs (Flags)	1																		0
+Act 3 Shaman C	21	24	1					25	Act 3 Good	4	Act 3 Magic C	12	Organs (Flags)	1																		0
+Act 4 Shaman A	21	26	1					25	Act 4 Good	4	Act 4 Magic A	12	Organs (Flags)	1																		0
+Act 4 Shaman B	21	29	1					25	Act 4 Good	4	Act 4 Magic B	12	Organs (Flags)	1																		0
+Act 5 Shaman A	21	32	1					25	Act 5 Good	4	Act 5 Magic A	12	Organs (Flags)	1																		0
+Act 5 Shaman B	21	34	1					25	Act 5 Good	4	Act 5 Magic B	12	Organs (Flags)	1																		0
+Act 5 Shaman C	21	36	1					25	Act 5 Good	4	Act 5 Magic C	12	Organs (Flags)	1																		0
+Act 1 (N) Shaman A	21	38	1					25	Act 1 (N) Good	4	Act 1 (N) Magic A	12	Organs (Flags)	1																		0
+Act 1 (N) Shaman B	21	40	1					25	Act 1 (N) Good	4	Act 1 (N) Magic B	12	Organs (Flags)	1																		0
+Act 1 (N) Shaman C	21	41	1					25	Act 1 (N) Good	4	Act 1 (N) Magic B	12	Organs (Flags)	1																		0
+Act 2 (N) Shaman A	21	42	1					25	Act 2 (N) Good	4	Act 2 (N) Magic A	12	Organs (Flags)	1																		0
+Act 2 (N) Shaman B	21	44	1					25	Act 2 (N) Good	4	Act 2 (N) Magic B	12	Organs (Flags)	1																		0
+Act 2 (N) Shaman C	21	45	1					25	Act 2 (N) Good	4	Act 2 (N) Magic B	12	Organs (Flags)	1																		0
+Act 3 (N) Shaman A	21	46	1					25	Act 3 (N) Good	4	Act 3 (N) Magic A	12	Organs (Flags)	1																		0
+Act 3 (N) Shaman B	21	48	1					25	Act 3 (N) Good	4	Act 3 (N) Magic B	12	Organs (Flags)	1																		0
+Act 3 (N) Shaman C	21	50	1					25	Act 3 (N) Good	4	Act 3 (N) Magic B	12	Organs (Flags)	1																		0
+Act 4 (N) Shaman A	21	51	1					25	Act 4 (N) Good	4	Act 4 (N) Magic A	12	Organs (Flags)	1																		0
+Act 4 (N) Shaman B	21	54	1					25	Act 4 (N) Good	4	Act 4 (N) Magic B	12	Organs (Flags)	1																		0
+Act 5 (N) Shaman A	21	57	1					25	Act 5 (N) Good	4	Act 5 (N) Magic A	12	Organs (Flags)	1																		0
+Act 5 (N) Shaman B	21	60	1					25	Act 5 (N) Good	4	Act 5 (N) Magic B	12	Organs (Flags)	1																		0
+Act 5 (N) Shaman C	21	62	1					25	Act 5 (N) Good	4	Act 5 (N) Magic C	12	Organs (Flags)	1																		0
+Act 1 (H) Shaman A	21	63	1					25	Act 1 (H) Good	4	Act 1 (H) Magic A	12	Organs (Flags)	1																		0
+Act 1 (H) Shaman B	21	66	1					25	Act 1 (H) Good	4	Act 1 (H) Magic B	12	Organs (Flags)	1																		0
+Act 1 (H) Shaman C	21	68	1					25	Act 1 (H) Good	4	Act 1 (H) Magic B	12	Organs (Flags)	1																		0
+Act 2 (H) Shaman A	21	69	1					25	Act 2 (H) Good	4	Act 2 (H) Magic A	12	Organs (Flags)	1																		0
+Act 2 (H) Shaman B	21	71	1					25	Act 2 (H) Good	4	Act 2 (H) Magic B	12	Organs (Flags)	1																		0
+Act 2 (H) Shaman C	21	72	1					25	Act 2 (H) Good	4	Act 2 (H) Magic B	12	Organs (Flags)	1																		0
+Act 3 (H) Shaman A	21	74	1					25	Act 3 (H) Good	4	Act 3 (H) Magic A	12	Organs (Flags)	1																		0
+Act 3 (H) Shaman B	21	75	1					25	Act 3 (H) Good	4	Act 3 (H) Magic B	12	Organs (Flags)	1																		0
+Act 3 (H) Shaman C	21	77	1					25	Act 3 (H) Good	4	Act 3 (H) Magic B	12	Organs (Flags)	1																		0
+Act 4 (H) Shaman A	21	78	1					25	Act 4 (H) Good	4	Act 4 (H) Magic A	12	Organs (Flags)	1																		0
+Act 4 (H) Shaman B	21	80	1					25	Act 4 (H) Good	4	Act 4 (H) Magic B	12	Organs (Flags)	1																		0
+Act 5 (H) Shaman A	21	81	1					25	Act 5 (H) Good	4	Act 5 (H) Magic A	12	Organs (Flags)	1																		0
+Act 5 (H) Shaman B	21	83	1					25	Act 5 (H) Good	4	Act 5 (H) Magic B	12	Organs (Flags)	1																		0
+Act 5 (H) Shaman C	21	85	1					25	Act 5 (H) Good	4	Act 5 (H) Magic C	12	Organs (Flags)	1																		0
+Act 1 Citem A	11	0	1	1024	1024	1024	1024	0	"gld,mul=320"	60	Act 1 Equip A	37	Act 1 Good	3																		0
+Act 1 Citem B	11	5	1	1024	1024	1024	1024	0	"gld,mul=320"	60	Act 1 Equip B	37	Act 1 Good	3																		0
+Act 1 Citem C	11	9	1	1024	1024	1024	1024	0	"gld,mul=320"	60	Act 1 Equip C	37	Act 1 Good	3																		0
+Act 2 Citem A	11	12	1	1024	1024	1024	1024	0	"gld,mul=320"	60	Act 2 Equip A	37	Act 2 Good	3																		0
+Act 2 Citem B	11	15	1	1024	1024	1024	1024	0	"gld,mul=320"	60	Act 2 Equip B	37	Act 2 Good	3																		0
+Act 2 Citem C	11	18	1	1024	1024	1024	1024	0	"gld,mul=320"	60	Act 2 Equip C	37	Act 3 Good	3																		0
+Act 3 Citem A	11	20	1	1024	1024	1024	1024	0	"gld,mul=320"	60	Act 3 Equip A	37	Act 3 Good	3																		0
+Act 3 Citem B	11	22	1	1024	1024	1024	1024	0	"gld,mul=320"	60	Act 3 Equip B	37	Act 3 Good	3																		0
+Act 3 Citem C	11	24	1	1024	1024	1024	1024	0	"gld,mul=320"	60	Act 3 Equip C	37	Act 3 Good	3																		0
+Act 4 Citem A	11	26	1	1024	1024	1024	1024	0	"gld,mul=320"	60	Act 4 Equip A	37	Act 4 Good	3																		0
+Act 4 Citem B	11	29	1	1024	1024	1024	1024	0	"gld,mul=320"	60	Act 4 Equip B	37	Act 4 Good	3																		0
+Act 5 Citem A	11	32	1	1024	1024	1024	1024	0	"gld,mul=320"	60	Act 5 Equip A	37	Act 5 Good	3																		0
+Act 5 Citem B	11	34	1	1024	1024	1024	1024	0	"gld,mul=320"	60	Act 5 Equip B	37	Act 5 Good	3																		0
+Act 5 Citem C	11	36	1	1024	1024	1024	1024	0	"gld,mul=320"	60	Act 5 Equip C	37	Act 5 Good	3																		0
+Act 1 (N) Citem A	11	38	1	1024	1024	1024	1024	0	"gld,mul=320"	60	Act 1 (N) Equip A	37	Act 1 (N) Good	3																		0
+Act 1 (N) Citem B	11	40	1	1024	1024	1024	1024	0	"gld,mul=320"	60	Act 1 (N) Equip B	37	Act 1 (N) Good	3																		0
+Act 1 (N) Citem C	11	41	1	1024	1024	1024	1024	0	"gld,mul=320"	60	Act 1 (N) Equip B	37	Act 1 (N) Good	3																		0
+Act 2 (N) Citem A	11	42	1	1024	1024	1024	1024	0	"gld,mul=320"	60	Act 2 (N) Equip A	37	Act 2 (N) Good	3																		0
+Act 2 (N) Citem B	11	44	1	1024	1024	1024	1024	0	"gld,mul=320"	60	Act 2 (N) Equip B	37	Act 2 (N) Good	3																		0
+Act 2 (N) Citem C	11	45	1	1024	1024	1024	1024	0	"gld,mul=320"	60	Act 2 (N) Equip B	37	Act 2 (N) Good	3																		0
+Act 3 (N) Citem A	11	46	1	1024	1024	1024	1024	0	"gld,mul=320"	60	Act 3 (N) Equip A	37	Act 3 (N) Good	3																		0
+Act 3 (N) Citem B	11	48	1	1024	1024	1024	1024	0	"gld,mul=320"	60	Act 3 (N) Equip B	37	Act 3 (N) Good	3																		0
+Act 3 (N) Citem C	11	50	1	1024	1024	1024	1024	0	"gld,mul=320"	60	Act 3 (N) Equip B	37	Act 3 (N) Good	3																		0
+Act 4 (N) Citem A	11	51	1	1024	1024	1024	1024	0	"gld,mul=320"	60	Act 4 (N) Equip A	37	Act 4 (N) Good	3																		0
+Act 4 (N) Citem B	11	54	1	1024	1024	1024	1024	0	"gld,mul=320"	60	Act 4 (N) Equip B	37	Act 4 (N) Good	3																		0
+Act 5 (N) Citem A	11	57	1	1024	1024	1024	1024	0	"gld,mul=320"	60	Act 5 (N) Equip A	37	Act 5 (N) Good	3																		0
+Act 5 (N) Citem B	11	60	1	1024	1024	1024	1024	0	"gld,mul=320"	60	Act 5 (N) Equip B	37	Act 5 (N) Good	3																		0
+Act 5 (N) Citem C	11	62	1	1024	1024	1024	1024	0	"gld,mul=320"	60	Act 5 (N) Equip C	37	Act 5 (N) Good	3																		0
+Act 1 (H) Citem A	11	63	1	1024	1024	1024	1024	0	"gld,mul=320"	60	Act 1 (H) Equip A	37	Act 1 (H) Good	3																		0
+Act 1 (H) Citem B	11	66	1	1024	1024	1024	1024	0	"gld,mul=320"	60	Act 1 (H) Equip B	37	Act 1 (H) Good	3																		0
+Act 1 (H) Citem C	11	68	1	1024	1024	1024	1024	0	"gld,mul=320"	60	Act 1 (H) Equip B	37	Act 1 (H) Good	3																		0
+Act 2 (H) Citem A	11	69	1	1024	1024	1024	1024	0	"gld,mul=320"	60	Act 2 (H) Equip A	37	Act 2 (H) Good	3																		0
+Act 2 (H) Citem B	11	71	1	1024	1024	1024	1024	0	"gld,mul=320"	60	Act 2 (H) Equip B	37	Act 2 (H) Good	3																		0
+Act 2 (H) Citem C	11	72	1	1024	1024	1024	1024	0	"gld,mul=320"	60	Act 2 (H) Equip B	37	Act 2 (H) Good	3																		0
+Act 3 (H) Citem A	11	74	1	1024	1024	1024	1024	0	"gld,mul=320"	60	Act 3 (H) Equip A	37	Act 3 (H) Good	3																		0
+Act 3 (H) Citem B	11	75	1	1024	1024	1024	1024	0	"gld,mul=320"	60	Act 3 (H) Equip B	37	Act 3 (H) Good	3																		0
+Act 3 (H) Citem C	11	77	1	1024	1024	1024	1024	0	"gld,mul=320"	60	Act 3 (H) Equip B	37	Act 3 (H) Good	3																		0
+Act 4 (H) Citem A	11	78	1	1024	1024	1024	1024	0	"gld,mul=320"	60	Act 4 (H) Equip A	37	Act 4 (H) Good	3																		0
+Act 4 (H) Citem B	11	80	1	1024	1024	1024	1024	0	"gld,mul=320"	60	Act 4 (H) Equip B	37	Act 4 (H) Good	3																		0
+Act 5 (H) Citem A	11	81	1	1024	1024	1024	1024	0	"gld,mul=320"	60	Act 5 (H) Equip A	37	Act 5 (H) Good	3																		0
+Act 5 (H) Citem B	11	83	1	1024	1024	1024	1024	0	"gld,mul=320"	60	Act 5 (H) Equip B	37	Act 5 (H) Good	3																		0
+Act 5 (H) Citem C	11	85	1	1024	1024	1024	1024	0	"gld,mul=320"	60	Act 5 (H) Equip C	37	Act 5 (H) Good	3																		0
+Act 1 Cpot A	12	0	2					0	Hpotion 1	1																						0
+Act 1 Cpot B	12	5	2					0	Hpotion 1	1																						0
+Act 1 Cpot C	12	9	2					0	Hpotion 1	1																						0
+Act 2 Cpot A	12	12	2					0	Hpotion 2	1																						0
+Act 2 Cpot B	12	15	2					0	Hpotion 2	1																						0
+Act 2 Cpot C	12	18	2					0	Hpotion 2	1																						0
+Act 3 Cpot A	12	20	2					0	Hpotion 3	1																						0
+Act 3 Cpot B	12	22	2					0	Hpotion 3	1																						0
+Act 3 Cpot C	12	24	2					0	Hpotion 3	1																						0
+Act 4 Cpot A	12	26	2					0	Hpotion 3	1	Hpotion 4	2																				0
+Act 4 Cpot B	12	29	2					0	Hpotion 3	1	Hpotion 4	2																				0
+Act 5 Cpot A	12	32	2					0	Hpotion 4	1	Hpotion 5	2																				0
+Act 5 Cpot B	12	34	2					0	Hpotion 4	1	Hpotion 5	2																				0
+Act 5 Cpot C	12	36	2					0	Hpotion 4	1	Hpotion 5	2																				0
+Act 1 (N) Cpot A	12	38	2					0	Hpotion 4	1	Hpotion 5	2	Hpotion 6	4																		0
+Act 1 (N) Cpot B	12	40	2					0	Hpotion 4	1	Hpotion 5	2	Hpotion 6	4						7												0
+Act 1 (N) Cpot C	12	41	2					0	Hpotion 4	1	Hpotion 5	2	Hpotion 6	4						7												0
+Act 2 (N) Cpot A	12	42	2					0	Hpotion 4	1	Hpotion 5	2	Hpotion 6	4						7												0
+Act 2 (N) Cpot B	12	44	2					0	Hpotion 4	1	Hpotion 5	2	Hpotion 6	4						7												0
+Act 2 (N) Cpot C	12	45	2					0	Hpotion 4	1	Hpotion 5	2	Hpotion 6	4						7												0
+Act 3 (N) Cpot A	12	46	2					0	rvs	1	Hpotion 4	2	Hpotion 5	4	Hpotion 6	8				7												0
+Act 3 (N) Cpot B	12	48	2					0	rvs	1	Hpotion 4	2	Hpotion 5	4	Hpotion 6	8				7												0
+Act 3 (N) Cpot C	12	50	2					0	rvs	1	Hpotion 4	2	Hpotion 5	4	Hpotion 6	8				7												0
+Act 4 (N) Cpot A	12	51	2					0	rvs	1	Hpotion 4	2	Hpotion 5	4	Hpotion 6	8				7												0
+Act 4 (N) Cpot B	12	54	2					0	rvs	1	Hpotion 4	2	Hpotion 5	4	Hpotion 6	8				7												0
+Act 5 (N) Cpot A	12	57	2					0	rvs	1	Hpotion 4	2	Hpotion 5	4	Hpotion 6	8				7												0
+Act 5 (N) Cpot B	12	60	2					0	rvs	1	Hpotion 4	2	Hpotion 5	4	Hpotion 6	8				7												0
+Act 5 (N) Cpot C	12	62	2					0	rvs	1	Hpotion 4	2	Hpotion 5	4	Hpotion 6	8				7												0
+Act 1 (H) Cpot A	12	63	2					0	rvl	1	Hpotion 4	2	Hpotion 5	4	Hpotion 6	8				7												0
+Act 1 (H) Cpot B	12	66	2					0	rvl	1	Hpotion 4	2	Hpotion 5	4	Hpotion 6	8				7												0
+Act 1 (H) Cpot C	12	68	2					0	rvl	1	Hpotion 4	2	Hpotion 5	4	Hpotion 6	8				7												0
+Act 2 (H) Cpot A	12	69	2					0	rvl	1	Hpotion 4	2	Hpotion 5	4	Hpotion 6	8				7												0
+Act 2 (H) Cpot B	12	71	2					0	rvl	1	Hpotion 4	2	Hpotion 5	4	Hpotion 6	8				7												0
+Act 2 (H) Cpot C	12	72	2					0	rvl	1	Hpotion 4	2	Hpotion 5	4	Hpotion 6	8				7												0
+Act 3 (H) Cpot A	12	74	2					0	rvl	1	Hpotion 4	2	Hpotion 5	4	Hpotion 6	8				7												0
+Act 3 (H) Cpot B	12	75	2					0	rvl	1	Hpotion 4	2	Hpotion 5	4	Hpotion 6	8				7												0
+Act 3 (H) Cpot C	12	77	2					0	rvl	1	Hpotion 4	2	Hpotion 5	4	Hpotion 6	8				7												0
+Act 4 (H) Cpot A	12	78	2					0	rvl	1	Hpotion 4	2	Hpotion 5	4	Hpotion 6	8				7												0
+Act 4 (H) Cpot B	12	80	2					0	rvl	1	Hpotion 4	2	Hpotion 5	4	Hpotion 6	8				7												0
+Act 5 (H) Cpot A	12	81	2					0	rvl	1	Hpotion 4	2	Hpotion 5	4	Hpotion 6	8				7												0
+Act 5 (H) Cpot B	12	83	2					0	rvl	1	Hpotion 4	2	Hpotion 5	4	Hpotion 6	8				7												0
+Act 5 (H) Cpot C	12	85	2					0	rvl	1	Hpotion 4	2	Hpotion 5	4	Hpotion 6	8				7												0
+Act 1 Champ A	13	0	-2					0	Act 1 Citem A	1	Act 1 Cpot A	2																				0
+Act 1 Champ B	13	5	-2					0	Act 1 Citem B	1	Act 1 Cpot B	1																				0
+Act 1 Champ C	13	9	-2					0	Act 1 Citem C	1	Act 1 Cpot C	1																				0
+Act 2 Champ A	13	12	-2					0	Act 2 Citem A	1	Act 2 Cpot A	1																				0
+Act 2 Champ B	13	15	-2					0	Act 2 Citem B	1	Act 2 Cpot B	1																				0
+Act 2 Champ C	13	18	-2					0	Act 2 Citem C	1	Act 2 Cpot C	1																				0
+Act 3 Champ A	13	20	-2					0	Act 3 Citem A	1	Act 3 Cpot A	1																				0
+Act 3 Champ B	13	22	-2					0	Act 3 Citem B	1	Act 3 Cpot B	1																				0
+Act 3 Champ C	13	24	-2					0	Act 3 Citem C	1	Act 3 Cpot C	1																				0
+Act 4 Champ A	13	26	-2					0	Act 4 Citem A	1	Act 4 Cpot A	1																				0
+Act 4 Champ B	13	29	-2					0	Act 4 Citem B	1	Act 4 Cpot B	1																				0
+Act 5 Champ A	13	32	-2					0	Act 5 Citem A	1	Act 5 Cpot A	1																				0
+Act 5 Champ B	13	34	-2					0	Act 5 Citem B	1	Act 5 Cpot B	1																				0
+Act 5 Champ C	13	36	-2					0	Act 5 Citem C	1	Act 5 Cpot C	1																				0
+Act 1 (N) Champ A	13	38	-2					0	Act 1 (N) Citem A	1	Act 1 (N) Cpot A	2																				0
+Act 1 (N) Champ B	13	40	-2					0	Act 1 (N) Citem B	1	Act 1 (N) Cpot B	2																				0
+Act 1 (N) Champ C	13	41	-2					0	Act 1 (N) Citem C	1	Act 1 (N) Cpot C	2																				0
+Act 2 (N) Champ A	13	42	-2					0	Act 2 (N) Citem A	1	Act 2 (N) Cpot A	2																				0
+Act 2 (N) Champ B	13	44	-2					0	Act 2 (N) Citem B	1	Act 2 (N) Cpot B	2																				0
+Act 2 (N) Champ C	13	45	-2					0	Act 2 (N) Citem C	1	Act 2 (N) Cpot C	2																				0
+Act 3 (N) Champ A	13	46	-2					0	Act 3 (N) Citem A	1	Act 3 (N) Cpot A	2																				0
+Act 3 (N) Champ B	13	48	-2					0	Act 3 (N) Citem B	1	Act 3 (N) Cpot B	2																				0
+Act 3 (N) Champ C	13	50	-2					0	Act 3 (N) Citem C	1	Act 3 (N) Cpot C	2																				0
+Act 4 (N) Champ A	13	51	-2					0	Act 4 (N) Citem A	1	Act 4 (N) Cpot A	2																				0
+Act 4 (N) Champ B	13	54	-2					0	Act 4 (N) Citem B	1	Act 4 (N) Cpot B	2																				0
+Act 4 (N) Champ C	13	56	-2					0	Act 4 (N) Citem B	1	Act 4 (N) Cpot B	2																				0
+Act 5 (N) Champ A	13	57	-2					0	Act 5 (N) Citem A	1	Act 5 (N) Cpot A	2																				0
+Act 5 (N) Champ B	13	60	-2					0	Act 5 (N) Citem B	1	Act 5 (N) Cpot B	2																				0
+Act 5 (N) Champ C	13	62	-2					0	Act 5 (N) Citem C	1	Act 5 (N) Cpot C	2																				0
+Act 1 (H) Champ A	13	63	-2					0	Act 1 (H) Citem A	1	Act 1 (H) Cpot A	3																				0
+Act 1 (H) Champ B	13	66	-2					0	Act 1 (H) Citem B	1	Act 1 (H) Cpot B	3																				0
+Act 1 (H) Champ C	13	68	-2					0	Act 1 (H) Citem C	1	Act 1 (H) Cpot C	3																				0
+Act 2 (H) Champ A	13	69	-2					0	Act 2 (H) Citem A	1	Act 2 (H) Cpot A	3																				0
+Act 2 (H) Champ B	13	71	-2					0	Act 2 (H) Citem B	1	Act 2 (H) Cpot B	3																				0
+Act 2 (H) Champ C	13	72	-2					0	Act 2 (H) Citem C	1	Act 2 (H) Cpot C	3																				0
+Act 3 (H) Champ A	13	74	-2					0	Act 3 (H) Citem A	1	Act 3 (H) Cpot A	3																				0
+Act 3 (H) Champ B	13	75	-2					0	Act 3 (H) Citem B	1	Act 3 (H) Cpot B	3																				0
+Act 3 (H) Champ C	13	77	-2					0	Act 3 (H) Citem C	1	Act 3 (H) Cpot C	3																				0
+Act 4 (H) Champ A	13	78	-2					0	Act 4 (H) Citem A	1	Act 4 (H) Cpot A	3																				0
+Act 4 (H) Champ B	13	80	-2					0	Act 4 (H) Citem B	1	Act 4 (H) Cpot B	3																				0
+Act 5 (H) Champ A	13	81	-2					0	Act 5 (H) Citem A	1	Act 5 (H) Cpot A	3																				0
+Act 5 (H) Champ B	13	83	-2					0	Act 5 (H) Citem B	1	Act 5 (H) Cpot B	3																				0
+Act 5 (H) Champ C	13	85	-2					0	Act 5 (H) Citem C	1	Act 5 (H) Cpot C	3																				0
+Act 1 Uitem A	14	0	1	700	900	800	1024	0	Act 1 Equip A	116	Act 1 Good	16	Rune Lottery (N) Act 1 A	1																		0
+Act 1 Uitem B	14	5	1	700	900	800	1024	0	Act 1 Equip B	116	Act 1 Good	16	Rune Lottery (N) Act 1 B	1																		0
+Act 1 Uitem C	14	9	1	700	900	800	1024	0	Act 1 Equip C	116	Act 1 Good	16	Rune Lottery (N) Act 1 C	1																		0
+Act 2 Uitem A	14	12	1	700	900	800	1024	0	Act 2 Equip A	116	Act 2 Good	16	Rune Lottery (N) Act 2 A	1																		0
+Act 2 Uitem B	14	15	1	700	900	800	1024	0	Act 2 Equip B	116	Act 2 Good	16	Rune Lottery (N) Act 2 B	1																		0
+Act 2 Uitem C	14	18	1	700	900	800	1024	0	Act 2 Equip C	116	Act 3 Good	16	Rune Lottery (N) Act 2 C	1																		0
+Act 3 Uitem A	14	20	1	700	900	800	1024	0	Act 3 Equip A	116	Act 3 Good	16	Rune Lottery (N) Act 3 A	1																		0
+Act 3 Uitem B	14	22	1	700	900	800	1024	0	Act 3 Equip B	116	Act 3 Good	16	Rune Lottery (N) Act 3 B	1																		0
+Act 3 Uitem C	14	24	1	700	900	800	1024	0	Act 3 Equip C	116	Act 3 Good	16	Rune Lottery (N) Act 3 C	1																		0
+Act 4 Uitem A	14	26	1	700	900	800	1024	0	Act 4 Equip A	116	Act 4 Good	16	Rune Lottery (N) Act 4 A	1																		0
+Act 4 Uitem B	14	29	1	700	900	800	1024	0	Act 4 Equip B	116	Act 4 Good	16	Rune Lottery (N) Act 4 B	1																		0
+Act 5 Uitem A	14	32	1	700	900	800	1024	0	Act 5 Equip A	116	Act 5 Good	16	Rune Lottery (N) Act 5 A	1																		0
+Act 5 Uitem B	14	34	1	700	900	800	1024	0	Act 5 Equip B	116	Act 5 Good	16	Rune Lottery (N) Act 5 B	1																		0
+Act 5 Uitem C	14	36	1	700	900	800	1024	0	Act 5 Equip C	116	Act 5 Good	16	Rune Lottery (N) Act 5 C	1																		0
+Act 1 (N) Uitem A	14	38	1	700	900	800	1024	0	Act 1 (N) Equip A	116	Act 1 (N) Good	16	Rune Lottery (NM) Act 1 A	1																		0
+Act 1 (N) Uitem B	14	40	1	700	900	800	1024	0	Act 1 (N) Equip B	116	Act 1 (N) Good	16	Rune Lottery (NM) Act 1 B	1																		0
+Act 1 (N) Uitem C	14	41	1	700	900	800	1024	0	Act 1 (N) Equip B	116	Act 1 (N) Good	16	Rune Lottery (NM) Act 1 C	1																		0
+Act 2 (N) Uitem A	14	42	1	700	900	800	1024	0	Act 2 (N) Equip A	116	Act 2 (N) Good	16	Rune Lottery (NM) Act 2 A	1																		0
+Act 2 (N) Uitem B	14	44	1	700	900	800	1024	0	Act 2 (N) Equip B	116	Act 2 (N) Good	16	Rune Lottery (NM) Act 2 B	1																		0
+Act 2 (N) Uitem C	14	45	1	700	900	800	1024	0	Act 2 (N) Equip B	116	Act 2 (N) Good	16	Rune Lottery (NM) Act 2 C	1																		0
+Act 3 (N) Uitem A	14	46	1	700	900	800	1024	0	Act 3 (N) Equip A	116	Act 3 (N) Good	16	Rune Lottery (NM) Act 3 A	1																		0
+Act 3 (N) Uitem B	14	48	1	700	900	800	1024	0	Act 3 (N) Equip B	116	Act 3 (N) Good	16	Rune Lottery (NM) Act 3 B	1																		0
+Act 3 (N) Uitem C	14	50	1	700	900	800	1024	0	Act 3 (N) Equip B	116	Act 3 (N) Good	16	Rune Lottery (NM) Act 3 C	1																		0
+Act 4 (N) Uitem A	14	51	1	700	900	800	1024	0	Act 4 (N) Equip A	116	Act 4 (N) Good	16	Rune Lottery (NM) Act 4 A	1																		0
+Act 4 (N) Uitem B	14	54	1	700	900	800	1024	0	Act 4 (N) Equip B	116	Act 4 (N) Good	16	Rune Lottery (NM) Act 4 B	1																		0
+Act 5 (N) Uitem A	14	57	1	700	900	800	1024	0	Act 5 (N) Equip A	116	Act 5 (N) Good	16	Rune Lottery (NM) Act 5 A	1																		0
+Act 5 (N) Uitem B	14	60	1	700	900	800	1024	0	Act 5 (N) Equip B	116	Act 5 (N) Good	16	Rune Lottery (NM) Act 5 B	1																		0
+Act 5 (N) Uitem C	14	62	1	700	900	800	1024	0	Act 5 (N) Equip C	116	Act 5 (N) Good	16	Rune Lottery (NM) Act 5 C	1																		0
+Act 1 (H) Uitem A	14	63	1	700	900	800	1024	0	Act 1 (H) Equip A	116	Act 1 (H) Good	16	Rune Lottery (H) Act 1 A	1																		0
+Act 1 (H) Uitem B	14	66	1	700	900	800	1024	0	Act 1 (H) Equip B	116	Act 1 (H) Good	16	Rune Lottery (H) Act 1 B	1																		0
+Act 1 (H) Uitem C	14	68	1	700	900	800	1024	0	Act 1 (H) Equip B	116	Act 1 (H) Good	16	Rune Lottery (H) Act 1 C	1																		0
+Act 2 (H) Uitem A	14	69	1	700	900	800	1024	0	Act 2 (H) Equip A	116	Act 2 (H) Good	16	Rune Lottery (H) Act 2 A	1																		0
+Act 2 (H) Uitem B	14	71	1	700	900	800	1024	0	Act 2 (H) Equip B	116	Act 2 (H) Good	16	Rune Lottery (H) Act 2 B	1																		0
+Act 2 (H) Uitem C	14	72	1	700	900	800	1024	0	Act 2 (H) Equip B	116	Act 2 (H) Good	16	Rune Lottery (H) Act 2 C	1																		0
+Act 3 (H) Uitem A	14	74	1	700	900	800	1024	0	Act 3 (H) Equip A	116	Act 3 (H) Good	16	Rune Lottery (H) Act 3 A	1																		0
+Act 3 (H) Uitem B	14	75	1	700	900	800	1024	0	Act 3 (H) Equip B	116	Act 3 (H) Good	16	Rune Lottery (H) Act 3 B	1																		0
+Act 3 (H) Uitem C	14	77	1	700	900	800	1024	0	Act 3 (H) Equip B	116	Act 3 (H) Good	16	Rune Lottery (H) Act 3 C	1																		0
+Act 4 (H) Uitem A	14	78	1	700	900	800	1024	0	Act 4 (H) Equip A	116	Act 4 (H) Good	16	Rune Lottery (H) Act 4 A	1																		0
+Act 4 (H) Uitem B	14	80	1	700	900	800	1024	0	Act 4 (H) Equip B	116	Act 4 (H) Good	16	Rune Lottery (H) Act 4 B	1																		0
+Act 5 (H) Uitem A	14	81	1	700	900	800	1024	0	Act 5 (H) Equip A	116	Act 5 (H) Good	16	Rune Lottery (H) Act 5 A	1																		0
+Act 5 (H) Uitem B	14	83	1	700	900	800	1024	0	Act 5 (H) Equip B	116	Act 5 (H) Good	16	Rune Lottery (H) Act 5 B	1																		0
+Act 5 (H) Uitem C	14	85	1	700	900	800	1024	0	Act 5 (H) Equip C	116	Act 5 (H) Good	16	Rune Lottery (H) Act 5 C	1																		0
+Act 1 Unique A	15	0	-3					0	Act 1 Uitem A	1	Act 1 Cpot A	2																				0
+Act 1 Unique B	15	5	-3					0	Act 1 Uitem B	1	Act 1 Cpot B	2																				0
+Act 1 Unique C	15	9	-3					0	Act 1 Uitem C	1	Act 1 Cpot C	2																				0
+Act 2 Unique A	15	12	-3					0	Act 2 Uitem A	1	Act 2 Cpot A	2																				0
+Act 2 Unique B	15	15	-3					0	Act 2 Uitem B	1	Act 2 Cpot B	2																				0
+Act 2 Unique C	15	18	-3					0	Act 2 Uitem C	1	Act 2 Cpot C	2																				0
+Act 3 Unique A	15	20	-3					0	Act 3 Uitem A	1	Act 3 Cpot A	2																				0
+Act 3 Unique B	15	22	-3					0	Act 3 Uitem B	1	Act 3 Cpot B	2																				0
+Act 3 Unique C	15	24	-3					0	Act 3 Uitem C	1	Act 3 Cpot C	2																				0
+Act 4 Unique A	15	26	-3					0	Act 4 Uitem A	1	Act 4 Cpot A	2																				0
+Act 4 Unique B	15	29	-3					0	Act 4 Uitem B	1	Act 4 Cpot B	2																				0
+Act 5 Unique A	15	32	-3					0	Act 5 Uitem A	1	Act 5 Cpot A	2																				0
+Act 5 Unique B	15	34	-3					0	Act 5 Uitem B	1	Act 5 Cpot B	2																				0
+Act 5 Unique C	15	36	-3					0	Act 5 Uitem C	1	Act 5 Cpot C	2																				0
+Act 1 (N) Unique A	15	38	-3					0	Act 1 (N) Uitem A	1	Act 1 (N) Cpot A	2																				0
+Act 1 (N) Unique B	15	40	-3					0	Act 1 (N) Uitem B	1	Act 1 (N) Cpot B	2																				0
+Act 1 (N) Unique C	15	41	-3					0	Act 1 (N) Uitem C	1	Act 1 (N) Cpot C	2																				0
+Act 2 (N) Unique A	15	42	-3					0	Act 2 (N) Uitem A	1	Act 2 (N) Cpot A	2																				0
+Act 2 (N) Unique B	15	44	-3					0	Act 2 (N) Uitem B	1	Act 2 (N) Cpot B	2																				0
+Act 2 (N) Unique C	15	45	-3					0	Act 2 (N) Uitem C	1	Act 2 (N) Cpot C	2																				0
+Act 3 (N) Unique A	15	46	-3					0	Act 3 (N) Uitem A	1	Act 3 (N) Cpot A	2																				0
+Act 3 (N) Unique B	15	48	-3					0	Act 3 (N) Uitem B	1	Act 3 (N) Cpot B	2																				0
+Act 3 (N) Unique C	15	50	-3					0	Act 3 (N) Uitem C	1	Act 3 (N) Cpot C	2																				0
+Act 4 (N) Unique A	15	51	-3					0	Act 4 (N) Uitem A	1	Act 4 (N) Cpot A	2																				0
+Act 4 (N) Unique B	15	54	-3					0	Act 4 (N) Uitem B	1	Act 4 (N) Cpot B	2																				0
+Act 5 (N) Unique A	15	57	-3					0	Act 5 (N) Uitem A	1	Act 5 (N) Cpot A	2																				0
+Act 5 (N) Unique B	15	60	-3					0	Act 5 (N) Uitem B	1	Act 5 (N) Cpot B	2																				0
+Act 5 (N) Unique C	15	62	-3					0	Act 5 (N) Uitem C	1	Act 5 (N) Cpot C	2																				0
+Act 1 (H) Unique A	15	63	-3					0	Act 1 (H) Uitem A	1	Act 1 (H) Cpot A	2																				0
+Act 1 (H) Unique B	15	66	-3					0	Act 1 (H) Uitem B	1	Act 1 (H) Cpot B	2																				0
+Act 1 (H) Unique C	15	68	-3					0	Act 1 (H) Uitem C	1	Act 1 (H) Cpot C	2																				0
+Act 2 (H) Unique A	15	69	-3					0	Act 2 (H) Uitem A	1	Act 2 (H) Cpot A	2																				0
+Act 2 (H) Unique B	15	71	-3					0	Act 2 (H) Uitem B	1	Act 2 (H) Cpot B	2																				0
+Act 2 (H) Unique C	15	72	-3					0	Act 2 (H) Uitem C	1	Act 2 (H) Cpot C	2																				0
+Act 3 (H) Unique A	15	74	-3					0	Act 3 (H) Uitem A	1	Act 3 (H) Cpot A	2																				0
+Act 3 (H) Unique B	15	75	-3					0	Act 3 (H) Uitem B	1	Act 3 (H) Cpot B	2																				0
+Act 3 (H) Unique C	15	77	-3					0	Act 3 (H) Uitem C	1	Act 3 (H) Cpot C	2																				0
+Act 4 (H) Unique A	15	78	-3					0	Act 4 (H) Uitem A	1	Act 4 (H) Cpot A	2																				0
+Act 4 (H) Unique B	15	80	-3					0	Act 4 (H) Uitem B	1	Act 4 (H) Cpot B	2																				0
+Act 5 (H) Unique A	15	81	-3					0	Act 5 (H) Uitem A	1	Act 5 (H) Cpot A	2																				0
+Act 5 (H) Unique B	15	83	-3					0	Act 5 (H) Uitem B	1	Act 5 (H) Cpot B	2																				0
+Act 5 (H) Unique C	15	85	-3					0	Act 5 (H) Uitem C	1	Act 5 (H) Cpot C	2																				0
+Andariel			7	700	900	800	1024	19	"gld,mul=320"	11	Act 2 Equip A	19	Act 2 Junk	15	Act 2 Good	3																0
+Andariel (N)			7	700	900	800	1024	19	"gld,mul=384"	11	Act 2 (N) Equip A	19	Act 2 (N) Junk	15	Act 2 (N) Good	3																0
+Andariel (H)			7	700	900	800	1024	19	"gld,mul=512"	11	Act 2 (H) Equip A	19	Act 2 (H) Junk	15	Act 2 (H) Good	3	tes	1														0
+Andarielq			7	700	900	800	1024	19	Act 2 Equip A	19	Act 2 Good	3																				0
+Andarielq (N)			7	700	900	800	1024	19	Act 2 (N) Equip A	19	Act 2 (N) Good	3																				0
+Andarielq (H)			7	700	900	800	1024	19	Act 2 (H) Equip A	19	Act 2 (H) Good	3	tes	1																		0
+Duriel - Base			7	700	900	800	1024	19	"gld,mul=320"	11	Act 3 Equip A	19	Act 3 Junk	15	Act 3 Good	3																0
+Duriel (N) - Base			7	700	900	800	1024	19	"gld,mul=384"	11	Act 3 (N) Equip A	19	Act 3 (N) Junk	15	Act 3 (N) Good	3																0
+Duriel (H) - Base			7	700	900	800	1024	19	"gld,mul=512"	11	Act 3 (H) Equip A	19	Act 3 (H) Junk	15	Act 3 (H) Good	3	tes	2														0
+Durielq - Base			7	700	900	800	1024	19	Act 3 Equip A	19	Act 3 Good	3																				0
+Durielq (N) - Base			7	700	900	800	1024	19	Act 3 (N) Equip A	19	Act 3 (N) Good	3																				0
+Durielq (H) - Base			7	700	900	800	1024	19	Act 3 (H) Equip A	19	Act 3 (H) Good	3	tes	2																		0
+Radament			5	700	900	800	1024	19	"gld,mul=320"	11	Act 3 Equip B	19	Act 3 Junk	15	Act 3 Good	3																0
+Radament (N)			5	700	900	800	1024	19	"gld,mul=384"	11	Act 3 (N) Equip B	19	Act 3 (N) Junk	15	Act 3 (N) Good	3																0
+Radament (H)			5	700	900	800	1024	19	"gld,mul=512"	11	Act 3 (H) Equip C	19	Act 3 (H) Junk	15	Act 3 (H) Good	3																0
+Flying Scimitar			1					100	Act 2 Good	3	scm	57																				0
+Flying Scimitar (N)			1					100	Act 2 (N) Good	3	scm	25	9sm	32																		0
+Flying Scimitar (H)			1					100	Act 2 (H) Good	3	scm	7	9sm	18	7sm	32																0
+Mephisto			7	700	900	800	1024	15	"gld,mul=320"	5	Act 4 Equip A	52	Act 4 Junk	5	Act 4 Good	3																0
+Mephisto (N)			7	700	900	800	1024	15	"gld,mul=384"	5	Act 4 (N) Equip A	52	Act 4 (N) Junk	5	Act 4 (N) Good	3																0
+Mephisto (H)			7	700	900	800	1024	15	"gld,mul=512"	5	Act 4 (H) Equip A	52	Act 4 (H) Junk	5	Act 4 (H) Good	3	ceh	1														0
+Mephistoq			7	700	900	800	1024	15	Act 4 Equip A	52	Act 4 Good	3																				0
+Mephistoq (N)			7	700	900	800	1024	15	Act 4 (N) Equip A	52	Act 4 (N) Good	3																				0
+Mephistoq (H)			7	700	900	800	1024	15	Act 4 (H) Equip A	52	Act 4 (H) Good	3	ceh	1																		0
+Diablo			7	700	900	800	1024	15	"gld,mul=320"	5	Act 5 Equip A	52	Act 5 Junk	5	Act 5 Good	3																0
+Diablo (N)			7	700	900	800	1024	15	"gld,mul=384"	5	Act 5 (N) Equip A	52	Act 5 (N) Junk	5	Act 5 (N) Good	3																0
+Diablo (H)			7	700	900	800	1024	15	"gld,mul=512"	5	Act 5 (H) Equip A	52	Act 5 (H) Junk	5	Act 5 (H) Good	3	bet	1														0
+Diabloq			7	700	900	800	1024	15	Act 5 Equip A	52	Act 5 Good	3																				0
+Diabloq (N)			7	700	900	800	1024	15	Act 5 (N) Equip A	52	Act 5 (N) Good	3																				0
+Diabloq (H)			7	700	900	800	1024	15	Act 5 (H) Equip A	52	Act 5 (H) Good	3	bet	1																		0
+Summoner			5	700	900	800	1024	19	"gld,mul=320"	9	Act 2 Equip C	15	Act 3 Junk	5	Act 2 Good	3	Act 3 Magic A	4														0
+Summoner (N)			5	700	900	800	1024	19	"gld,mul=384"	9	Act 2 (N) Equip C	15	Act 3 (N) Junk	5	Act 2 (N) Good	3	Act 3 (N) Magic A	4														0
+Summoner (H)			5	700	900	800	1024	19	"gld,mul=512"	9	Act 2 (H) Equip C	15	Act 3 (H) Junk	5	Act 2 (H) Good	3	Act 3 (H) Magic A	4	pk2	1												0
+Council			3	700	900	800	1024	19	"gld,mul=320"	9	Act 4 Equip A	15	Act 4 Junk	5	Act 4 Good	3	Act 4 Magic A	4														0
+Council (N)			3	700	900	800	1024	19	"gld,mul=384"	9	Act 4 (N) Equip A	15	Act 4 (N) Junk	5	Act 4 (N) Good	3	Act 4 (N) Magic A	4														0
+Council (H)			3	700	900	800	1024	19	"gld,mul=512"	9	Act 4 (H) Equip A	15	Act 4 (H) Junk	5	Act 4 (H) Good	3	Act 4 (H) Magic A	4														0
+Griswold			-3					0	Act 1 Uitem C	1	Act 1 Melee B	2																				0
+Griswold (N)			-3					0	Act 1 (H) Uitem C	1	Act 1 (N) Melee B	2																				0
+Griswold (H)			-3					0	Act 1 (H) Uitem C	1	Act 1 (H) Melee B	2																				0
+Cow			1					100	Gold	19	Act 5 Equip A	19	Act 5 Junk	19	Act 5 Good	3																0
+Cow (N)			1					100	Gold	19	Act 5 (N) Equip A	19	Act 5 (N) Junk	19	Act 5 (N) Good	3																0
+Cow (H)			1					100	Gold	19	Act 5 (H) Equip B	19	Act 5 (H) Junk	19	Act 5 (H) Good	3																0
+Trapped Soul			1					100	Gold	19	Act 4 Equip A	8	Act 4 Junk	33																		0
+Trapped Soul (N)			1					100	Gold	19	Act 4 (N) Equip A	8	Act 4 (N) Junk	33																		0
+Trapped Soul (H)			1					100	Gold	19	Act 4 (H) Equip A	8	Act 4 (H) Junk	33																		0
+Haphesto			5	700	900	800	1024	19	"gld,mul=320"	14	Act 5 Equip A	19	Act 5 Junk	5	Act 5 Good	3																0
+Haphesto (N)			5	700	900	800	1024	19	"gld,mul=384"	14	Act 5 (N) Equip A	19	Act 5 (N) Junk	5	Act 5 (N) Good	3																0
+Haphesto (H)			5	700	900	800	1024	19	"gld,mul=512"	14	Act 5 (H) Equip A	19	Act 5 (H) Junk	5	Act 5 (H) Good	3																0
+Nihlathak			5	700	900	800	1024	19	"gld,mul=320"	14	Act 5 Equip B	19	Act 5 Junk	5	Act 5 Good	3																0
+Nihlathak (N)			5	700	900	800	1024	19	"gld,mul=384"	14	Act 5 (N) Equip B	19	Act 5 (N) Junk	5	Act 5 (N) Good	3																0
+Nihlathak (H)			5	700	900	800	1024	19	"gld,mul=512"	14	Act 5 (H) Equip B	19	Act 5 (H) Junk	5	Act 5 (H) Good	3	pk3	1														0
+Baal			7	700	900	800	1024	15	"gld,mul=320"	5	Act 1 (N) Equip A	52	Act 1 (N) Junk	5	Act 1 (N) Good	3																0
+Baal (N)			7	700	900	800	1024	15	"gld,mul=384"	5	Act 1 (H) Equip A	52	Act 1 (H) Junk	5	Act 1 (H) Good	3																0
+Baal (H)			7	700	900	800	1024	15	"gld,mul=512"	5	Act 5 (H) Equip B	52	Act 5 (H) Junk	5	Act 5 (H) Good	3	fed	1														0
+Baalq			7	700	900	800	1024	15	Act 1 (N) Equip A	52	Act 1 (N) Good	3																				0
+Baalq (N)			7	700	900	800	1024	15	Act 1 (H) Equip A	52	Act 1 (H) Good	3																				0
+Baalq (H)			7	700	900	800	1024	15	Act 5 (H) Equip B	52	Act 5 (H) Good	3	fed	1																		0
+Blood Raven			5	700	900	800	1024	19	"gld,mul=320"	14	Act 1 Equip B	19	Act 1 Junk	5	Act 1 Good	3																0
+Blood Raven (N)			5	700	900	800	1024	19	"gld,mul=384"	14	Act 1 (N) Equip B	19	Act 1 (N) Junk	5	Act 1 (N) Good	3																0
+Blood Raven (H)			5	700	900	800	1024	19	"gld,mul=512"	14	Act 1 (H) Equip B	19	Act 1 (H) Junk	5	Act 1 (H) Good	3																0
+Smith			-3					0	Act 1 Uitem C	1	Act 1 Melee B	2																				0
+Smith (N)			-3					0	Act 1 (H) Uitem C	1	Act 1 (N) Melee B	2																				0
+Smith (H)			-3					0	Act 1 (H) Uitem C	1	Act 1 (H) Melee B	2																				0
+Izual			5	700	900	800	1024	19	"gld,mul=320"	14	Act 4 Equip B	19	Act 4 Junk	5	Act 4 Good	3																0
+Izual (N)			5	700	900	800	1024	19	"gld,mul=384"	14	Act 4 (N) Equip B	19	Act 4 (N) Junk	5	Act 4 (N) Good	3																0
+Izual (H)			5	700	900	800	1024	19	"gld,mul=512"	14	Act 4 (H) Equip B	19	Act 4 (H) Junk	5	Act 4 (H) Good	3																0
+Act 1 Super A	18	0	1	700	900	800	1024	0	Act 1 Uitem A	120	Act 1 Set Lottery A	1	Rune Lottery (N) Act 1 A	1	ds1	1																0
+Act 1 Super B	18	5	1	700	900	800	1024	0	Act 1 Uitem B	120	Act 1 Set Lottery B	1	Rune Lottery (N) Act 1 B	1	ds1	1																0
+Act 1 Super C	18	9	1	700	900	800	1024	0	Act 1 Uitem C	120	Act 1 Set Lottery C	1	Rune Lottery (N) Act 1 C	1	ds1	1																0
+Act 2 Super A	18	12	1	700	900	800	1024	0	Act 2 Uitem A	120	Act 2 Set Lottery A	1	Rune Lottery (N) Act 2 A	1	ds1	1																0
+Act 2 Super B	18	15	1	700	900	800	1024	0	Act 2 Uitem B	120	Act 2 Set Lottery B	1	Rune Lottery (N) Act 2 B	1	ds1	1																0
+Act 2 Super C	18	18	1	700	900	800	1024	0	Act 2 Uitem C	120	Act 2 Set Lottery C	1	Rune Lottery (N) Act 2 C	1	ds1	1																0
+Act 3 Super A	18	20	1	700	900	800	1024	0	Act 3 Uitem A	120	Act 3 Set Lottery A	1	Rune Lottery (N) Act 3 A	1	ds1	1																0
+Act 3 Super B	18	22	1	700	900	800	1024	0	Act 3 Uitem B	120	Act 3 Set Lottery B	1	Rune Lottery (N) Act 3 B	1	ds1	1																0
+Act 3 Super C	18	24	1	700	900	800	1024	0	Act 3 Uitem C	120	Act 3 Set Lottery C	1	Rune Lottery (N) Act 3 C	1	ds1	1																0
+Act 4 Super A	18	26	1	700	900	800	1024	0	Act 4 Uitem A	120	Act 4 Set Lottery A	1	Rune Lottery (N) Act 4 A	1	ds1	1																0
+Act 4 Super B	18	29	1	700	900	800	1024	0	Act 4 Uitem B	120	Act 4 Set Lottery B	1	Rune Lottery (N) Act 4 B	1	ds1	1																0
+Act 4 Super C	18	32	1	700	900	800	1024	0	Act 4 Uitem B	120	Act 4 Set Lottery B	1	Rune Lottery (N) Act 4 B	1	ds1	1																0
+Act 5 Super A	18	34	1	700	900	800	1024	0	Act 5 Uitem A	120	Act 5 Set Lottery A	1	Rune Lottery (N) Act 5 A	1	ds1	1																0
+Act 5 Super B	18	36	1	700	900	800	1024	0	Act 5 Uitem B	120	Act 5 Set Lottery B	1	Rune Lottery (N) Act 5 B	1	ds1	1																0
+Act 5 Super C	18	38	1	700	900	800	1024	0	Act 5 Uitem C	120	Act 5 Set Lottery C	1	Rune Lottery (N) Act 5 C	1	ds1	1																0
+Act 1 (N) Super A	18	40	1	700	900	800	1024	0	Act 1 (N) Uitem A	120	Act 1 (N) Set Lottery A	1	Rune Lottery (NM) Act 1 A	1	ds1	1																0
+Act 1 (N) Super B	18	41	1	700	900	800	1024	0	Act 1 (N) Uitem B	120	Act 1 (N) Set Lottery B	1	Rune Lottery (NM) Act 1 B	1	ds1	1																0
+Act 1 (N) Super C	18	42	1	700	900	800	1024	0	Act 1 (N) Uitem C	120	Act 1 (N) Set Lottery B	1	Rune Lottery (NM) Act 1 C	1	ds1	1																0
+Act 2 (N) Super A	18	44	1	700	900	800	1024	0	Act 2 (N) Uitem A	120	Act 2 (N) Set Lottery A	1	Rune Lottery (NM) Act 2 A	1	ds1	1																0
+Act 2 (N) Super B	18	45	1	700	900	800	1024	0	Act 2 (N) Uitem B	120	Act 2 (N) Set Lottery B	1	Rune Lottery (NM) Act 2 B	1	ds1	1																0
+Act 2 (N) Super C	18	46	1	700	900	800	1024	0	Act 2 (N) Uitem C	120	Act 2 (N) Set Lottery B	1	Rune Lottery (NM) Act 2 C	1	ds1	1																0
+Act 3 (N) Super A	18	48	1	700	900	800	1024	0	Act 3 (N) Uitem A	120	Act 3 (N) Set Lottery A	1	Rune Lottery (NM) Act 3 A	1	ds1	1																0
+Act 3 (N) Super B	18	50	1	700	900	800	1024	0	Act 3 (N) Uitem B	120	Act 3 (N) Set Lottery B	1	Rune Lottery (NM) Act 3 B	1	ds1	1																0
+Act 3 (N) Super C	18	51	1	700	900	800	1024	0	Act 3 (N) Uitem C	120	Act 3 (N) Set Lottery B	1	Rune Lottery (NM) Act 3 C	1	ds1	1																0
+Act 4 (N) Super A	18	54	1	700	900	800	1024	0	Act 4 (N) Uitem A	120	Act 4 (N) Set Lottery A	1	Rune Lottery (NM) Act 4 A	1	ds1	1																0
+Act 4 (N) Super B	18	57	1	700	900	800	1024	0	Act 4 (N) Uitem B	120	Act 4 (N) Set Lottery B	1	Rune Lottery (NM) Act 4 B	1	ds1	1																0
+Act 4 (N) Super C	18	60	1	700	900	800	1024	0	Act 4 (N) Uitem B	120	Act 4 (N) Set Lottery B	1	Rune Lottery (NM) Act 4 B	1	ds1	1																0
+Act 5 (N) Super A	18	62	1	700	900	800	1024	0	Act 5 (N) Uitem A	120	Act 5 (N) Set Lottery A	1	Rune Lottery (NM) Act 5 A	1	ds1	1																0
+Act 5 (N) Super B	18	63	1	700	900	800	1024	0	Act 5 (N) Uitem B	120	Act 5 (N) Set Lottery B	1	Rune Lottery (NM) Act 5 B	1	ds1	1																0
+Act 5 (N) Super C	18	66	1	700	900	800	1024	0	Act 5 (N) Uitem C	120	Act 5 (N) Set Lottery C	1	Rune Lottery (NM) Act 5 C	1	ds1	1																0
+Act 1 (H) Super A	18	67	1	700	900	800	1024	0	Act 1 (H) Uitem A	120	Act 1 (H) Set Lottery A	1	Rune Lottery (H) Act 1 A	1	ds1	1																0
+Act 1 (H) Super B	18	67	1	700	900	800	1024	0	Act 1 (H) Uitem B	120	Act 1 (H) Set Lottery B	1	Rune Lottery (H) Act 1 B	1	ds1	1																0
+Act 1 (H) Super C	18	68	1	700	900	800	1024	0	Act 1 (H) Uitem C	120	Act 1 (H) Set Lottery B	1	Rune Lottery (H) Act 1 C	1	ds1	1																0
+Act 2 (H) Super A	18	68	1	700	900	800	1024	0	Act 2 (H) Uitem A	120	Act 2 (H) Set Lottery A	1	Rune Lottery (H) Act 2 A	1	ds1	1																0
+Act 2 (H) Super B	18	69	1	700	900	800	1024	0	Act 2 (H) Uitem B	120	Act 2 (H) Set Lottery B	1	Rune Lottery (H) Act 2 B	1	ds1	1																0
+Act 2 (H) Super C	18	72	1	700	900	800	1024	0	Act 2 (H) Uitem C	120	Act 2 (H) Set Lottery B	1	Rune Lottery (H) Act 2 C	1	ds1	1																0
+Act 3 (H) Super A	18	73	1	700	900	800	1024	0	Act 3 (H) Uitem A	120	Act 3 (H) Set Lottery A	1	Rune Lottery (H) Act 3 A	1	ds1	1																0
+Act 3 (H) Super B	18	75	1	700	900	800	1024	0	Act 3 (H) Uitem B	120	Act 3 (H) Set Lottery B	1	Rune Lottery (H) Act 3 B	1	ds1	1																0
+Act 3 (H) Super C	18	78	1	700	900	800	1024	0	Act 3 (H) Uitem C	120	Act 3 (H) Set Lottery B	1	Rune Lottery (H) Act 3 C	1	ds1	1																0
+Act 4 (H) Super A	18	81	1	700	900	800	1024	0	Act 4 (H) Uitem A	120	Act 4 (H) Set Lottery A	1	Rune Lottery (H) Act 4 A	1	ds1	1																0
+Act 4 (H) Super B	18	84	1	700	900	800	1024	0	Act 4 (H) Uitem B	120	Act 4 (H) Set Lottery B	1	Rune Lottery (H) Act 4 B	1	ds1	1																0
+Act 4 (H) Super C	18	87	1	700	900	800	1024	0	Act 4 (H) Uitem B	120	Act 4 (H) Set Lottery B	1	Rune Lottery (H) Act 4 B	1	ds1	1																0
+Act 5 (H) Super A	18	90	1	700	900	800	1024	0	Act 5 (H) Uitem A	120	Act 5 (H) Set Lottery A	1	Rune Lottery (H) Act 5 A	1	ds1	1																0
+Act 5 (H) Super B	18	93	1	700	900	800	1024	0	Act 5 (H) Uitem B	120	Act 5 (H) Set Lottery B	1	Rune Lottery (H) Act 5 B	1	ds1	1																0
+Act 5 (H) Super C	18	96	1	700	900	800	1024	0	Act 5 (H) Uitem C	120	Act 5 (H) Set Lottery C	1	Rune Lottery (H) Act 5 C	1	ds1	1																0
+Act 1 Super Ax	18	0	1	700	900	800	1024	0	Act 1 Uitem A	120	Act 1 Set Lottery A	1	Rune Lottery (N) Act 1 A	1	ds1	1																0
+Act 1 Super Bx	18	5	1	700	900	800	1024	0	Act 1 Uitem B	120	Act 1 Set Lottery B	1	Rune Lottery (N) Act 1 B	1	ds1	1																0
+Act 1 Super Cx	18	9	1	700	900	800	1024	0	Act 1 Uitem C	120	Act 1 Set Lottery C	1	Rune Lottery (N) Act 1 C	1	ds1	1																0
+Act 2 Super Ax	18	12	1	700	900	800	1024	0	Act 2 Uitem A	120	Act 2 Set Lottery A	1	Rune Lottery (N) Act 2 A	1	ds1	1																0
+Act 2 Super Bx	18	15	1	700	900	800	1024	0	Act 2 Uitem B	120	Act 2 Set Lottery B	1	Rune Lottery (N) Act 2 B	1	ds1	1																0
+Act 2 Super Cx	18	18	1	700	900	800	1024	0	Act 2 Uitem C	120	Act 2 Set Lottery C	1	Rune Lottery (N) Act 2 C	1	ds1	1																0
+Act 3 Super Ax	18	20	1	700	900	800	1024	0	Act 3 Uitem A	120	Act 3 Set Lottery A	1	Rune Lottery (N) Act 3 A	1	ds1	1																0
+Act 3 Super Bx	18	22	1	700	900	800	1024	0	Act 3 Uitem B	120	Act 3 Set Lottery B	1	Rune Lottery (N) Act 3 B	1	ds1	1																0
+Act 3 Super Cx	18	24	1	700	900	800	1024	0	Act 3 Uitem C	120	Act 3 Set Lottery C	1	Rune Lottery (N) Act 3 C	1	ds1	1																0
+Act 4 Super Ax	18	26	1	700	900	800	1024	0	Act 4 Uitem A	120	Act 4 Set Lottery A	1	Rune Lottery (N) Act 4 A	1	ds1	1																0
+Act 4 Super Bx	18	29	1	700	900	800	1024	0	Act 4 Uitem B	120	Act 4 Set Lottery B	1	Rune Lottery (N) Act 4 B	1	ds1	1																0
+Act 4 Super Cx	18	32	1	700	900	800	1024	0	Act 4 Uitem B	120	Act 4 Set Lottery B	1	Rune Lottery (N) Act 4 B	1	ds1	1																0
+Act 5 Super Ax	18	34	1	700	900	800	1024	0	Act 5 Uitem A	120	Act 5 Set Lottery A	1	Rune Lottery (N) Act 5 A	1	ds1	1																0
+Act 5 Super Bx	18	36	1	700	900	800	1024	0	Act 5 Uitem B	120	Act 5 Set Lottery B	1	Rune Lottery (N) Act 5 B	1	ds1	1																0
+Act 5 Super Cx	18	38	1	700	900	800	1024	0	Act 5 Uitem C	120	Act 5 Set Lottery C	1	Rune Lottery (N) Act 5 C	1	ds1	1																0
+Act 1 (N) Super Ax	18	40	1	700	900	800	1024	0	Act 1 (N) Uitem A	120	Act 1 (N) Set Lottery A	1	Rune Lottery (NM) Act 1 A	1	ds1	1																0
+Act 1 (N) Super Bx	18	41	1	700	900	800	1024	0	Act 1 (N) Uitem B	120	Act 1 (N) Set Lottery B	1	Rune Lottery (NM) Act 1 B	1	ds1	1																0
+Act 1 (N) Super Cx	18	42	1	700	900	800	1024	0	Act 1 (N) Uitem C	120	Act 1 (N) Set Lottery B	1	Rune Lottery (NM) Act 1 C	1	ds1	1																0
+Act 2 (N) Super Ax	18	44	1	700	900	800	1024	0	Act 2 (N) Uitem A	120	Act 2 (N) Set Lottery A	1	Rune Lottery (NM) Act 2 A	1	ds1	1																0
+Act 2 (N) Super Bx	18	45	1	700	900	800	1024	0	Act 2 (N) Uitem B	120	Act 2 (N) Set Lottery B	1	Rune Lottery (NM) Act 2 B	1	ds1	1																0
+Act 2 (N) Super Cx	18	46	1	700	900	800	1024	0	Act 2 (N) Uitem C	120	Act 2 (N) Set Lottery B	1	Rune Lottery (NM) Act 2 C	1	ds1	1																0
+Act 3 (N) Super Ax	18	48	1	700	900	800	1024	0	Act 3 (N) Uitem A	120	Act 3 (N) Set Lottery A	1	Rune Lottery (NM) Act 3 A	1	ds1	1																0
+Act 3 (N) Super Bx	18	50	1	700	900	800	1024	0	Act 3 (N) Uitem B	120	Act 3 (N) Set Lottery B	1	Rune Lottery (NM) Act 3 B	1	ds1	1																0
+Act 3 (N) Super Cx	18	51	1	700	900	800	1024	0	Act 3 (N) Uitem C	120	Act 3 (N) Set Lottery B	1	Rune Lottery (NM) Act 3 C	1	ds1	1																0
+Act 4 (N) Super Ax	18	54	1	700	900	800	1024	0	Act 4 (N) Uitem A	120	Act 4 (N) Set Lottery A	1	Rune Lottery (NM) Act 4 A	1	ds1	1																0
+Act 4 (N) Super Bx	18	57	1	700	900	800	1024	0	Act 4 (N) Uitem B	120	Act 4 (N) Set Lottery B	1	Rune Lottery (NM) Act 4 B	1	ds1	1																0
+Act 4 (N) Super Cx	18	60	1	700	900	800	1024	0	Act 4 (N) Uitem B	120	Act 4 (N) Set Lottery B	1	Rune Lottery (NM) Act 4 B	1	ds1	1																0
+Act 5 (N) Super Ax	18	62	1	700	900	800	1024	0	Act 5 (N) Uitem A	120	Act 5 (N) Set Lottery A	1	Rune Lottery (NM) Act 5 A	1	ds1	1																0
+Act 5 (N) Super Bx	18	63	1	700	900	800	1024	0	Act 5 (N) Uitem B	120	Act 5 (N) Set Lottery B	1	Rune Lottery (NM) Act 5 B	1	ds1	1																0
+Act 5 (N) Super Cx	18	66	1	700	900	800	1024	0	Act 5 (N) Uitem C	120	Act 5 (N) Set Lottery C	1	Rune Lottery (NM) Act 5 C	1	ds1	1																0
+Act 1 (H) Super Ax	18	67	1	700	900	800	1024	0	Act 1 (H) Uitem A	120	Act 1 (H) Set Lottery A	1	Rune Lottery (H) Act 1 A	1	ds1	1																0
+Act 1 (H) Super Bx	18	67	1	700	900	800	1024	0	Act 1 (H) Uitem B	120	Act 1 (H) Set Lottery B	1	Rune Lottery (H) Act 1 B	1	ds1	1																0
+Act 1 (H) Super Cx	18	68	1	700	900	800	1024	0	Act 1 (H) Uitem C	120	Act 1 (H) Set Lottery B	1	Rune Lottery (H) Act 1 C	1	ds1	1																0
+Act 2 (H) Super Ax	18	68	1	700	900	800	1024	0	Act 2 (H) Uitem A	120	Act 2 (H) Set Lottery A	1	Rune Lottery (H) Act 2 A	1	ds1	1																0
+Act 2 (H) Super Bx	18	69	1	700	900	800	1024	0	Act 2 (H) Uitem B	120	Act 2 (H) Set Lottery B	1	Rune Lottery (H) Act 2 B	1	ds1	1																0
+Act 2 (H) Super Cx	18	72	1	700	900	800	1024	0	Act 2 (H) Uitem C	120	Act 2 (H) Set Lottery B	1	Rune Lottery (H) Act 2 C	1	ds1	1																0
+Act 3 (H) Super Ax	18	73	1	700	900	800	1024	0	Act 3 (H) Uitem A	120	Act 3 (H) Set Lottery A	1	Rune Lottery (H) Act 3 A	1	ds1	1																0
+Act 3 (H) Super Bx	18	75	1	700	900	800	1024	0	Act 3 (H) Uitem B	120	Act 3 (H) Set Lottery B	1	Rune Lottery (H) Act 3 B	1	ds1	1																0
+Act 3 (H) Super Cx	18	78	1	700	900	800	1024	0	Act 3 (H) Uitem C	120	Act 3 (H) Set Lottery B	1	Rune Lottery (H) Act 3 C	1	ds1	1																0
+Act 4 (H) Super Ax	18	81	1	700	900	800	1024	0	Act 4 (H) Uitem A	120	Act 4 (H) Set Lottery A	1	Rune Lottery (H) Act 4 A	1	ds1	1																0
+Act 4 (H) Super Bx	18	84	1	700	900	800	1024	0	Act 4 (H) Uitem B	120	Act 4 (H) Set Lottery B	1	Rune Lottery (H) Act 4 B	1	ds1	1																0
+Act 4 (H) Super Cx	18	87	1	700	900	800	1024	0	Act 4 (H) Uitem B	120	Act 4 (H) Set Lottery B	1	Rune Lottery (H) Act 4 B	1	ds1	1																0
+Act 5 (H) Super Ax	18	90	1	700	900	800	1024	0	Act 5 (H) Uitem A	120	Act 5 (H) Set Lottery A	1	Rune Lottery (H) Act 5 A	1	ds1	1																0
+Act 5 (H) Super Bx	18	93	1	700	900	800	1024	0	Act 5 (H) Uitem B	120	Act 5 (H) Set Lottery B	1	Rune Lottery (H) Act 5 B	1	ds1	1																0
+Act 5 (H) Super Cx	18	96	1	700	900	800	1024	0	Act 5 (H) Uitem C	120	Act 5 (H) Set Lottery C	1	Rune Lottery (H) Act 5 C	1	ds1	1																0
+Cow King			5	700	900	800	1024	0	Act 1 Uitem C	1	Act 1 Melee B	2																				0
+Cow King (N)			5	700	900	800	1024	0	Act 1 (H) Uitem C	1	Act 1 (N) Melee B	2																				0
+Cow King (H)			5	700	900	800	1024	0	Act 1 (H) Uitem C	1	Act 1 (H) Melee B	2																				0
+Duriel			5					0	Duriel - Base	2																						0
+Duriel (N)			5					0	Duriel (N) - Base	2																						0
+Duriel (H)			5					0	Duriel (H) - Base	2																						0
+Durielq			5					0	Durielq - Base	2																						0
+Durielq (N)			5					0	Durielq (N) - Base	2																						0
+Durielq (H)			5					0	Durielq (H) - Base	2																						0
+ROP			1	1024				0	Diablo	1																						0
+ROP (N)			1	1024				0	Diablo (N)	4	Annihilus	1																				0
+ROP (H)			1	1024				0	Annihilus	1																						0
+Countess Rune			3					5	Runes 4	15																						0
+Countess Rune (N)			3					5	Runes 8	15																						0
+Countess Rune (H)			3					5	Runes 12	15																						0
+Countess Item			5					19	"gld,mul=320"	11	Act 1 Equip C	19	Act 2 Junk	15	Act 2 Good	3																0
+Countess Item (N)			5					19	"gld,mul=384"	11	Act 1 (N) Equip C	19	Act 2 (N) Junk	15	Act 2 (N) Good	3																0
+Countess Item (H)			5					19	"gld,mul=512"	11	Act 1 (H) Equip C	19	Act 2 (H) Junk	15	Act 2 (H) Good	3	pk1	1														0
+Countess			-2	700	900	800	1024	0	Countess Item	1	Countess Rune	1																				0
+Countess (N)			-2	700	900	800	1024	0	Countess Item (N)	1	Countess Rune (N)	1																				0
+Countess (H)			-2	700	900	800	1024	0	Countess Item (H)	1	Countess Rune (H)	1																				0
+Uber Andariel			1	1024				0	dhn	1																						0
+Uber Duriel			1	1024				0	bey	1																						0
+Uber Izual			1	1024				0	mbr	1																						0
+Pandemonium Key A			1	1024				0	pk1	1																						0
+Pandemonium Key B			1	1024				0	pk2	1																						0
+Pandemonium Key C			1	1024				0	pk3	1																						0

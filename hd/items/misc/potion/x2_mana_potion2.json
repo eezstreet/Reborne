@@ -1,0 +1,115 @@
+{
+  "dependencies": {
+    "particles": [
+    ],
+    "models": [
+      {
+        "path": "data/hd/items/misc/potion/mana_potion2/mana_potion2.model"
+      }
+    ],
+    "skeletons": [
+      {
+        "path": "data/hd/items/dropped_items/skeleton/dropped_items.skeleton"
+      }
+    ],
+    "animations": [
+    ],
+    "textures": [
+      {
+        "path": "data/hd/items/misc/potion/mana_potion2/misc_mana_potion2_ALB.texture"
+      },
+      {
+        "path": "data/hd/items/misc/potion/mana_potion2/misc_mana_potion2_NRM.texture"
+      },
+      {
+        "path": "data/hd/items/misc/potion/mana_potion2/misc_mana_potion2_ORM.texture"
+      }
+    ],
+    "physics": [
+    ],
+    "json": [
+      {
+        "path": "data/hd/items/dropped_items/dropped_items_potions_heal.json"
+      }
+    ],
+    "variantdata": [
+    ],
+    "objecteffects": [
+    ],
+    "other": [
+    ]
+  },
+  "type": "UnitDefinition",
+  "name": "x2_mana_potion2",
+  "entities": [
+    {
+      "type": "Entity",
+      "name": "entity_root",
+      "id": 1948363704,
+      "components": [
+        {
+          "type": "UnitRootComponent",
+          "name": "component_root",
+          "state_machine_filename": "data/hd/items/dropped_items/dropped_items_potions_heal.json",
+          "doNotInheritRotation": false,
+          "rotationOverride": {
+            "x": 0.0,
+            "y": 0.3826834,
+            "z": 0.0,
+            "w": 0.9238795
+          },
+          "doNotUseHDHeight": false,
+          "hideAllMeshWhenInOpenedMode": false,
+          "onCreateEventName": "",
+          "animations": [
+          ]
+        },
+        {
+          "type": "SkeletonDefinitionComponent",
+          "name": "component_skeleton",
+          "filename": "data/hd/items/dropped_items/skeleton/dropped_items.skeleton"
+        },
+        {
+          "type": "TransformDefinitionComponent",
+          "name": "entity_root_TransformDefinition",
+          "position": {
+            "x": 0.5,
+            "y": 0.6,
+            "z": 0.25
+          },
+          "orientation": {
+            "x": 0.0,
+            "y": 0.0,
+            "z": 0.0,
+            "w": 1.0
+          },
+          "scale": {
+            "x": 1.0,
+            "y": 1.0,
+            "z": 1.0
+          },
+          "inheritOnlyPosition": false
+        }
+      ]
+    },
+    {
+      "type": "Entity",
+      "name": "entity_model",
+      "id": 3005288286,
+      "components": [
+        {
+          "type": "ModelDefinitionComponent",
+          "name": "component_model_mana_potion2",
+          "filename": "data/hd/items/misc/potion/mana_potion2/mana_potion2.model",
+          "visibleLayers": 1,
+          "lightMask": 19,
+          "shadowMask": 3,
+          "ghostShadows": false,
+          "floorModel": false,
+          "terrainBlendEnableYUpBlend": false,
+          "terrainBlendMode": 1
+        }
+      ]
+    }
+  ]
+}
